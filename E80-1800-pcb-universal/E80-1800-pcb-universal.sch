@@ -1277,4 +1277,24 @@ Wire Wire Line
 	4750 6250 4200 6250
 Wire Wire Line
 	4200 6350 4750 6350
+Text GLabel 4750 6750 2    50   Output ~ 0
+COL14
+Wire Wire Line
+	4750 6750 4200 6750
+Text GLabel 4750 5450 2    50   Output ~ 0
+COL15
+Wire Wire Line
+	4750 5450 4200 5450
+Text GLabel 4750 4950 2    50   Output ~ 0
+COL16
+Wire Wire Line
+	4750 4950 4200 4950
+Text GLabel 2550 6750 0    50   Output ~ 0
+COL17
+Wire Wire Line
+	2550 6750 2800 6750
+Text GLabel 2550 6650 0    50   Output ~ 0
+COL18
+Wire Wire Line
+	2550 6650 2800 6650
 $EndSCHEMATC
