@@ -1265,16 +1265,4 @@ Wire Wire Line
 	2800 7050 2550 7050
 Wire Wire Line
 	2800 5650 2550 5650
-Text GLabel 4750 6450 2    50   Output ~ 0
-LED_NUM
-Wire Wire Line
-	4750 6450 4200 6450
-Text GLabel 4750 6350 2    50   Output ~ 0
-LED_CAPS
-Text GLabel 4750 6250 2    50   Output ~ 0
-LED_SCR
-Wire Wire Line
-	4750 6250 4200 6250
-Wire Wire Line
-	4200 6350 4750 6350
 $EndSCHEMATC
