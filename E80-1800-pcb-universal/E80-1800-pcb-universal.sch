@@ -13,32 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:GND #PWR012
-U 1 1 5E634A34
-P 900 3950
-F 0 "#PWR012" H 900 3700 50  0001 C CNN
-F 1 "GND" H 700 3900 50  0000 C CNN
-F 2 "" H 900 3950 50  0001 C CNN
-F 3 "" H 900 3950 50  0001 C CNN
-	1    900  3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C12
-U 1 1 5E638A0E
-P 1300 3850
-F 0 "C12" H 1392 3896 50  0000 L CNN
-F 1 "100nF" H 1392 3805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1300 3850 50  0001 C CNN
-F 3 "~" H 1300 3850 50  0001 C CNN
-F 4 "C1525" H 1300 3850 50  0001 C CNN "LCSC"
-	1    1300 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	900  3750 900  3950
-Connection ~ 900  3950
 Text GLabel 7400 1100 2    50   Output ~ 0
 LED-
 $Comp
@@ -489,26 +463,9 @@ F 3 "" H 900 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 3750 2700 4150
-Wire Wire Line
 	2700 4150 2800 4150
 Wire Wire Line
 	900  4300 900  4350
-Connection ~ 1300 3750
-Wire Wire Line
-	1300 3950 900  3950
-$Comp
-L Switch:SW_Push SW1
-U 1 1 5E6313B3
-P 1100 3750
-F 0 "SW1" H 1100 4035 50  0000 C CNN
-F 1 "RST" H 1100 3944 50  0000 C CNN
-F 2 "random-keyboard-parts:SKQG-1155865" H 1100 3950 50  0001 C CNN
-F 3 "~" H 1100 3950 50  0001 C CNN
-F 4 "C318886" H 1100 3750 50  0001 C CNN "LCSC"
-	1    1100 3750
-	1    0    0    -1  
-$EndComp
 Connection ~ 1300 4350
 $Comp
 L Switch:SW_Push SW2
@@ -522,8 +479,6 @@ F 4 "C318886" H 1100 4350 50  0001 C CNN "LCSC"
 	1    1100 4350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1300 3750 2700 3750
 Text Notes 7450 8000 0    50   ~ 0
 Isometria⁷⁵ - 75% blocked ISO layout keyboard
 $Comp
@@ -624,8 +579,6 @@ Wire Wire Line
 	1650 4350 2800 4350
 Text Label 2100 4350 0    50   ~ 0
 BOOT
-Text Label 2100 3750 0    50   ~ 0
-RST
 $Comp
 L Device:C_Small C1
 U 1 1 5E88206E
@@ -809,7 +762,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 1550 5400 1550
 Text GLabel 5400 1350 2    50   Input ~ 0
-I2C_SCK
+I2C_SCL
 Text GLabel 5400 1250 2    50   Input ~ 0
 I2C_SDA
 Text GLabel 4750 5050 2    50   Output ~ 0
@@ -1165,22 +1118,6 @@ Connection ~ 7000 4050
 Wire Wire Line
 	7000 4050 6500 4050
 Connection ~ 2000 5950
-Wire Wire Line
-	2650 5950 2650 5850
-Wire Wire Line
-	2650 5850 2800 5850
-Wire Wire Line
-	2000 5950 2650 5950
-Wire Wire Line
-	2550 5850 2550 5900
-Wire Wire Line
-	2550 5900 2750 5900
-Wire Wire Line
-	2750 5900 2750 5950
-Wire Wire Line
-	2750 5950 2800 5950
-Wire Wire Line
-	1950 5850 2550 5850
 Text GLabel 4750 4250 2    50   Output ~ 0
 COL00
 Wire Wire Line
@@ -1297,4 +1234,63 @@ Text GLabel 2550 6650 0    50   Output ~ 0
 COL18
 Wire Wire Line
 	2550 6650 2800 6650
+Text GLabel 4750 6850 2    50   Output ~ 0
+I2C_SCL
+Wire Wire Line
+	4750 6850 4200 6850
+Text GLabel 4750 6950 2    50   Output ~ 0
+I2C_SDA
+Wire Wire Line
+	4750 6950 4200 6950
+Text Label 2100 3750 0    50   ~ 0
+RST
+Wire Wire Line
+	1300 3750 2700 3750
+Wire Wire Line
+	2700 3750 2700 4150
+$Comp
+L Device:C_Small C12
+U 1 1 5E638A0E
+P 1300 3850
+F 0 "C12" H 1392 3896 50  0000 L CNN
+F 1 "100nF" H 1392 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1300 3850 50  0001 C CNN
+F 3 "~" H 1300 3850 50  0001 C CNN
+F 4 "C1525" H 1300 3850 50  0001 C CNN "LCSC"
+	1    1300 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 3950 900  3950
+$Comp
+L power:GND #PWR012
+U 1 1 5E634A34
+P 900 3950
+F 0 "#PWR012" H 900 3700 50  0001 C CNN
+F 1 "GND" H 700 3900 50  0000 C CNN
+F 2 "" H 900 3950 50  0001 C CNN
+F 3 "" H 900 3950 50  0001 C CNN
+	1    900  3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 900  3950
+Wire Wire Line
+	900  3750 900  3950
+Connection ~ 1300 3750
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5E6313B3
+P 1100 3750
+F 0 "SW1" H 1100 4035 50  0000 C CNN
+F 1 "RST" H 1100 3944 50  0000 C CNN
+F 2 "random-keyboard-parts:SKQG-1155865" H 1100 3950 50  0001 C CNN
+F 3 "~" H 1100 3950 50  0001 C CNN
+F 4 "C318886" H 1100 3750 50  0001 C CNN "LCSC"
+	1    1100 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 5850 2800 5850
+Wire Wire Line
+	2000 5950 2800 5950
 $EndSCHEMATC
