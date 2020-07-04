@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:E80-1800-pcb-universal-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
