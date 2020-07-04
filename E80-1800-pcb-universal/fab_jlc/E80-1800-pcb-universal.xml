@@ -1,0 +1,5108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\mplattner\Documents\GitHub\E80-1800\E80-1800-pcb-universal\E80-1800-pcb-universal.sch</source>
+    <date>04.07.2020 02:51:14</date>
+    <tool>Eeschema (5.1.4)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>E80-1800-pcb-universal.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/E80-1800-Matrix/" tstamps="/5ECF9838/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>E80-1800-Matrix.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/mechanical/" tstamps="/5EF930E3/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>mechanical.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Q1">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3400A_C20917.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C20917</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E71ADB0</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7D4A32</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25819</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7D5EC0</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25819</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7D6E4F</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22775</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6454D0</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6440A6</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E643787</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>XC6206P332MR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.torexsemi.com/file/xc6206/XC6206.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C5446</field>
+      </fields>
+      <libsource lib="E80-1800-pcb-universal-rescue" part="XC6206PxxxMR-Regulator_Linear" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63D7AB</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C19666</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E62B05E</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E62A663</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E62A020</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E629144</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E627ED9</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C19666</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E74EFE9</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C19666</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E758D9A</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E73CE8B</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E74FE4D</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>BOOT</value>
+      <footprint>random-keyboard-parts:SKQG-1155865</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E73CE7F</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>SPI</value>
+      <footprint>Connector_JST:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E674686</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25819</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8EC674</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25819</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8EC66E</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8EC668</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C7171</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E88206E</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>STM32F072RBTx</value>
+      <footprint>Package_QFP:LQFP-64_10x10mm_P0.5mm</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C46046</field>
+      </fields>
+      <libsource lib="MCU_ST_STM32F0" part="STM32F072RBTx" description="ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2-3.6V, 51 GPIO, LQFP-64"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED09C87</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>OLED</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F53DC94</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6736E1</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>SRV05-4</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C85364</field>
+      </fields>
+      <libsource lib="Power_Protection" part="SRV05-4" description="ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF1B07D</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>SCF075-1206R</value>
+      <footprint>Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C183290</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF2A974</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23186</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF626BA</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23186</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF632F5</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>PBY160808T-181Y-N</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C114288</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF6E40A</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EECCEB0</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>NUM</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F118BDD</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>CAPS</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F11A25F</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>SCR</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F11A8DA</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F11AD0D</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F11B834</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F11BE79</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F149098</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E638A0E</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>RST</value>
+      <footprint>random-keyboard-parts:SKQG-1155865</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6313B3</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0032AC</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F004529</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x05</value>
+      <footprint>Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0537CB</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>BATT</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NC_Small" description="Jumper, normally closed, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F120968</tstamp>
+    </comp>
+    <comp ref="MX2001">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED10A7F</tstamp>
+    </comp>
+    <comp ref="MX2002">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED12E7D</tstamp>
+    </comp>
+    <comp ref="MX2003">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED139CD</tstamp>
+    </comp>
+    <comp ref="MX2004">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED14162</tstamp>
+    </comp>
+    <comp ref="MX2005">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED1460E</tstamp>
+    </comp>
+    <comp ref="MX2006">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED151FE</tstamp>
+    </comp>
+    <comp ref="MX2007">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED15ED4</tstamp>
+    </comp>
+    <comp ref="MX2008">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED16489</tstamp>
+    </comp>
+    <comp ref="MX2009">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED16AC0</tstamp>
+    </comp>
+    <comp ref="MX2010">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED16F8A</tstamp>
+    </comp>
+    <comp ref="MX2011">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED177B0</tstamp>
+    </comp>
+    <comp ref="MX2012">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED17D42</tstamp>
+    </comp>
+    <comp ref="MX2013">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED18B15</tstamp>
+    </comp>
+    <comp ref="MX2014">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED193C1</tstamp>
+    </comp>
+    <comp ref="MX2015">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED1AD44</tstamp>
+    </comp>
+    <comp ref="MX2016">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED1B44D</tstamp>
+    </comp>
+    <comp ref="MX2017">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED1BB6F</tstamp>
+    </comp>
+    <comp ref="MX2039">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED22D38</tstamp>
+    </comp>
+    <comp ref="MX2038">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED22693</tstamp>
+    </comp>
+    <comp ref="MX2037">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED2211F</tstamp>
+    </comp>
+    <comp ref="MX2036">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED21A52</tstamp>
+    </comp>
+    <comp ref="MX2035">
+      <value>Backspace_2u</value>
+      <footprint>MX_Only:MXOnly-2U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED21632</tstamp>
+    </comp>
+    <comp ref="MX2034">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED2097E</tstamp>
+    </comp>
+    <comp ref="MX2033">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED203A6</tstamp>
+    </comp>
+    <comp ref="MX2032">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED1FD06</tstamp>
+    </comp>
+    <comp ref="MX2031">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED1F5F3</tstamp>
+    </comp>
+    <comp ref="MX2030">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED1F0BB</tstamp>
+    </comp>
+    <comp ref="MX2029">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED1EB01</tstamp>
+    </comp>
+    <comp ref="MX2028">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED1E53D</tstamp>
+    </comp>
+    <comp ref="MX2027">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED1E041</tstamp>
+    </comp>
+    <comp ref="MX2026">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED1DAFF</tstamp>
+    </comp>
+    <comp ref="MX2025">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED1D6E9</tstamp>
+    </comp>
+    <comp ref="MX2024">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED1D152</tstamp>
+    </comp>
+    <comp ref="MX2023">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED1CB8E</tstamp>
+    </comp>
+    <comp ref="MX2022">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED1C06B</tstamp>
+    </comp>
+    <comp ref="MX2057">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED90527</tstamp>
+    </comp>
+    <comp ref="MX2056">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED9052D</tstamp>
+    </comp>
+    <comp ref="MX2055">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED90533</tstamp>
+    </comp>
+    <comp ref="MX2054">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED90539</tstamp>
+    </comp>
+    <comp ref="MX2052">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED90545</tstamp>
+    </comp>
+    <comp ref="MX2051">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED9054B</tstamp>
+    </comp>
+    <comp ref="MX2050">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED90551</tstamp>
+    </comp>
+    <comp ref="MX2049">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED90557</tstamp>
+    </comp>
+    <comp ref="MX2048">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED9055D</tstamp>
+    </comp>
+    <comp ref="MX2047">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED90563</tstamp>
+    </comp>
+    <comp ref="MX2046">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED90569</tstamp>
+    </comp>
+    <comp ref="MX2045">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED9056F</tstamp>
+    </comp>
+    <comp ref="MX2044">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED90575</tstamp>
+    </comp>
+    <comp ref="MX2042">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED90581</tstamp>
+    </comp>
+    <comp ref="MX2041">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED90587</tstamp>
+    </comp>
+    <comp ref="MX2040">
+      <value>tab</value>
+      <footprint>MX_Only:MXOnly-1.5U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED90593</tstamp>
+    </comp>
+    <comp ref="MX2077">
+      <value>+</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDAA8C7</tstamp>
+    </comp>
+    <comp ref="MX2076">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDAA8CD</tstamp>
+    </comp>
+    <comp ref="MX2075">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDAA8D3</tstamp>
+    </comp>
+    <comp ref="MX2074">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDAA8D9</tstamp>
+    </comp>
+    <comp ref="MX2072">
+      <value>enter_iso</value>
+      <footprint>MX_Only:MXOnly-ISO-ROTATED-ReversedStabilizers</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDAA8DF</tstamp>
+    </comp>
+    <comp ref="MX2071">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDAA8E5</tstamp>
+    </comp>
+    <comp ref="MX2070">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDAA8EB</tstamp>
+    </comp>
+    <comp ref="MX2069">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDAA8F1</tstamp>
+    </comp>
+    <comp ref="MX2068">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDAA8F7</tstamp>
+    </comp>
+    <comp ref="MX2067">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDAA8FD</tstamp>
+    </comp>
+    <comp ref="MX2066">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDAA903</tstamp>
+    </comp>
+    <comp ref="MX2065">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDAA909</tstamp>
+    </comp>
+    <comp ref="MX2064">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDAA90F</tstamp>
+    </comp>
+    <comp ref="MX2063">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDAA915</tstamp>
+    </comp>
+    <comp ref="MX2062">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDAA91B</tstamp>
+    </comp>
+    <comp ref="MX2061">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDAA921</tstamp>
+    </comp>
+    <comp ref="MX2060">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDAA927</tstamp>
+    </comp>
+    <comp ref="MX2058">
+      <value>caps</value>
+      <footprint>MX_Only:MXOnly-1.75U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDAA933</tstamp>
+    </comp>
+    <comp ref="MX2096">
+      <value>enter_numpad</value>
+      <footprint>MX_Only:MXOnly-ISO</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDBC4F8</tstamp>
+    </comp>
+    <comp ref="MX2095">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDBC4FE</tstamp>
+    </comp>
+    <comp ref="MX2094">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDBC504</tstamp>
+    </comp>
+    <comp ref="MX2093">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDBC50A</tstamp>
+    </comp>
+    <comp ref="MX2092">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDBC510</tstamp>
+    </comp>
+    <comp ref="MX2091">
+      <value>rshift</value>
+      <footprint>MX_Only:MXOnly-1.75U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDBC516</tstamp>
+    </comp>
+    <comp ref="MX2090">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDBC522</tstamp>
+    </comp>
+    <comp ref="MX2089">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDBC528</tstamp>
+    </comp>
+    <comp ref="MX2088">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDBC52E</tstamp>
+    </comp>
+    <comp ref="MX2087">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDBC534</tstamp>
+    </comp>
+    <comp ref="MX2086">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDBC53A</tstamp>
+    </comp>
+    <comp ref="MX2085">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDBC540</tstamp>
+    </comp>
+    <comp ref="MX2084">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDBC546</tstamp>
+    </comp>
+    <comp ref="MX2083">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDBC54C</tstamp>
+    </comp>
+    <comp ref="MX2082">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDBC552</tstamp>
+    </comp>
+    <comp ref="MX2081">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDBC558</tstamp>
+    </comp>
+    <comp ref="MX2080">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDBC55E</tstamp>
+    </comp>
+    <comp ref="MX2078">
+      <value>lshift_iso</value>
+      <footprint>MX_Only:MXOnly-1.25U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDBC564</tstamp>
+    </comp>
+    <comp ref="MX2109">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDDB3E4</tstamp>
+    </comp>
+    <comp ref="MX2108">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDDB3EA</tstamp>
+    </comp>
+    <comp ref="MX2107">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDDB3F0</tstamp>
+    </comp>
+    <comp ref="MX2106">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDDB3F6</tstamp>
+    </comp>
+    <comp ref="MX2105">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDDB3FC</tstamp>
+    </comp>
+    <comp ref="MX2104">
+      <value>rctrl_1u</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDDB402</tstamp>
+    </comp>
+    <comp ref="MX2103">
+      <value>menu_1u</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDDB408</tstamp>
+    </comp>
+    <comp ref="MX2102">
+      <value>rsuper_1u</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDDB40E</tstamp>
+    </comp>
+    <comp ref="MX2101">
+      <value>ralt_1u</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDDB414</tstamp>
+    </comp>
+    <comp ref="MX2100">
+      <value>space_6u</value>
+      <footprint>MX_Only:MXOnly-6U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDDB426</tstamp>
+    </comp>
+    <comp ref="MX2099">
+      <value>alt_1u</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDDB43E</tstamp>
+    </comp>
+    <comp ref="MX2098">
+      <value>super_1u</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDDB444</tstamp>
+    </comp>
+    <comp ref="MX2097">
+      <value>ctrl_1u</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDDB44A</tstamp>
+    </comp>
+    <comp ref="MX2079">
+      <value>lshift_ansi</value>
+      <footprint>MX_Only:MXOnly-2.25U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F00DC5D</tstamp>
+    </comp>
+    <comp ref="MX2073">
+      <value>enter_ansi</value>
+      <footprint>MX_Only:MXOnly-2.25U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F020523</tstamp>
+    </comp>
+    <comp ref="MX2053">
+      <value>\_ansi</value>
+      <footprint>MX_Only:MXOnly-1.5U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F0250A1</tstamp>
+    </comp>
+    <comp ref="MX2018">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F128C66</tstamp>
+    </comp>
+    <comp ref="MX2019">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F128C6C</tstamp>
+    </comp>
+    <comp ref="MX2020">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F128C72</tstamp>
+    </comp>
+    <comp ref="MX2021">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F128C78</tstamp>
+    </comp>
+    <comp ref="MX2114">
+      <value>rctrl_1.5u</value>
+      <footprint>MX_Only:MXOnly-1.5U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EE821E5</tstamp>
+    </comp>
+    <comp ref="MX2113">
+      <value>ralt_1.5u</value>
+      <footprint>MX_Only:MXOnly-1.5U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EE821F7</tstamp>
+    </comp>
+    <comp ref="MX2112">
+      <value>space_7u</value>
+      <footprint>MX_Only:MXOnly-7U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EE821FD</tstamp>
+    </comp>
+    <comp ref="MX2111">
+      <value>alt_1.5u</value>
+      <footprint>MX_Only:MXOnly-1.5U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EE82203</tstamp>
+    </comp>
+    <comp ref="MX2110">
+      <value>ctrl_1.5u</value>
+      <footprint>MX_Only:MXOnly-1.5U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EE8220F</tstamp>
+    </comp>
+    <comp ref="MX2043">
+      <value>MX-LED</value>
+      <footprint>MX_Only:MXOnly-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED9057B</tstamp>
+    </comp>
+    <comp ref="MX2115">
+      <value>space_6u_flipped</value>
+      <footprint>MX_Only:MXOnly-6U-ReversedStabilizers</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5ED7721A</tstamp>
+    </comp>
+    <comp ref="D2001">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDE3FF0</tstamp>
+    </comp>
+    <comp ref="D2002">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDE5B46</tstamp>
+    </comp>
+    <comp ref="D2003">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDE72A9</tstamp>
+    </comp>
+    <comp ref="D2005">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDEA4FB</tstamp>
+    </comp>
+    <comp ref="D2006">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDEAE84</tstamp>
+    </comp>
+    <comp ref="D2007">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDEBB73</tstamp>
+    </comp>
+    <comp ref="D2008">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDED0B9</tstamp>
+    </comp>
+    <comp ref="D2009">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDEE52A</tstamp>
+    </comp>
+    <comp ref="D2010">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EF21C55</tstamp>
+    </comp>
+    <comp ref="D2011">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EF22F76</tstamp>
+    </comp>
+    <comp ref="D2020">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F1B0768</tstamp>
+    </comp>
+    <comp ref="D2019">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F1B12C2</tstamp>
+    </comp>
+    <comp ref="D2018">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F1B27FC</tstamp>
+    </comp>
+    <comp ref="D2017">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F21248F</tstamp>
+    </comp>
+    <comp ref="D2016">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F234973</tstamp>
+    </comp>
+    <comp ref="D2015">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F25781A</tstamp>
+    </comp>
+    <comp ref="D2014">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F27B278</tstamp>
+    </comp>
+    <comp ref="D2013">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F2A0225</tstamp>
+    </comp>
+    <comp ref="D2012">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F2D8B20</tstamp>
+    </comp>
+    <comp ref="D2028">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F33257E</tstamp>
+    </comp>
+    <comp ref="D2027">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F333236</tstamp>
+    </comp>
+    <comp ref="D2025">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F335583</tstamp>
+    </comp>
+    <comp ref="D2024">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F335E12</tstamp>
+    </comp>
+    <comp ref="D2023">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F336886</tstamp>
+    </comp>
+    <comp ref="D2022">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F33728C</tstamp>
+    </comp>
+    <comp ref="D2021">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F337D55</tstamp>
+    </comp>
+    <comp ref="D2029">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F331074</tstamp>
+    </comp>
+    <comp ref="D2038">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F52E932</tstamp>
+    </comp>
+    <comp ref="D2037">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F52F3E2</tstamp>
+    </comp>
+    <comp ref="D2036">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F5301BC</tstamp>
+    </comp>
+    <comp ref="D2026">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F3349FC</tstamp>
+    </comp>
+    <comp ref="D2035">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F5ED7AC</tstamp>
+    </comp>
+    <comp ref="D2034">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F5EE727</tstamp>
+    </comp>
+    <comp ref="D2033">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F5EF8E9</tstamp>
+    </comp>
+    <comp ref="D2032">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F5F0330</tstamp>
+    </comp>
+    <comp ref="D2031">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F5F0CA5</tstamp>
+    </comp>
+    <comp ref="D2030">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F5F14B7</tstamp>
+    </comp>
+    <comp ref="D2047">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F78FAA5</tstamp>
+    </comp>
+    <comp ref="D2046">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F790505</tstamp>
+    </comp>
+    <comp ref="D2045">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F7911FE</tstamp>
+    </comp>
+    <comp ref="D2044">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F791F42</tstamp>
+    </comp>
+    <comp ref="D2043">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F792A15</tstamp>
+    </comp>
+    <comp ref="D2042">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F793484</tstamp>
+    </comp>
+    <comp ref="D2041">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F793BD8</tstamp>
+    </comp>
+    <comp ref="D2040">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F794642</tstamp>
+    </comp>
+    <comp ref="D2039">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F79512E</tstamp>
+    </comp>
+    <comp ref="D2054">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FA66ED4</tstamp>
+    </comp>
+    <comp ref="D2053">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FA68DD4</tstamp>
+    </comp>
+    <comp ref="D2052">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FA69BF4</tstamp>
+    </comp>
+    <comp ref="D2051">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FA93DDC</tstamp>
+    </comp>
+    <comp ref="D2050">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FA96236</tstamp>
+    </comp>
+    <comp ref="D2049">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FA96BEC</tstamp>
+    </comp>
+    <comp ref="D2048">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FA98504</tstamp>
+    </comp>
+    <comp ref="R2002">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FD1BA3B</tstamp>
+    </comp>
+    <comp ref="R2001">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FD4EEF5</tstamp>
+    </comp>
+    <comp ref="R2003">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FEF305B</tstamp>
+    </comp>
+    <comp ref="R2004">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FEF3BFE</tstamp>
+    </comp>
+    <comp ref="R2005">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FF537F6</tstamp>
+    </comp>
+    <comp ref="R2006">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FF543D5</tstamp>
+    </comp>
+    <comp ref="R2007">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FF54E6E</tstamp>
+    </comp>
+    <comp ref="R2008">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FF55A45</tstamp>
+    </comp>
+    <comp ref="R2009">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FF56439</tstamp>
+    </comp>
+    <comp ref="R2010">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FF56C1E</tstamp>
+    </comp>
+    <comp ref="R2011">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FF576C9</tstamp>
+    </comp>
+    <comp ref="R2012">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FF580CF</tstamp>
+    </comp>
+    <comp ref="R2013">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FF588F3</tstamp>
+    </comp>
+    <comp ref="R2014">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FF59346</tstamp>
+    </comp>
+    <comp ref="R2015">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FF59F6C</tstamp>
+    </comp>
+    <comp ref="R2016">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FF5A777</tstamp>
+    </comp>
+    <comp ref="R2017">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FF5B13C</tstamp>
+    </comp>
+    <comp ref="D2004">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDE8F6F</tstamp>
+    </comp>
+    <comp ref="R2022">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDD33F5</tstamp>
+    </comp>
+    <comp ref="R2023">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDD4198</tstamp>
+    </comp>
+    <comp ref="R2024">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDD482F</tstamp>
+    </comp>
+    <comp ref="R2025">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDD511B</tstamp>
+    </comp>
+    <comp ref="R2026">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDD59F9</tstamp>
+    </comp>
+    <comp ref="R2027">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDD6334</tstamp>
+    </comp>
+    <comp ref="R2028">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDD6913</tstamp>
+    </comp>
+    <comp ref="R2029">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDD728C</tstamp>
+    </comp>
+    <comp ref="R2030">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDD783C</tstamp>
+    </comp>
+    <comp ref="R2031">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDD7F46</tstamp>
+    </comp>
+    <comp ref="R2032">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDD84B7</tstamp>
+    </comp>
+    <comp ref="R2033">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDD8B55</tstamp>
+    </comp>
+    <comp ref="R2034">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDD9103</tstamp>
+    </comp>
+    <comp ref="R2035">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDD9897</tstamp>
+    </comp>
+    <comp ref="R2036">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDD9DE2</tstamp>
+    </comp>
+    <comp ref="R2037">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDDA6AF</tstamp>
+    </comp>
+    <comp ref="R2038">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDDAAA7</tstamp>
+    </comp>
+    <comp ref="R2039">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EDDB09A</tstamp>
+    </comp>
+    <comp ref="R2020">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F73FD9B</tstamp>
+    </comp>
+    <comp ref="R2021">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F740472</tstamp>
+    </comp>
+    <comp ref="R2019">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F740A0F</tstamp>
+    </comp>
+    <comp ref="R2018">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F74104A</tstamp>
+    </comp>
+    <comp ref="R2106">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FAF066A</tstamp>
+    </comp>
+    <comp ref="R2107">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FAF3299</tstamp>
+    </comp>
+    <comp ref="R2040">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EE0E5D3</tstamp>
+    </comp>
+    <comp ref="R2041">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EE0F03C</tstamp>
+    </comp>
+    <comp ref="R2042">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EE0FE12</tstamp>
+    </comp>
+    <comp ref="R2043">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EE107E6</tstamp>
+    </comp>
+    <comp ref="R2044">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EE10DB8</tstamp>
+    </comp>
+    <comp ref="R2045">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EE1141D</tstamp>
+    </comp>
+    <comp ref="R2046">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EE11960</tstamp>
+    </comp>
+    <comp ref="R2047">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EE11F50</tstamp>
+    </comp>
+    <comp ref="R2048">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EE1243B</tstamp>
+    </comp>
+    <comp ref="R2049">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EE129A0</tstamp>
+    </comp>
+    <comp ref="R2050">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EE12E69</tstamp>
+    </comp>
+    <comp ref="R2051">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EE13324</tstamp>
+    </comp>
+    <comp ref="R2052">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EE13962</tstamp>
+    </comp>
+    <comp ref="R2053">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EE13FCE</tstamp>
+    </comp>
+    <comp ref="R2054">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EE14749</tstamp>
+    </comp>
+    <comp ref="R2055">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EE14D67</tstamp>
+    </comp>
+    <comp ref="R2056">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EE15405</tstamp>
+    </comp>
+    <comp ref="R2057">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EE15CF7</tstamp>
+    </comp>
+    <comp ref="R2074">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F9D281B</tstamp>
+    </comp>
+    <comp ref="R2073">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F9D2ED6</tstamp>
+    </comp>
+    <comp ref="R2072">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F9D34FC</tstamp>
+    </comp>
+    <comp ref="R2075">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5F9D1C5F</tstamp>
+    </comp>
+    <comp ref="R2093">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FCD7880</tstamp>
+    </comp>
+    <comp ref="R2092">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FD39CED</tstamp>
+    </comp>
+    <comp ref="R2091">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FD3A1FF</tstamp>
+    </comp>
+    <comp ref="R2090">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FD3A8D5</tstamp>
+    </comp>
+    <comp ref="R2105">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FF8FFA1</tstamp>
+    </comp>
+    <comp ref="R2104">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FF909E0</tstamp>
+    </comp>
+    <comp ref="R2103">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5FF90FEA</tstamp>
+    </comp>
+    <comp ref="R2071">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>60A084B8</tstamp>
+    </comp>
+    <comp ref="R2070">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>60A093FF</tstamp>
+    </comp>
+    <comp ref="R2069">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>60A09940</tstamp>
+    </comp>
+    <comp ref="R2068">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>60A0A004</tstamp>
+    </comp>
+    <comp ref="R2067">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>60A0A818</tstamp>
+    </comp>
+    <comp ref="R2066">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>60A0B019</tstamp>
+    </comp>
+    <comp ref="R2065">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>60A0B788</tstamp>
+    </comp>
+    <comp ref="R2064">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>60A0BCE4</tstamp>
+    </comp>
+    <comp ref="R2063">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>60A0C396</tstamp>
+    </comp>
+    <comp ref="R2062">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>60A0CA1B</tstamp>
+    </comp>
+    <comp ref="R2061">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>60A0CDF8</tstamp>
+    </comp>
+    <comp ref="R2060">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>60A0D324</tstamp>
+    </comp>
+    <comp ref="R2059">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>60A0DA9F</tstamp>
+    </comp>
+    <comp ref="R2058">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>60A0DF8D</tstamp>
+    </comp>
+    <comp ref="R2089">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>615F2B97</tstamp>
+    </comp>
+    <comp ref="R2088">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>615F3409</tstamp>
+    </comp>
+    <comp ref="R2087">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>615F383F</tstamp>
+    </comp>
+    <comp ref="R2086">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>615F411E</tstamp>
+    </comp>
+    <comp ref="R2085">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>615F466D</tstamp>
+    </comp>
+    <comp ref="R2084">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>615F4D87</tstamp>
+    </comp>
+    <comp ref="R2083">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>615F5214</tstamp>
+    </comp>
+    <comp ref="R2082">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>615F5866</tstamp>
+    </comp>
+    <comp ref="R2081">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>615F6115</tstamp>
+    </comp>
+    <comp ref="R2080">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>615F6E7B</tstamp>
+    </comp>
+    <comp ref="R2079">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>615F780F</tstamp>
+    </comp>
+    <comp ref="R2078">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>615F7DC6</tstamp>
+    </comp>
+    <comp ref="R2077">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>615F8325</tstamp>
+    </comp>
+    <comp ref="R2076">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>615F8880</tstamp>
+    </comp>
+    <comp ref="R2102">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>623AE782</tstamp>
+    </comp>
+    <comp ref="R2101">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>623AEED1</tstamp>
+    </comp>
+    <comp ref="R2099">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>623AF3FA</tstamp>
+    </comp>
+    <comp ref="R2098">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>623B1166</tstamp>
+    </comp>
+    <comp ref="R2097">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>623B16A8</tstamp>
+    </comp>
+    <comp ref="R2100">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>623B1EC1</tstamp>
+    </comp>
+    <comp ref="R2096">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>623B2740</tstamp>
+    </comp>
+    <comp ref="R2095">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>623B451F</tstamp>
+    </comp>
+    <comp ref="R2094">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>623B4B98</tstamp>
+    </comp>
+    <comp ref="MX2059">
+      <value>caps_stepped</value>
+      <footprint>MX_Only:MXOnly-1.25U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-LED" description=""/>
+      <sheetpath names="/E80-1800-Matrix/" tstamps="/5ECF9838/"/>
+      <tstamp>5EF94661</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_6mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/mechanical/" tstamps="/5EF930E3/"/>
+      <tstamp>5EF94523</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_6mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/mechanical/" tstamps="/5EF930E3/"/>
+      <tstamp>5EF94AA6</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_6mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/mechanical/" tstamps="/5EF930E3/"/>
+      <tstamp>5EF94C1A</tstamp>
+    </comp>
+    <comp ref="H3001">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/mechanical/" tstamps="/5EF930E3/"/>
+      <tstamp>5F3A9BF5</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="power_in"/>
+        <pin num="A4" name="VBUS" type="power_in"/>
+        <pin num="A5" name="CC1" type="BiDi"/>
+        <pin num="A6" name="D+" type="BiDi"/>
+        <pin num="A7" name="D-" type="BiDi"/>
+        <pin num="A8" name="SBU1" type="BiDi"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="BiDi"/>
+        <pin num="B6" name="D+" type="BiDi"/>
+        <pin num="B7" name="D-" type="BiDi"/>
+        <pin num="B8" name="SBU2" type="BiDi"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Jumper_NC_Small">
+      <description>Jumper, normally closed, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NC_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GSD">
+      <description>N-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAV70">
+      <description>Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAV70</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="E80-1800-pcb-universal-rescue" part="XC6206PxxxMR-Regulator_Linear">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XC6206PxxxMR-Regulator_Linear</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_ST_STM32F0" part="STM32F072R8Tx">
+      <aliases>
+        <alias>STM32F072RBTx</alias>
+      </aliases>
+      <description>ARM Cortex-M0 MCU, 64KB flash, 16KB RAM, 48MHz, 2-3.6V, 51 GPIO, LQFP-64</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf</docs>
+      <footprints>
+        <fp>LQFP*10x10mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F072R8Tx</field>
+        <field name="Footprint">Package_QFP:LQFP-64_10x10mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="BiDi"/>
+        <pin num="3" name="PC14" type="BiDi"/>
+        <pin num="4" name="PC15" type="BiDi"/>
+        <pin num="5" name="PF0" type="input"/>
+        <pin num="6" name="PF1" type="input"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="PC0" type="BiDi"/>
+        <pin num="9" name="PC1" type="BiDi"/>
+        <pin num="10" name="PC2" type="BiDi"/>
+        <pin num="11" name="PC3" type="BiDi"/>
+        <pin num="12" name="VSSA" type="power_in"/>
+        <pin num="13" name="VDDA" type="power_in"/>
+        <pin num="14" name="PA0" type="BiDi"/>
+        <pin num="15" name="PA1" type="BiDi"/>
+        <pin num="16" name="PA2" type="BiDi"/>
+        <pin num="17" name="PA3" type="BiDi"/>
+        <pin num="18" name="VSS" type="power_in"/>
+        <pin num="19" name="VDD" type="power_in"/>
+        <pin num="20" name="PA4" type="BiDi"/>
+        <pin num="21" name="PA5" type="BiDi"/>
+        <pin num="22" name="PA6" type="BiDi"/>
+        <pin num="23" name="PA7" type="BiDi"/>
+        <pin num="24" name="PC4" type="BiDi"/>
+        <pin num="25" name="PC5" type="BiDi"/>
+        <pin num="26" name="PB0" type="BiDi"/>
+        <pin num="27" name="PB1" type="BiDi"/>
+        <pin num="28" name="PB2" type="BiDi"/>
+        <pin num="29" name="PB10" type="BiDi"/>
+        <pin num="30" name="PB11" type="BiDi"/>
+        <pin num="31" name="VSS" type="power_in"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="PB12" type="BiDi"/>
+        <pin num="34" name="PB13" type="BiDi"/>
+        <pin num="35" name="PB14" type="BiDi"/>
+        <pin num="36" name="PB15" type="BiDi"/>
+        <pin num="37" name="PC6" type="BiDi"/>
+        <pin num="38" name="PC7" type="BiDi"/>
+        <pin num="39" name="PC8" type="BiDi"/>
+        <pin num="40" name="PC9" type="BiDi"/>
+        <pin num="41" name="PA8" type="BiDi"/>
+        <pin num="42" name="PA9" type="BiDi"/>
+        <pin num="43" name="PA10" type="BiDi"/>
+        <pin num="44" name="PA11" type="BiDi"/>
+        <pin num="45" name="PA12" type="BiDi"/>
+        <pin num="46" name="PA13" type="BiDi"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDDIO2" type="power_in"/>
+        <pin num="49" name="PA14" type="BiDi"/>
+        <pin num="50" name="PA15" type="BiDi"/>
+        <pin num="51" name="PC10" type="BiDi"/>
+        <pin num="52" name="PC11" type="BiDi"/>
+        <pin num="53" name="PC12" type="BiDi"/>
+        <pin num="54" name="PD2" type="BiDi"/>
+        <pin num="55" name="PB3" type="BiDi"/>
+        <pin num="56" name="PB4" type="BiDi"/>
+        <pin num="57" name="PB5" type="BiDi"/>
+        <pin num="58" name="PB6" type="BiDi"/>
+        <pin num="59" name="PB7" type="BiDi"/>
+        <pin num="60" name="BOOT0" type="input"/>
+        <pin num="61" name="PB8" type="BiDi"/>
+        <pin num="62" name="PB9" type="BiDi"/>
+        <pin num="63" name="VSS" type="power_in"/>
+        <pin num="64" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MX_Alps_Hybrid" part="MX-LED">
+      <fields>
+        <field name="Reference">MX</field>
+        <field name="Value">MX-LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COL" type="passive"/>
+        <pin num="2" name="ROW" type="passive"/>
+        <pin num="3" name="LED" type="input"/>
+        <pin num="4" name="LEDGND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Power_Protection" part="SRV05-4">
+      <description>ESD Protection Diodes with Low Clamping Voltage, SOT-23-6</description>
+      <docs>http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SRV05-4</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IO1" type="passive"/>
+        <pin num="2" name="VN" type="passive"/>
+        <pin num="3" name="IO2" type="passive"/>
+        <pin num="4" name="IO3" type="passive"/>
+        <pin num="5" name="VP" type="passive"/>
+        <pin num="6" name="IO4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Diode.lib</uri>
+    </library>
+    <library logical="E80-1800-pcb-universal-rescue">
+      <uri>C:\Users\mplattner\Documents\GitHub\E80-1800\E80-1800-pcb-universal/E80-1800-pcb-universal-rescue.lib</uri>
+    </library>
+    <library logical="MCU_ST_STM32F0">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_ST_STM32F0.lib</uri>
+    </library>
+    <library logical="MX_Alps_Hybrid">
+      <uri>C:\Users\mplattner\Documents\GitHub\E80-1800\E80-1800-pcb-universal/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Power_Protection.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J3-PadA8)">
+      <node ref="J3" pin="A8"/>
+    </net>
+    <net code="2" name="Net-(J3-PadB8)">
+      <node ref="J3" pin="B8"/>
+    </net>
+    <net code="3" name="Net-(J3-PadA5)">
+      <node ref="U1" pin="6"/>
+      <node ref="J3" pin="A5"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="4" name="SPI_IRQ">
+      <node ref="U3" pin="17"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="5" name="SPI_RES">
+      <node ref="U3" pin="16"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="6" name="LED_NUM">
+      <node ref="R8" pin="2"/>
+      <node ref="U3" pin="58"/>
+    </net>
+    <net code="7" name="LED_CAPS">
+      <node ref="U3" pin="57"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="9" name="Net-(D2-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="10" name="Net-(D3-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="11" name="LED_SCR">
+      <node ref="R10" pin="2"/>
+      <node ref="U3" pin="56"/>
+    </net>
+    <net code="12" name="USB-D+">
+      <node ref="J3" pin="A6"/>
+      <node ref="U3" pin="45"/>
+      <node ref="J3" pin="B6"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="13" name="Earth">
+      <node ref="J3" pin="A1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="J3" pin="B12"/>
+      <node ref="J3" pin="S1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="J3" pin="B1"/>
+      <node ref="J3" pin="A12"/>
+    </net>
+    <net code="14" name="USB-D-">
+      <node ref="J3" pin="B7"/>
+      <node ref="U3" pin="44"/>
+      <node ref="J3" pin="A7"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="15" name="VBUS">
+      <node ref="JP1" pin="1"/>
+      <node ref="J4" pin="5"/>
+      <node ref="F1" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="16" name="Net-(F1-Pad2)">
+      <node ref="J3" pin="A9"/>
+      <node ref="J3" pin="A4"/>
+      <node ref="F1" pin="2"/>
+      <node ref="J3" pin="B9"/>
+      <node ref="J3" pin="B4"/>
+    </net>
+    <net code="17" name="LED_PWM">
+      <node ref="U3" pin="42"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="18" name="Net-(J3-PadB5)">
+      <node ref="J3" pin="B5"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="19" name="I2C_SCL">
+      <node ref="J2" pin="3"/>
+      <node ref="U3" pin="29"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="20" name="I2C_SDA">
+      <node ref="U3" pin="30"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="21" name="/RST">
+      <node ref="C12" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="22" name="GND">
+      <node ref="Q1" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J2" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U3" pin="63"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U3" pin="12"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U3" pin="18"/>
+      <node ref="L1" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="U3" pin="31"/>
+      <node ref="U3" pin="47"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="23" name="chgsense">
+      <node ref="R13" pin="1"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="24" name="+5V">
+      <node ref="MX2059" pin="3"/>
+      <node ref="MX2040" pin="3"/>
+      <node ref="MX2073" pin="3"/>
+      <node ref="MX2021" pin="3"/>
+      <node ref="MX2018" pin="3"/>
+      <node ref="MX2058" pin="3"/>
+      <node ref="MX2019" pin="3"/>
+      <node ref="MX2020" pin="3"/>
+      <node ref="MX2033" pin="3"/>
+      <node ref="MX2035" pin="3"/>
+      <node ref="MX2034" pin="3"/>
+      <node ref="MX2041" pin="3"/>
+      <node ref="MX2032" pin="3"/>
+      <node ref="MX2031" pin="3"/>
+      <node ref="MX2039" pin="3"/>
+      <node ref="MX2038" pin="3"/>
+      <node ref="MX2037" pin="3"/>
+      <node ref="MX2036" pin="3"/>
+      <node ref="MX2026" pin="3"/>
+      <node ref="MX2025" pin="3"/>
+      <node ref="MX2024" pin="3"/>
+      <node ref="MX2023" pin="3"/>
+      <node ref="MX2111" pin="3"/>
+      <node ref="MX2112" pin="3"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="MX2113" pin="3"/>
+      <node ref="MX2114" pin="3"/>
+      <node ref="MX2043" pin="3"/>
+      <node ref="J4" pin="4"/>
+      <node ref="MX2110" pin="3"/>
+      <node ref="MX2042" pin="3"/>
+      <node ref="MX2045" pin="3"/>
+      <node ref="MX2046" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="MX2047" pin="3"/>
+      <node ref="U2" pin="3"/>
+      <node ref="MX2048" pin="3"/>
+      <node ref="MX2053" pin="3"/>
+      <node ref="MX2074" pin="3"/>
+      <node ref="MX2049" pin="3"/>
+      <node ref="MX2010" pin="3"/>
+      <node ref="MX2011" pin="3"/>
+      <node ref="MX2012" pin="3"/>
+      <node ref="MX2013" pin="3"/>
+      <node ref="MX2071" pin="3"/>
+      <node ref="MX2070" pin="3"/>
+      <node ref="MX2072" pin="3"/>
+      <node ref="MX2069" pin="3"/>
+      <node ref="MX2068" pin="3"/>
+      <node ref="MX2075" pin="3"/>
+      <node ref="MX2077" pin="3"/>
+      <node ref="MX2076" pin="3"/>
+      <node ref="MX2017" pin="3"/>
+      <node ref="MX2061" pin="3"/>
+      <node ref="MX2063" pin="3"/>
+      <node ref="MX2062" pin="3"/>
+      <node ref="MX2060" pin="3"/>
+      <node ref="MX2067" pin="3"/>
+      <node ref="MX2050" pin="3"/>
+      <node ref="MX2066" pin="3"/>
+      <node ref="MX2054" pin="3"/>
+      <node ref="MX2065" pin="3"/>
+      <node ref="MX2051" pin="3"/>
+      <node ref="MX2064" pin="3"/>
+      <node ref="MX2052" pin="3"/>
+      <node ref="MX2008" pin="3"/>
+      <node ref="MX2044" pin="3"/>
+      <node ref="MX2030" pin="3"/>
+      <node ref="MX2055" pin="3"/>
+      <node ref="MX2029" pin="3"/>
+      <node ref="MX2028" pin="3"/>
+      <node ref="MX2027" pin="3"/>
+      <node ref="MX2005" pin="3"/>
+      <node ref="MX2057" pin="3"/>
+      <node ref="MX2006" pin="3"/>
+      <node ref="MX2022" pin="3"/>
+      <node ref="MX2007" pin="3"/>
+      <node ref="MX2056" pin="3"/>
+      <node ref="MX2001" pin="3"/>
+      <node ref="MX2002" pin="3"/>
+      <node ref="MX2009" pin="3"/>
+      <node ref="MX2003" pin="3"/>
+      <node ref="C3" pin="1"/>
+      <node ref="MX2004" pin="3"/>
+      <node ref="MX2014" pin="3"/>
+      <node ref="MX2015" pin="3"/>
+      <node ref="MX2016" pin="3"/>
+      <node ref="MX2106" pin="3"/>
+      <node ref="MX2105" pin="3"/>
+      <node ref="MX2104" pin="3"/>
+      <node ref="MX2103" pin="3"/>
+      <node ref="MX2115" pin="3"/>
+      <node ref="MX2078" pin="3"/>
+      <node ref="MX2109" pin="3"/>
+      <node ref="MX2102" pin="3"/>
+      <node ref="MX2083" pin="3"/>
+      <node ref="MX2082" pin="3"/>
+      <node ref="MX2084" pin="3"/>
+      <node ref="MX2081" pin="3"/>
+      <node ref="MX2080" pin="3"/>
+      <node ref="MX2086" pin="3"/>
+      <node ref="MX2088" pin="3"/>
+      <node ref="MX2087" pin="3"/>
+      <node ref="MX2085" pin="3"/>
+      <node ref="MX2094" pin="3"/>
+      <node ref="MX2108" pin="3"/>
+      <node ref="MX2107" pin="3"/>
+      <node ref="MX2097" pin="3"/>
+      <node ref="MX2079" pin="3"/>
+      <node ref="R11" pin="1"/>
+      <node ref="MX2101" pin="3"/>
+      <node ref="MX2100" pin="3"/>
+      <node ref="MX2099" pin="3"/>
+      <node ref="MX2098" pin="3"/>
+      <node ref="C1" pin="1"/>
+      <node ref="MX2092" pin="3"/>
+      <node ref="MX2091" pin="3"/>
+      <node ref="MX2090" pin="3"/>
+      <node ref="MX2089" pin="3"/>
+      <node ref="MX2096" pin="3"/>
+      <node ref="MX2095" pin="3"/>
+      <node ref="MX2093" pin="3"/>
+    </net>
+    <net code="25" name="COL10">
+      <node ref="MX2049" pin="1"/>
+      <node ref="MX2102" pin="1"/>
+      <node ref="MX2068" pin="1"/>
+      <node ref="MX2010" pin="1"/>
+      <node ref="MX2089" pin="1"/>
+      <node ref="U3" pin="25"/>
+      <node ref="MX2032" pin="1"/>
+    </net>
+    <net code="26" name="COL07">
+      <node ref="U3" pin="3"/>
+      <node ref="MX2065" pin="1"/>
+      <node ref="MX2046" pin="1"/>
+      <node ref="MX2086" pin="1"/>
+      <node ref="MX2029" pin="1"/>
+      <node ref="MX2007" pin="1"/>
+    </net>
+    <net code="27" name="COL08">
+      <node ref="U3" pin="2"/>
+      <node ref="MX2087" pin="1"/>
+      <node ref="MX2066" pin="1"/>
+      <node ref="MX2047" pin="1"/>
+      <node ref="MX2030" pin="1"/>
+      <node ref="MX2008" pin="1"/>
+    </net>
+    <net code="28" name="COL06">
+      <node ref="MX2085" pin="1"/>
+      <node ref="MX2028" pin="1"/>
+      <node ref="MX2006" pin="1"/>
+      <node ref="MX2100" pin="1"/>
+      <node ref="MX2115" pin="1"/>
+      <node ref="MX2064" pin="1"/>
+      <node ref="MX2045" pin="1"/>
+      <node ref="MX2112" pin="1"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="29" name="COL05">
+      <node ref="MX2063" pin="1"/>
+      <node ref="MX2027" pin="1"/>
+      <node ref="MX2044" pin="1"/>
+      <node ref="MX2084" pin="1"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="30" name="COL04">
+      <node ref="MX2083" pin="1"/>
+      <node ref="MX2062" pin="1"/>
+      <node ref="U3" pin="6"/>
+      <node ref="MX2043" pin="1"/>
+      <node ref="MX2026" pin="1"/>
+      <node ref="MX2005" pin="1"/>
+    </net>
+    <net code="31" name="COL09">
+      <node ref="MX2031" pin="1"/>
+      <node ref="MX2067" pin="1"/>
+      <node ref="MX2009" pin="1"/>
+      <node ref="MX2101" pin="1"/>
+      <node ref="U3" pin="24"/>
+      <node ref="MX2088" pin="1"/>
+      <node ref="MX2113" pin="1"/>
+      <node ref="MX2048" pin="1"/>
+    </net>
+    <net code="32" name="ROW00">
+      <node ref="U3" pin="59"/>
+      <node ref="D2004" pin="3"/>
+      <node ref="D2005" pin="3"/>
+      <node ref="D2003" pin="3"/>
+      <node ref="D2001" pin="3"/>
+      <node ref="D2009" pin="3"/>
+      <node ref="D2008" pin="3"/>
+      <node ref="D2007" pin="3"/>
+      <node ref="D2006" pin="3"/>
+      <node ref="D2002" pin="3"/>
+    </net>
+    <net code="33" name="ROW01">
+      <node ref="U3" pin="55"/>
+      <node ref="D2011" pin="3"/>
+      <node ref="D2010" pin="3"/>
+    </net>
+    <net code="34" name="ROW03">
+      <node ref="D2021" pin="3"/>
+      <node ref="D2022" pin="3"/>
+      <node ref="D2029" pin="3"/>
+      <node ref="U3" pin="53"/>
+      <node ref="D2026" pin="3"/>
+      <node ref="D2024" pin="3"/>
+      <node ref="D2025" pin="3"/>
+      <node ref="D2027" pin="3"/>
+      <node ref="D2028" pin="3"/>
+      <node ref="D2023" pin="3"/>
+    </net>
+    <net code="35" name="ROW02">
+      <node ref="D2017" pin="3"/>
+      <node ref="D2016" pin="3"/>
+      <node ref="D2015" pin="3"/>
+      <node ref="D2020" pin="3"/>
+      <node ref="D2019" pin="3"/>
+      <node ref="D2018" pin="3"/>
+      <node ref="U3" pin="54"/>
+      <node ref="D2014" pin="3"/>
+      <node ref="D2013" pin="3"/>
+      <node ref="D2012" pin="3"/>
+    </net>
+    <net code="36" name="COL01">
+      <node ref="U3" pin="14"/>
+      <node ref="MX2002" pin="1"/>
+      <node ref="MX2080" pin="1"/>
+      <node ref="MX2023" pin="1"/>
+      <node ref="MX2098" pin="1"/>
+    </net>
+    <net code="37" name="COL00">
+      <node ref="MX2001" pin="1"/>
+      <node ref="MX2110" pin="1"/>
+      <node ref="MX2040" pin="1"/>
+      <node ref="MX2059" pin="1"/>
+      <node ref="MX2058" pin="1"/>
+      <node ref="MX2079" pin="1"/>
+      <node ref="MX2078" pin="1"/>
+      <node ref="MX2022" pin="1"/>
+      <node ref="MX2097" pin="1"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="38" name="COL02">
+      <node ref="MX2024" pin="1"/>
+      <node ref="MX2060" pin="1"/>
+      <node ref="MX2041" pin="1"/>
+      <node ref="MX2003" pin="1"/>
+      <node ref="MX2081" pin="1"/>
+      <node ref="MX2111" pin="1"/>
+      <node ref="MX2099" pin="1"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="39" name="COL03">
+      <node ref="MX2082" pin="1"/>
+      <node ref="MX2004" pin="1"/>
+      <node ref="MX2061" pin="1"/>
+      <node ref="MX2025" pin="1"/>
+      <node ref="MX2042" pin="1"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="40" name="COL16">
+      <node ref="MX2015" pin="1"/>
+      <node ref="MX2108" pin="1"/>
+      <node ref="MX2075" pin="1"/>
+      <node ref="U3" pin="41"/>
+      <node ref="MX2037" pin="1"/>
+      <node ref="MX2019" pin="1"/>
+      <node ref="MX2055" pin="1"/>
+      <node ref="MX2094" pin="1"/>
+    </net>
+    <net code="41" name="COL14">
+      <node ref="MX2072" pin="1"/>
+      <node ref="MX2073" pin="1"/>
+      <node ref="U3" pin="62"/>
+      <node ref="MX2106" pin="1"/>
+      <node ref="MX2053" pin="1"/>
+      <node ref="MX2035" pin="1"/>
+      <node ref="MX2092" pin="1"/>
+    </net>
+    <net code="42" name="COL15">
+      <node ref="U3" pin="46"/>
+      <node ref="MX2107" pin="1"/>
+      <node ref="MX2036" pin="1"/>
+      <node ref="MX2093" pin="1"/>
+      <node ref="MX2018" pin="1"/>
+      <node ref="MX2014" pin="1"/>
+      <node ref="MX2054" pin="1"/>
+      <node ref="MX2074" pin="1"/>
+    </net>
+    <net code="43" name="COL17">
+      <node ref="MX2016" pin="1"/>
+      <node ref="MX2038" pin="1"/>
+      <node ref="MX2020" pin="1"/>
+      <node ref="MX2056" pin="1"/>
+      <node ref="U3" pin="40"/>
+      <node ref="MX2095" pin="1"/>
+      <node ref="MX2109" pin="1"/>
+      <node ref="MX2076" pin="1"/>
+    </net>
+    <net code="44" name="COL18">
+      <node ref="MX2039" pin="1"/>
+      <node ref="U3" pin="39"/>
+      <node ref="MX2096" pin="1"/>
+      <node ref="MX2021" pin="1"/>
+      <node ref="MX2057" pin="1"/>
+      <node ref="MX2077" pin="1"/>
+      <node ref="MX2017" pin="1"/>
+    </net>
+    <net code="45" name="Net-(Q1-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="46" name="ROW06">
+      <node ref="D2054" pin="3"/>
+      <node ref="D2053" pin="3"/>
+      <node ref="D2052" pin="3"/>
+      <node ref="U3" pin="50"/>
+      <node ref="D2051" pin="3"/>
+      <node ref="D2050" pin="3"/>
+      <node ref="D2048" pin="3"/>
+      <node ref="D2049" pin="3"/>
+    </net>
+    <net code="47" name="ROW05">
+      <node ref="D2040" pin="3"/>
+      <node ref="D2039" pin="3"/>
+      <node ref="D2043" pin="3"/>
+      <node ref="D2044" pin="3"/>
+      <node ref="D2045" pin="3"/>
+      <node ref="D2042" pin="3"/>
+      <node ref="D2041" pin="3"/>
+      <node ref="U3" pin="51"/>
+      <node ref="D2047" pin="3"/>
+      <node ref="D2046" pin="3"/>
+    </net>
+    <net code="48" name="ROW04">
+      <node ref="D2038" pin="3"/>
+      <node ref="D2034" pin="3"/>
+      <node ref="D2035" pin="3"/>
+      <node ref="D2036" pin="3"/>
+      <node ref="D2037" pin="3"/>
+      <node ref="D2030" pin="3"/>
+      <node ref="D2031" pin="3"/>
+      <node ref="U3" pin="52"/>
+      <node ref="D2033" pin="3"/>
+      <node ref="D2032" pin="3"/>
+    </net>
+    <net code="49" name="COL11">
+      <node ref="MX2033" pin="1"/>
+      <node ref="U3" pin="26"/>
+      <node ref="MX2011" pin="1"/>
+      <node ref="MX2069" pin="1"/>
+      <node ref="MX2103" pin="1"/>
+      <node ref="MX2050" pin="1"/>
+      <node ref="MX2090" pin="1"/>
+    </net>
+    <net code="50" name="COL12">
+      <node ref="MX2104" pin="1"/>
+      <node ref="U3" pin="27"/>
+      <node ref="MX2051" pin="1"/>
+      <node ref="MX2012" pin="1"/>
+      <node ref="MX2034" pin="1"/>
+      <node ref="MX2114" pin="1"/>
+      <node ref="MX2070" pin="1"/>
+    </net>
+    <net code="51" name="COL13">
+      <node ref="MX2013" pin="1"/>
+      <node ref="MX2105" pin="1"/>
+      <node ref="U3" pin="28"/>
+      <node ref="MX2071" pin="1"/>
+      <node ref="MX2052" pin="1"/>
+      <node ref="MX2091" pin="1"/>
+    </net>
+    <net code="52" name="SPI_CS">
+      <node ref="J1" pin="3"/>
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="53" name="SPI_SCK">
+      <node ref="J1" pin="5"/>
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="54" name="SPI_MISO">
+      <node ref="J1" pin="6"/>
+      <node ref="U3" pin="22"/>
+    </net>
+    <net code="55" name="SPI_MOSI">
+      <node ref="J1" pin="7"/>
+      <node ref="U3" pin="23"/>
+    </net>
+    <net code="56" name="+3V3">
+      <node ref="U2" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U3" pin="19"/>
+      <node ref="U3" pin="32"/>
+      <node ref="U3" pin="64"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U3" pin="48"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="J1" pin="8"/>
+      <node ref="C11" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="57" name="LED-">
+      <node ref="R2068" pin="1"/>
+      <node ref="R2093" pin="1"/>
+      <node ref="R2075" pin="1"/>
+      <node ref="R2053" pin="1"/>
+      <node ref="R2052" pin="1"/>
+      <node ref="R2051" pin="1"/>
+      <node ref="R2050" pin="1"/>
+      <node ref="R2045" pin="1"/>
+      <node ref="R2049" pin="1"/>
+      <node ref="R2048" pin="1"/>
+      <node ref="R2047" pin="1"/>
+      <node ref="R2046" pin="1"/>
+      <node ref="R2019" pin="1"/>
+      <node ref="R2021" pin="1"/>
+      <node ref="R2020" pin="1"/>
+      <node ref="R2106" pin="1"/>
+      <node ref="R2041" pin="1"/>
+      <node ref="R2018" pin="1"/>
+      <node ref="R2058" pin="1"/>
+      <node ref="R2060" pin="1"/>
+      <node ref="R2061" pin="1"/>
+      <node ref="R2062" pin="1"/>
+      <node ref="R2063" pin="1"/>
+      <node ref="R2064" pin="1"/>
+      <node ref="R2065" pin="1"/>
+      <node ref="R2066" pin="1"/>
+      <node ref="R2067" pin="1"/>
+      <node ref="R2059" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R2044" pin="1"/>
+      <node ref="R2043" pin="1"/>
+      <node ref="R2042" pin="1"/>
+      <node ref="R2040" pin="1"/>
+      <node ref="R2107" pin="1"/>
+      <node ref="R2033" pin="1"/>
+      <node ref="R2017" pin="1"/>
+      <node ref="R2016" pin="1"/>
+      <node ref="R2015" pin="1"/>
+      <node ref="R2014" pin="1"/>
+      <node ref="R2013" pin="1"/>
+      <node ref="R2012" pin="1"/>
+      <node ref="R2011" pin="1"/>
+      <node ref="R2039" pin="1"/>
+      <node ref="R2038" pin="1"/>
+      <node ref="R2037" pin="1"/>
+      <node ref="R2036" pin="1"/>
+      <node ref="R2035" pin="1"/>
+      <node ref="R2034" pin="1"/>
+      <node ref="R2070" pin="1"/>
+      <node ref="R2069" pin="1"/>
+      <node ref="R2071" pin="1"/>
+      <node ref="R2105" pin="1"/>
+      <node ref="R2104" pin="1"/>
+      <node ref="R2003" pin="1"/>
+      <node ref="R2004" pin="1"/>
+      <node ref="R2005" pin="1"/>
+      <node ref="R2006" pin="1"/>
+      <node ref="R2007" pin="1"/>
+      <node ref="R2091" pin="1"/>
+      <node ref="R2090" pin="1"/>
+      <node ref="R2074" pin="1"/>
+      <node ref="R2073" pin="1"/>
+      <node ref="R2072" pin="1"/>
+      <node ref="R2008" pin="1"/>
+      <node ref="R2103" pin="1"/>
+      <node ref="R2026" pin="1"/>
+      <node ref="R2032" pin="1"/>
+      <node ref="R2031" pin="1"/>
+      <node ref="R2030" pin="1"/>
+      <node ref="R2028" pin="1"/>
+      <node ref="R2027" pin="1"/>
+      <node ref="R2025" pin="1"/>
+      <node ref="R2029" pin="1"/>
+      <node ref="R2023" pin="1"/>
+      <node ref="R2009" pin="1"/>
+      <node ref="R2010" pin="1"/>
+      <node ref="R2002" pin="1"/>
+      <node ref="R2001" pin="1"/>
+      <node ref="R2024" pin="1"/>
+      <node ref="R2092" pin="1"/>
+      <node ref="R2022" pin="1"/>
+      <node ref="R2076" pin="1"/>
+      <node ref="R2085" pin="1"/>
+      <node ref="R2086" pin="1"/>
+      <node ref="R2077" pin="1"/>
+      <node ref="R2087" pin="1"/>
+      <node ref="R2088" pin="1"/>
+      <node ref="R2089" pin="1"/>
+      <node ref="R2080" pin="1"/>
+      <node ref="R2081" pin="1"/>
+      <node ref="R2082" pin="1"/>
+      <node ref="R2083" pin="1"/>
+      <node ref="R2084" pin="1"/>
+      <node ref="R2100" pin="1"/>
+      <node ref="R2094" pin="1"/>
+      <node ref="R2078" pin="1"/>
+      <node ref="R2079" pin="1"/>
+      <node ref="R2057" pin="1"/>
+      <node ref="R2056" pin="1"/>
+      <node ref="R2055" pin="1"/>
+      <node ref="R2054" pin="1"/>
+      <node ref="R2098" pin="1"/>
+      <node ref="R2101" pin="1"/>
+      <node ref="R2099" pin="1"/>
+      <node ref="R2095" pin="1"/>
+      <node ref="R2096" pin="1"/>
+      <node ref="R2102" pin="1"/>
+      <node ref="R2097" pin="1"/>
+    </net>
+    <net code="58" name="Net-(U3-Pad37)">
+      <node ref="U3" pin="37"/>
+    </net>
+    <net code="59" name="Net-(U3-Pad38)">
+      <node ref="U3" pin="38"/>
+    </net>
+    <net code="60" name="/BOOT">
+      <node ref="C13" pin="1"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U3" pin="60"/>
+    </net>
+    <net code="61" name="/sense_battV">
+      <node ref="U3" pin="8"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="62" name="/sense_charge">
+      <node ref="R14" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="63" name="Net-(U3-Pad33)">
+      <node ref="U3" pin="33"/>
+    </net>
+    <net code="64" name="Net-(U3-Pad34)">
+      <node ref="U3" pin="34"/>
+    </net>
+    <net code="65" name="Net-(U3-Pad35)">
+      <node ref="U3" pin="35"/>
+    </net>
+    <net code="66" name="Net-(U3-Pad36)">
+      <node ref="U3" pin="36"/>
+    </net>
+    <net code="67" name="Net-(U3-Pad61)">
+      <node ref="U3" pin="61"/>
+    </net>
+    <net code="68" name="Net-(U3-Pad43)">
+      <node ref="U3" pin="43"/>
+    </net>
+    <net code="69" name="Net-(U3-Pad49)">
+      <node ref="U3" pin="49"/>
+    </net>
+    <net code="70" name="Net-(MX2054-Pad4)">
+      <node ref="MX2054" pin="4"/>
+      <node ref="R2054" pin="2"/>
+    </net>
+    <net code="71" name="Net-(MX2053-Pad4)">
+      <node ref="MX2053" pin="4"/>
+      <node ref="R2053" pin="2"/>
+    </net>
+    <net code="72" name="Net-(MX2052-Pad4)">
+      <node ref="MX2052" pin="4"/>
+      <node ref="R2052" pin="2"/>
+    </net>
+    <net code="73" name="Net-(MX2051-Pad4)">
+      <node ref="R2051" pin="2"/>
+      <node ref="MX2051" pin="4"/>
+    </net>
+    <net code="74" name="Net-(MX2050-Pad4)">
+      <node ref="MX2050" pin="4"/>
+      <node ref="R2050" pin="2"/>
+    </net>
+    <net code="75" name="Net-(MX2057-Pad4)">
+      <node ref="MX2057" pin="4"/>
+      <node ref="R2057" pin="2"/>
+    </net>
+    <net code="76" name="Net-(MX2055-Pad4)">
+      <node ref="R2055" pin="2"/>
+      <node ref="MX2055" pin="4"/>
+    </net>
+    <net code="77" name="Net-(MX2056-Pad4)">
+      <node ref="MX2056" pin="4"/>
+      <node ref="R2056" pin="2"/>
+    </net>
+    <net code="78" name="Net-(MX2045-Pad4)">
+      <node ref="MX2045" pin="4"/>
+      <node ref="R2045" pin="2"/>
+    </net>
+    <net code="79" name="Net-(MX2044-Pad4)">
+      <node ref="MX2044" pin="4"/>
+      <node ref="R2044" pin="2"/>
+    </net>
+    <net code="80" name="Net-(MX2043-Pad4)">
+      <node ref="MX2043" pin="4"/>
+      <node ref="R2043" pin="2"/>
+    </net>
+    <net code="81" name="Net-(MX2042-Pad4)">
+      <node ref="MX2042" pin="4"/>
+      <node ref="R2042" pin="2"/>
+    </net>
+    <net code="82" name="Net-(MX2049-Pad4)">
+      <node ref="R2049" pin="2"/>
+      <node ref="MX2049" pin="4"/>
+    </net>
+    <net code="83" name="Net-(MX2048-Pad4)">
+      <node ref="R2048" pin="2"/>
+      <node ref="MX2048" pin="4"/>
+    </net>
+    <net code="84" name="Net-(MX2047-Pad4)">
+      <node ref="R2047" pin="2"/>
+      <node ref="MX2047" pin="4"/>
+    </net>
+    <net code="85" name="Net-(MX2046-Pad4)">
+      <node ref="R2046" pin="2"/>
+      <node ref="MX2046" pin="4"/>
+    </net>
+    <net code="86" name="Net-(MX2018-Pad4)">
+      <node ref="R2018" pin="2"/>
+      <node ref="MX2018" pin="4"/>
+    </net>
+    <net code="87" name="Net-(MX2021-Pad4)">
+      <node ref="R2021" pin="2"/>
+      <node ref="MX2021" pin="4"/>
+    </net>
+    <net code="88" name="Net-(MX2020-Pad4)">
+      <node ref="R2020" pin="2"/>
+      <node ref="MX2020" pin="4"/>
+    </net>
+    <net code="89" name="Net-(MX2019-Pad4)">
+      <node ref="R2019" pin="2"/>
+      <node ref="MX2019" pin="4"/>
+    </net>
+    <net code="90" name="Net-(MX2024-Pad4)">
+      <node ref="MX2024" pin="4"/>
+      <node ref="R2024" pin="2"/>
+    </net>
+    <net code="91" name="Net-(MX2023-Pad4)">
+      <node ref="MX2023" pin="4"/>
+      <node ref="R2023" pin="2"/>
+    </net>
+    <net code="92" name="Net-(MX2022-Pad4)">
+      <node ref="MX2022" pin="4"/>
+      <node ref="R2022" pin="2"/>
+    </net>
+    <net code="93" name="Net-(MX2115-Pad4)">
+      <node ref="R2107" pin="2"/>
+      <node ref="MX2115" pin="4"/>
+    </net>
+    <net code="94" name="Net-(MX2040-Pad4)">
+      <node ref="MX2040" pin="4"/>
+      <node ref="R2040" pin="2"/>
+    </net>
+    <net code="95" name="Net-(MX2041-Pad4)">
+      <node ref="R2041" pin="2"/>
+      <node ref="MX2041" pin="4"/>
+    </net>
+    <net code="96" name="Net-(MX2063-Pad4)">
+      <node ref="MX2063" pin="4"/>
+      <node ref="R2062" pin="2"/>
+    </net>
+    <net code="97" name="Net-(MX2060-Pad4)">
+      <node ref="R2059" pin="2"/>
+      <node ref="MX2060" pin="4"/>
+    </net>
+    <net code="98" name="Net-(MX2058-Pad4)">
+      <node ref="MX2059" pin="4"/>
+      <node ref="MX2058" pin="4"/>
+      <node ref="R2058" pin="2"/>
+    </net>
+    <net code="99" name="Net-(MX2061-Pad4)">
+      <node ref="R2060" pin="2"/>
+      <node ref="MX2061" pin="4"/>
+    </net>
+    <net code="100" name="Net-(MX2062-Pad4)">
+      <node ref="R2061" pin="2"/>
+      <node ref="MX2062" pin="4"/>
+    </net>
+    <net code="101" name="Net-(MX2064-Pad4)">
+      <node ref="MX2064" pin="4"/>
+      <node ref="R2063" pin="2"/>
+    </net>
+    <net code="102" name="Net-(MX2065-Pad4)">
+      <node ref="R2064" pin="2"/>
+      <node ref="MX2065" pin="4"/>
+    </net>
+    <net code="103" name="Net-(MX2066-Pad4)">
+      <node ref="R2065" pin="2"/>
+      <node ref="MX2066" pin="4"/>
+    </net>
+    <net code="104" name="Net-(MX2067-Pad4)">
+      <node ref="R2066" pin="2"/>
+      <node ref="MX2067" pin="4"/>
+    </net>
+    <net code="105" name="Net-(MX2068-Pad4)">
+      <node ref="MX2068" pin="4"/>
+      <node ref="R2067" pin="2"/>
+    </net>
+    <net code="106" name="Net-(MX2069-Pad4)">
+      <node ref="MX2069" pin="4"/>
+      <node ref="R2068" pin="2"/>
+    </net>
+    <net code="107" name="Net-(MX2070-Pad4)">
+      <node ref="R2069" pin="2"/>
+      <node ref="MX2070" pin="4"/>
+    </net>
+    <net code="108" name="Net-(MX2071-Pad4)">
+      <node ref="R2070" pin="2"/>
+      <node ref="MX2071" pin="4"/>
+    </net>
+    <net code="109" name="Net-(MX2077-Pad4)">
+      <node ref="MX2077" pin="4"/>
+      <node ref="R2075" pin="2"/>
+    </net>
+    <net code="110" name="Net-(MX2076-Pad4)">
+      <node ref="MX2076" pin="4"/>
+      <node ref="R2074" pin="2"/>
+    </net>
+    <net code="111" name="Net-(MX2096-Pad4)">
+      <node ref="R2093" pin="2"/>
+      <node ref="MX2096" pin="4"/>
+    </net>
+    <net code="112" name="Net-(MX2095-Pad4)">
+      <node ref="R2092" pin="2"/>
+      <node ref="MX2095" pin="4"/>
+    </net>
+    <net code="113" name="Net-(MX2094-Pad4)">
+      <node ref="R2091" pin="2"/>
+      <node ref="MX2094" pin="4"/>
+    </net>
+    <net code="114" name="Net-(MX2075-Pad4)">
+      <node ref="R2073" pin="2"/>
+      <node ref="MX2075" pin="4"/>
+    </net>
+    <net code="115" name="Net-(MX2093-Pad4)">
+      <node ref="R2090" pin="2"/>
+      <node ref="MX2093" pin="4"/>
+    </net>
+    <net code="116" name="Net-(MX2074-Pad4)">
+      <node ref="MX2074" pin="4"/>
+      <node ref="R2072" pin="2"/>
+    </net>
+    <net code="117" name="Net-(MX2107-Pad4)">
+      <node ref="R2103" pin="2"/>
+      <node ref="MX2107" pin="4"/>
+    </net>
+    <net code="118" name="Net-(MX2108-Pad4)">
+      <node ref="R2104" pin="2"/>
+      <node ref="MX2108" pin="4"/>
+    </net>
+    <net code="119" name="Net-(MX2109-Pad4)">
+      <node ref="MX2109" pin="4"/>
+      <node ref="R2105" pin="2"/>
+    </net>
+    <net code="120" name="Net-(MX2005-Pad4)">
+      <node ref="R2005" pin="2"/>
+      <node ref="MX2005" pin="4"/>
+    </net>
+    <net code="121" name="Net-(MX2002-Pad4)">
+      <node ref="R2002" pin="2"/>
+      <node ref="MX2002" pin="4"/>
+    </net>
+    <net code="122" name="Net-(MX2003-Pad4)">
+      <node ref="MX2003" pin="4"/>
+      <node ref="R2003" pin="2"/>
+    </net>
+    <net code="123" name="Net-(MX2004-Pad4)">
+      <node ref="R2004" pin="2"/>
+      <node ref="MX2004" pin="4"/>
+    </net>
+    <net code="124" name="Net-(MX2001-Pad4)">
+      <node ref="MX2001" pin="4"/>
+      <node ref="R2001" pin="2"/>
+    </net>
+    <net code="125" name="Net-(MX2006-Pad4)">
+      <node ref="MX2006" pin="4"/>
+      <node ref="R2006" pin="2"/>
+    </net>
+    <net code="126" name="Net-(MX2007-Pad4)">
+      <node ref="MX2007" pin="4"/>
+      <node ref="R2007" pin="2"/>
+    </net>
+    <net code="127" name="Net-(MX2008-Pad4)">
+      <node ref="MX2008" pin="4"/>
+      <node ref="R2008" pin="2"/>
+    </net>
+    <net code="128" name="Net-(MX2009-Pad4)">
+      <node ref="R2009" pin="2"/>
+      <node ref="MX2009" pin="4"/>
+    </net>
+    <net code="129" name="Net-(MX2015-Pad4)">
+      <node ref="MX2015" pin="4"/>
+      <node ref="R2015" pin="2"/>
+    </net>
+    <net code="130" name="Net-(MX2014-Pad4)">
+      <node ref="MX2014" pin="4"/>
+      <node ref="R2014" pin="2"/>
+    </net>
+    <net code="131" name="Net-(MX2013-Pad4)">
+      <node ref="MX2013" pin="4"/>
+      <node ref="R2013" pin="2"/>
+    </net>
+    <net code="132" name="Net-(MX2012-Pad4)">
+      <node ref="MX2012" pin="4"/>
+      <node ref="R2012" pin="2"/>
+    </net>
+    <net code="133" name="Net-(MX2011-Pad4)">
+      <node ref="R2011" pin="2"/>
+      <node ref="MX2011" pin="4"/>
+    </net>
+    <net code="134" name="Net-(MX2010-Pad4)">
+      <node ref="R2010" pin="2"/>
+      <node ref="MX2010" pin="4"/>
+    </net>
+    <net code="135" name="Net-(MX2016-Pad4)">
+      <node ref="R2016" pin="2"/>
+      <node ref="MX2016" pin="4"/>
+    </net>
+    <net code="136" name="Net-(MX2017-Pad4)">
+      <node ref="MX2017" pin="4"/>
+      <node ref="R2017" pin="2"/>
+    </net>
+    <net code="137" name="Net-(D2054-Pad1)">
+      <node ref="D2054" pin="1"/>
+    </net>
+    <net code="138" name="Net-(D2053-Pad1)">
+      <node ref="MX2108" pin="2"/>
+      <node ref="D2053" pin="1"/>
+    </net>
+    <net code="139" name="Net-(D2053-Pad2)">
+      <node ref="D2053" pin="2"/>
+      <node ref="MX2107" pin="2"/>
+    </net>
+    <net code="140" name="Net-(D2052-Pad1)">
+      <node ref="MX2106" pin="2"/>
+      <node ref="D2052" pin="1"/>
+    </net>
+    <net code="141" name="Net-(D2051-Pad2)">
+      <node ref="MX2103" pin="2"/>
+      <node ref="D2051" pin="2"/>
+    </net>
+    <net code="142" name="Net-(D2050-Pad1)">
+      <node ref="D2050" pin="1"/>
+      <node ref="MX2102" pin="2"/>
+    </net>
+    <net code="143" name="Net-(D2048-Pad1)">
+      <node ref="MX2098" pin="2"/>
+      <node ref="D2048" pin="1"/>
+    </net>
+    <net code="144" name="Net-(D2054-Pad2)">
+      <node ref="MX2109" pin="2"/>
+      <node ref="D2054" pin="2"/>
+    </net>
+    <net code="145" name="Net-(D2052-Pad2)">
+      <node ref="MX2105" pin="2"/>
+      <node ref="D2052" pin="2"/>
+    </net>
+    <net code="146" name="Net-(MX2037-Pad4)">
+      <node ref="MX2037" pin="4"/>
+      <node ref="R2037" pin="2"/>
+    </net>
+    <net code="147" name="Net-(MX2036-Pad4)">
+      <node ref="MX2036" pin="4"/>
+      <node ref="R2036" pin="2"/>
+    </net>
+    <net code="148" name="Net-(MX2035-Pad4)">
+      <node ref="R2035" pin="2"/>
+      <node ref="MX2035" pin="4"/>
+    </net>
+    <net code="149" name="Net-(MX2034-Pad4)">
+      <node ref="MX2034" pin="4"/>
+      <node ref="R2034" pin="2"/>
+    </net>
+    <net code="150" name="Net-(MX2033-Pad4)">
+      <node ref="R2033" pin="2"/>
+      <node ref="MX2033" pin="4"/>
+    </net>
+    <net code="151" name="Net-(MX2038-Pad4)">
+      <node ref="MX2038" pin="4"/>
+      <node ref="R2038" pin="2"/>
+    </net>
+    <net code="152" name="Net-(MX2039-Pad4)">
+      <node ref="R2039" pin="2"/>
+      <node ref="MX2039" pin="4"/>
+    </net>
+    <net code="153" name="Net-(MX2028-Pad4)">
+      <node ref="MX2028" pin="4"/>
+      <node ref="R2028" pin="2"/>
+    </net>
+    <net code="154" name="Net-(MX2027-Pad4)">
+      <node ref="R2027" pin="2"/>
+      <node ref="MX2027" pin="4"/>
+    </net>
+    <net code="155" name="Net-(MX2026-Pad4)">
+      <node ref="MX2026" pin="4"/>
+      <node ref="R2026" pin="2"/>
+    </net>
+    <net code="156" name="Net-(MX2025-Pad4)">
+      <node ref="MX2025" pin="4"/>
+      <node ref="R2025" pin="2"/>
+    </net>
+    <net code="157" name="Net-(MX2032-Pad4)">
+      <node ref="MX2032" pin="4"/>
+      <node ref="R2032" pin="2"/>
+    </net>
+    <net code="158" name="Net-(MX2031-Pad4)">
+      <node ref="MX2031" pin="4"/>
+      <node ref="R2031" pin="2"/>
+    </net>
+    <net code="159" name="Net-(MX2030-Pad4)">
+      <node ref="R2030" pin="2"/>
+      <node ref="MX2030" pin="4"/>
+    </net>
+    <net code="160" name="Net-(MX2029-Pad4)">
+      <node ref="MX2029" pin="4"/>
+      <node ref="R2029" pin="2"/>
+    </net>
+    <net code="161" name="Net-(MX2102-Pad4)">
+      <node ref="R2098" pin="2"/>
+      <node ref="MX2102" pin="4"/>
+      <node ref="MX2113" pin="4"/>
+    </net>
+    <net code="162" name="Net-(MX2103-Pad4)">
+      <node ref="MX2103" pin="4"/>
+      <node ref="R2099" pin="2"/>
+    </net>
+    <net code="163" name="Net-(MX2106-Pad4)">
+      <node ref="R2102" pin="2"/>
+      <node ref="MX2106" pin="4"/>
+    </net>
+    <net code="164" name="Net-(MX2105-Pad4)">
+      <node ref="MX2105" pin="4"/>
+      <node ref="R2101" pin="2"/>
+    </net>
+    <net code="165" name="Net-(MX2098-Pad4)">
+      <node ref="R2095" pin="2"/>
+      <node ref="MX2098" pin="4"/>
+    </net>
+    <net code="166" name="Net-(MX2087-Pad4)">
+      <node ref="R2084" pin="2"/>
+      <node ref="MX2087" pin="4"/>
+    </net>
+    <net code="167" name="Net-(MX2086-Pad4)">
+      <node ref="R2083" pin="2"/>
+      <node ref="MX2086" pin="4"/>
+    </net>
+    <net code="168" name="Net-(MX2085-Pad4)">
+      <node ref="MX2085" pin="4"/>
+      <node ref="R2082" pin="2"/>
+    </net>
+    <net code="169" name="Net-(MX2084-Pad4)">
+      <node ref="R2081" pin="2"/>
+      <node ref="MX2084" pin="4"/>
+    </net>
+    <net code="170" name="Net-(MX2088-Pad4)">
+      <node ref="R2085" pin="2"/>
+      <node ref="MX2088" pin="4"/>
+    </net>
+    <net code="171" name="Net-(MX2083-Pad4)">
+      <node ref="R2080" pin="2"/>
+      <node ref="MX2083" pin="4"/>
+    </net>
+    <net code="172" name="Net-(MX2082-Pad4)">
+      <node ref="R2079" pin="2"/>
+      <node ref="MX2082" pin="4"/>
+    </net>
+    <net code="173" name="Net-(MX2081-Pad4)">
+      <node ref="R2078" pin="2"/>
+      <node ref="MX2081" pin="4"/>
+    </net>
+    <net code="174" name="Net-(MX2080-Pad4)">
+      <node ref="MX2080" pin="4"/>
+      <node ref="R2077" pin="2"/>
+    </net>
+    <net code="175" name="Net-(MX2092-Pad4)">
+      <node ref="MX2092" pin="4"/>
+      <node ref="R2089" pin="2"/>
+    </net>
+    <net code="176" name="Net-(MX2078-Pad4)">
+      <node ref="MX2079" pin="4"/>
+      <node ref="MX2078" pin="4"/>
+      <node ref="R2076" pin="2"/>
+    </net>
+    <net code="177" name="Net-(MX2091-Pad4)">
+      <node ref="MX2091" pin="4"/>
+      <node ref="R2088" pin="2"/>
+    </net>
+    <net code="178" name="Net-(MX2090-Pad4)">
+      <node ref="R2087" pin="2"/>
+      <node ref="MX2090" pin="4"/>
+    </net>
+    <net code="179" name="Net-(MX2089-Pad4)">
+      <node ref="MX2089" pin="4"/>
+      <node ref="R2086" pin="2"/>
+    </net>
+    <net code="180" name="Net-(D2048-Pad2)">
+      <node ref="D2048" pin="2"/>
+      <node ref="MX2097" pin="2"/>
+      <node ref="MX2110" pin="2"/>
+    </net>
+    <net code="181" name="Net-(D2039-Pad2)">
+      <node ref="MX2079" pin="2"/>
+      <node ref="D2039" pin="2"/>
+      <node ref="MX2078" pin="2"/>
+    </net>
+    <net code="182" name="Net-(D2050-Pad2)">
+      <node ref="MX2101" pin="2"/>
+      <node ref="MX2113" pin="2"/>
+      <node ref="D2050" pin="2"/>
+    </net>
+    <net code="183" name="Net-(MX2101-Pad4)">
+      <node ref="MX2101" pin="4"/>
+      <node ref="R2097" pin="2"/>
+    </net>
+    <net code="184" name="Net-(D2049-Pad2)">
+      <node ref="MX2099" pin="2"/>
+      <node ref="D2049" pin="2"/>
+      <node ref="MX2111" pin="2"/>
+    </net>
+    <net code="185" name="Net-(D2044-Pad2)">
+      <node ref="MX2089" pin="2"/>
+      <node ref="D2044" pin="2"/>
+    </net>
+    <net code="186" name="Net-(D2047-Pad2)">
+      <node ref="D2047" pin="2"/>
+      <node ref="MX2095" pin="2"/>
+    </net>
+    <net code="187" name="Net-(D2046-Pad2)">
+      <node ref="MX2093" pin="2"/>
+      <node ref="D2046" pin="2"/>
+    </net>
+    <net code="188" name="Net-(D2041-Pad2)">
+      <node ref="MX2083" pin="2"/>
+      <node ref="D2041" pin="2"/>
+    </net>
+    <net code="189" name="Net-(D2040-Pad2)">
+      <node ref="MX2081" pin="2"/>
+      <node ref="D2040" pin="2"/>
+    </net>
+    <net code="190" name="Net-(D2039-Pad1)">
+      <node ref="D2039" pin="1"/>
+      <node ref="MX2080" pin="2"/>
+    </net>
+    <net code="191" name="Net-(D2043-Pad2)">
+      <node ref="MX2087" pin="2"/>
+      <node ref="D2043" pin="2"/>
+    </net>
+    <net code="192" name="Net-(MX2072-Pad4)">
+      <node ref="R2071" pin="2"/>
+      <node ref="MX2073" pin="4"/>
+      <node ref="MX2072" pin="4"/>
+    </net>
+    <net code="193" name="Net-(D2011-Pad2)">
+      <node ref="MX2020" pin="2"/>
+      <node ref="D2011" pin="2"/>
+    </net>
+    <net code="194" name="Net-(D2017-Pad1)">
+      <node ref="D2017" pin="1"/>
+      <node ref="MX2033" pin="2"/>
+    </net>
+    <net code="195" name="Net-(D2016-Pad1)">
+      <node ref="MX2031" pin="2"/>
+      <node ref="D2016" pin="1"/>
+    </net>
+    <net code="196" name="Net-(D2020-Pad1)">
+      <node ref="MX2039" pin="2"/>
+      <node ref="D2020" pin="1"/>
+    </net>
+    <net code="197" name="Net-(D2004-Pad2)">
+      <node ref="D2004" pin="2"/>
+      <node ref="MX2007" pin="2"/>
+    </net>
+    <net code="198" name="Net-(D2003-Pad1)">
+      <node ref="MX2006" pin="2"/>
+      <node ref="D2003" pin="1"/>
+    </net>
+    <net code="199" name="Net-(D2004-Pad1)">
+      <node ref="D2004" pin="1"/>
+      <node ref="MX2008" pin="2"/>
+    </net>
+    <net code="200" name="Net-(D2005-Pad2)">
+      <node ref="MX2009" pin="2"/>
+      <node ref="D2005" pin="2"/>
+    </net>
+    <net code="201" name="Net-(D2001-Pad2)">
+      <node ref="MX2001" pin="2"/>
+      <node ref="D2001" pin="2"/>
+    </net>
+    <net code="202" name="Net-(D2001-Pad1)">
+      <node ref="D2001" pin="1"/>
+      <node ref="MX2002" pin="2"/>
+    </net>
+    <net code="203" name="Net-(D2002-Pad2)">
+      <node ref="D2002" pin="2"/>
+      <node ref="MX2003" pin="2"/>
+    </net>
+    <net code="204" name="Net-(D2002-Pad1)">
+      <node ref="MX2004" pin="2"/>
+      <node ref="D2002" pin="1"/>
+    </net>
+    <net code="205" name="Net-(D2008-Pad1)">
+      <node ref="D2008" pin="1"/>
+      <node ref="MX2015" pin="2"/>
+    </net>
+    <net code="206" name="Net-(D2009-Pad1)">
+      <node ref="D2009" pin="1"/>
+      <node ref="MX2017" pin="2"/>
+    </net>
+    <net code="207" name="Net-(D2005-Pad1)">
+      <node ref="MX2010" pin="2"/>
+      <node ref="D2005" pin="1"/>
+    </net>
+    <net code="208" name="Net-(D2006-Pad2)">
+      <node ref="MX2011" pin="2"/>
+      <node ref="D2006" pin="2"/>
+    </net>
+    <net code="209" name="Net-(D2006-Pad1)">
+      <node ref="MX2012" pin="2"/>
+      <node ref="D2006" pin="1"/>
+    </net>
+    <net code="210" name="Net-(D2007-Pad2)">
+      <node ref="D2007" pin="2"/>
+      <node ref="MX2013" pin="2"/>
+    </net>
+    <net code="211" name="Net-(D2036-Pad1)">
+      <node ref="MX2073" pin="2"/>
+      <node ref="MX2072" pin="2"/>
+      <node ref="D2036" pin="1"/>
+    </net>
+    <net code="212" name="Net-(D2031-Pad1)">
+      <node ref="MX2062" pin="2"/>
+      <node ref="D2031" pin="1"/>
+    </net>
+    <net code="213" name="Net-(D2030-Pad1)">
+      <node ref="MX2060" pin="2"/>
+      <node ref="D2030" pin="1"/>
+    </net>
+    <net code="214" name="Net-(D2030-Pad2)">
+      <node ref="MX2059" pin="2"/>
+      <node ref="D2030" pin="2"/>
+      <node ref="MX2058" pin="2"/>
+    </net>
+    <net code="215" name="Net-(D2032-Pad1)">
+      <node ref="MX2064" pin="2"/>
+      <node ref="D2032" pin="1"/>
+    </net>
+    <net code="216" name="Net-(D2027-Pad2)">
+      <node ref="MX2052" pin="2"/>
+      <node ref="D2027" pin="2"/>
+    </net>
+    <net code="217" name="Net-(D2026-Pad1)">
+      <node ref="MX2051" pin="2"/>
+      <node ref="D2026" pin="1"/>
+    </net>
+    <net code="218" name="Net-(D2026-Pad2)">
+      <node ref="D2026" pin="2"/>
+      <node ref="MX2050" pin="2"/>
+    </net>
+    <net code="219" name="Net-(D2029-Pad2)">
+      <node ref="MX2056" pin="2"/>
+      <node ref="D2029" pin="2"/>
+    </net>
+    <net code="220" name="Net-(D2028-Pad2)">
+      <node ref="D2028" pin="2"/>
+      <node ref="MX2054" pin="2"/>
+    </net>
+    <net code="221" name="Net-(D2021-Pad1)">
+      <node ref="D2021" pin="1"/>
+      <node ref="MX2041" pin="2"/>
+    </net>
+    <net code="222" name="Net-(D2023-Pad2)">
+      <node ref="MX2044" pin="2"/>
+      <node ref="D2023" pin="2"/>
+    </net>
+    <net code="223" name="Net-(D2022-Pad2)">
+      <node ref="MX2042" pin="2"/>
+      <node ref="D2022" pin="2"/>
+    </net>
+    <net code="224" name="Net-(D2021-Pad2)">
+      <node ref="MX2040" pin="2"/>
+      <node ref="D2021" pin="2"/>
+    </net>
+    <net code="225" name="Net-(D2025-Pad2)">
+      <node ref="D2025" pin="2"/>
+      <node ref="MX2048" pin="2"/>
+    </net>
+    <net code="226" name="Net-(D2024-Pad1)">
+      <node ref="D2024" pin="1"/>
+      <node ref="MX2047" pin="2"/>
+    </net>
+    <net code="227" name="Net-(D2024-Pad2)">
+      <node ref="D2024" pin="2"/>
+      <node ref="MX2046" pin="2"/>
+    </net>
+    <net code="228" name="Net-(D2023-Pad1)">
+      <node ref="D2023" pin="1"/>
+      <node ref="MX2045" pin="2"/>
+    </net>
+    <net code="229" name="Net-(D2022-Pad1)">
+      <node ref="MX2043" pin="2"/>
+      <node ref="D2022" pin="1"/>
+    </net>
+    <net code="230" name="Net-(D2025-Pad1)">
+      <node ref="D2025" pin="1"/>
+      <node ref="MX2049" pin="2"/>
+    </net>
+    <net code="231" name="Net-(D2028-Pad1)">
+      <node ref="D2028" pin="1"/>
+      <node ref="MX2055" pin="2"/>
+    </net>
+    <net code="232" name="Net-(D2027-Pad1)">
+      <node ref="D2027" pin="1"/>
+      <node ref="MX2053" pin="2"/>
+    </net>
+    <net code="233" name="Net-(D2029-Pad1)">
+      <node ref="D2029" pin="1"/>
+      <node ref="MX2057" pin="2"/>
+    </net>
+    <net code="234" name="Net-(D2017-Pad2)">
+      <node ref="D2017" pin="2"/>
+      <node ref="MX2032" pin="2"/>
+    </net>
+    <net code="235" name="Net-(D2016-Pad2)">
+      <node ref="MX2030" pin="2"/>
+      <node ref="D2016" pin="2"/>
+    </net>
+    <net code="236" name="Net-(D2015-Pad1)">
+      <node ref="D2015" pin="1"/>
+      <node ref="MX2029" pin="2"/>
+    </net>
+    <net code="237" name="Net-(D2015-Pad2)">
+      <node ref="MX2028" pin="2"/>
+      <node ref="D2015" pin="2"/>
+    </net>
+    <net code="238" name="Net-(D2020-Pad2)">
+      <node ref="MX2038" pin="2"/>
+      <node ref="D2020" pin="2"/>
+    </net>
+    <net code="239" name="Net-(D2019-Pad1)">
+      <node ref="D2019" pin="1"/>
+      <node ref="MX2037" pin="2"/>
+    </net>
+    <net code="240" name="Net-(D2019-Pad2)">
+      <node ref="MX2036" pin="2"/>
+      <node ref="D2019" pin="2"/>
+    </net>
+    <net code="241" name="Net-(D2018-Pad1)">
+      <node ref="MX2035" pin="2"/>
+      <node ref="D2018" pin="1"/>
+    </net>
+    <net code="242" name="Net-(D2018-Pad2)">
+      <node ref="MX2034" pin="2"/>
+      <node ref="D2018" pin="2"/>
+    </net>
+    <net code="243" name="Net-(D2014-Pad1)">
+      <node ref="MX2027" pin="2"/>
+      <node ref="D2014" pin="1"/>
+    </net>
+    <net code="244" name="Net-(D2013-Pad1)">
+      <node ref="D2013" pin="1"/>
+      <node ref="MX2025" pin="2"/>
+    </net>
+    <net code="245" name="Net-(D2014-Pad2)">
+      <node ref="D2014" pin="2"/>
+      <node ref="MX2026" pin="2"/>
+    </net>
+    <net code="246" name="Net-(D2013-Pad2)">
+      <node ref="D2013" pin="2"/>
+      <node ref="MX2024" pin="2"/>
+    </net>
+    <net code="247" name="Net-(D2012-Pad1)">
+      <node ref="MX2023" pin="2"/>
+      <node ref="D2012" pin="1"/>
+    </net>
+    <net code="248" name="Net-(D2012-Pad2)">
+      <node ref="MX2022" pin="2"/>
+      <node ref="D2012" pin="2"/>
+    </net>
+    <net code="249" name="Net-(D2043-Pad1)">
+      <node ref="MX2088" pin="2"/>
+      <node ref="D2043" pin="1"/>
+    </net>
+    <net code="250" name="Net-(D2045-Pad1)">
+      <node ref="D2045" pin="1"/>
+      <node ref="MX2092" pin="2"/>
+    </net>
+    <net code="251" name="Net-(D2045-Pad2)">
+      <node ref="MX2091" pin="2"/>
+      <node ref="D2045" pin="2"/>
+    </net>
+    <net code="252" name="Net-(D2044-Pad1)">
+      <node ref="D2044" pin="1"/>
+      <node ref="MX2090" pin="2"/>
+    </net>
+    <net code="253" name="Net-(D2046-Pad1)">
+      <node ref="MX2094" pin="2"/>
+      <node ref="D2046" pin="1"/>
+    </net>
+    <net code="254" name="Net-(D2042-Pad1)">
+      <node ref="D2042" pin="1"/>
+      <node ref="MX2086" pin="2"/>
+    </net>
+    <net code="255" name="Net-(D2042-Pad2)">
+      <node ref="MX2085" pin="2"/>
+      <node ref="D2042" pin="2"/>
+    </net>
+    <net code="256" name="Net-(D2041-Pad1)">
+      <node ref="D2041" pin="1"/>
+      <node ref="MX2084" pin="2"/>
+    </net>
+    <net code="257" name="Net-(D2040-Pad1)">
+      <node ref="D2040" pin="1"/>
+      <node ref="MX2082" pin="2"/>
+    </net>
+    <net code="258" name="Net-(D2047-Pad1)">
+      <node ref="D2047" pin="1"/>
+      <node ref="MX2096" pin="2"/>
+    </net>
+    <net code="259" name="Net-(D2036-Pad2)">
+      <node ref="D2036" pin="2"/>
+      <node ref="MX2071" pin="2"/>
+    </net>
+    <net code="260" name="Net-(D2035-Pad1)">
+      <node ref="D2035" pin="1"/>
+      <node ref="MX2070" pin="2"/>
+    </net>
+    <net code="261" name="Net-(D2035-Pad2)">
+      <node ref="MX2069" pin="2"/>
+      <node ref="D2035" pin="2"/>
+    </net>
+    <net code="262" name="Net-(D2034-Pad1)">
+      <node ref="MX2068" pin="2"/>
+      <node ref="D2034" pin="1"/>
+    </net>
+    <net code="263" name="Net-(D2034-Pad2)">
+      <node ref="MX2067" pin="2"/>
+      <node ref="D2034" pin="2"/>
+    </net>
+    <net code="264" name="Net-(D2033-Pad1)">
+      <node ref="D2033" pin="1"/>
+      <node ref="MX2066" pin="2"/>
+    </net>
+    <net code="265" name="Net-(D2038-Pad1)">
+      <node ref="D2038" pin="1"/>
+      <node ref="MX2077" pin="2"/>
+    </net>
+    <net code="266" name="Net-(D2038-Pad2)">
+      <node ref="MX2076" pin="2"/>
+      <node ref="D2038" pin="2"/>
+    </net>
+    <net code="267" name="Net-(D2037-Pad1)">
+      <node ref="D2037" pin="1"/>
+      <node ref="MX2075" pin="2"/>
+    </net>
+    <net code="268" name="Net-(D2037-Pad2)">
+      <node ref="D2037" pin="2"/>
+      <node ref="MX2074" pin="2"/>
+    </net>
+    <net code="269" name="Net-(D2033-Pad2)">
+      <node ref="MX2065" pin="2"/>
+      <node ref="D2033" pin="2"/>
+    </net>
+    <net code="270" name="Net-(D2032-Pad2)">
+      <node ref="MX2063" pin="2"/>
+      <node ref="D2032" pin="2"/>
+    </net>
+    <net code="271" name="Net-(D2031-Pad2)">
+      <node ref="MX2061" pin="2"/>
+      <node ref="D2031" pin="2"/>
+    </net>
+    <net code="272" name="Net-(MX2099-Pad4)">
+      <node ref="MX2111" pin="4"/>
+      <node ref="R2096" pin="2"/>
+      <node ref="MX2099" pin="4"/>
+    </net>
+    <net code="273" name="Net-(MX2097-Pad4)">
+      <node ref="R2094" pin="2"/>
+      <node ref="MX2097" pin="4"/>
+      <node ref="MX2110" pin="4"/>
+    </net>
+    <net code="274" name="Net-(D2051-Pad1)">
+      <node ref="MX2114" pin="2"/>
+      <node ref="MX2104" pin="2"/>
+      <node ref="D2051" pin="1"/>
+    </net>
+    <net code="275" name="Net-(MX2104-Pad4)">
+      <node ref="R2100" pin="2"/>
+      <node ref="MX2104" pin="4"/>
+      <node ref="MX2114" pin="4"/>
+    </net>
+    <net code="276" name="Net-(D2049-Pad1)">
+      <node ref="D2049" pin="1"/>
+      <node ref="MX2112" pin="2"/>
+      <node ref="MX2115" pin="2"/>
+      <node ref="MX2100" pin="2"/>
+    </net>
+    <net code="277" name="Net-(MX2100-Pad4)">
+      <node ref="MX2100" pin="4"/>
+      <node ref="R2106" pin="2"/>
+      <node ref="MX2112" pin="4"/>
+    </net>
+    <net code="278" name="Net-(D2003-Pad2)">
+      <node ref="D2003" pin="2"/>
+      <node ref="MX2005" pin="2"/>
+    </net>
+    <net code="279" name="Net-(D2009-Pad2)">
+      <node ref="D2009" pin="2"/>
+      <node ref="MX2016" pin="2"/>
+    </net>
+    <net code="280" name="Net-(D2007-Pad1)">
+      <node ref="D2007" pin="1"/>
+    </net>
+    <net code="281" name="Net-(D2008-Pad2)">
+      <node ref="MX2014" pin="2"/>
+      <node ref="D2008" pin="2"/>
+    </net>
+    <net code="282" name="Net-(D2010-Pad1)">
+      <node ref="MX2019" pin="2"/>
+      <node ref="D2010" pin="1"/>
+    </net>
+    <net code="283" name="Net-(D2010-Pad2)">
+      <node ref="MX2018" pin="2"/>
+      <node ref="D2010" pin="2"/>
+    </net>
+    <net code="284" name="Net-(D2011-Pad1)">
+      <node ref="D2011" pin="1"/>
+      <node ref="MX2021" pin="2"/>
+    </net>
+  </nets>
+</export>
