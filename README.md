@@ -3,6 +3,9 @@
 
  # Prototypes have been ordered and I will update the repo once they have been confirmed working. Until then, I do not recommend ordering or forking this repo - it is untested and may have physical compatibility or electrical issues!
 
+ |![pcb_bottom](img/e80-1800-silk.jpg)|![pcb_top](img/E80-1800-controller.jpg)|
+|:----------------------------------------:|:----------------------------------------:|
+
 ## Features
  - USB-C (you have to widen the cable hole in the case with a file or similar)
  - Full ESD protection
