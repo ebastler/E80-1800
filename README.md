@@ -1,14 +1,15 @@
 # E80-1800
  QMK compatible USB-C PCB for a Cherry G80-1800
 
- # This PCB is still work in progress and should not be ordered/manufactured in the current state - it will not work as intended and probably not even fit in the case! I will update the repo once it is tested and confirmed to be working!
+ # Prototypes have been ordered and I will update the repo once they have been confirmed working. Until then, I do not recommend ordering or forking this repo - it is untested and may have physical compatibility or electrical issues!
 
 ## Features
  - USB-C (you have to widen the cable hole in the case with a file or similar)
+ - Full ESD protection
  - Future-proof STM32F072 with QMK
  - Optional I²C OLED screen in the card-reader-hole on card-reader G80-1800 models
  - SPI header for Bluetooth LE - software support may or may not follow (currently not supported by QMK)
- - Header to connect an optional battery management daughterboard (yet to design)
+ - Header to connect an optional battery management daughterboard
  - Single color dimmable backlight (3 mm LEDs)
 
 ## Supported layouts
