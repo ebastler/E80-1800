@@ -14,6 +14,7 @@
  - SPI header for Bluetooth LE - software support may or may not follow (currently not supported by QMK)
  - Header to connect an optional battery management daughterboard
  - Single color dimmable backlight (3 mm LEDs)
+ - White silk background below caps, in order to hide the green soldermask on plateless builds (jlcpcb only assembles green PCBs)
 
 ## Supported layouts
  - Full ISO and ANSI support
