@@ -1,9 +1,9 @@
 # E80-1800
  QMK compatible USB-C PCB for a Cherry G80-1800
 
- # Prototypes have been ordered and I will update the repo once they have been confirmed working. Until then, I do not recommend ordering or forking this repo - it is untested and may have physical compatibility or electrical issues!
+ # The first prototype has been built and fits and works. Tolerance issue with posts in the bottom part of the PCB - you might have to snap them off on some G80 models (they are not needed with this PCB anyway). I will upload a fixed revision these days.
 
- |![pcb_bottom](img/e80-1800-silk.jpg)|![pcb_top](img/E80-1800-controller.jpg)|
+|![pcb_bottom](img/e80-1800-silk.jpg)|![pcb_top](img/E80-1800-controller.jpg)|
 |:----------------------------------------:|:----------------------------------------:|
 
 ## Features
