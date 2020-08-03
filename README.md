@@ -16,6 +16,8 @@
  - Single color dimmable backlight (3 mm LEDs)
  - White silk background below caps, in order to hide the green soldermask on plateless builds (jlcpcb only assembles green PCBs)
 
+ The temporary firmware repo can be found here, pull request to QMK will be done once the project is complete: https://github.com/ebastler/qmk_firmware/tree/E80_1800/keyboards/ebastler/E80_1800
+
 ## Supported layouts
  - Full ISO and ANSI support
  - 1 - 1 - 1 - 6 - 1 - 1 - 1 bottom row (with flipped or regular spacebar)
