@@ -1,4 +1,4 @@
-19152095617971592
+19163287977256593
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -84167,6 +84167,55 @@ varistor SIOV
 0
 2
 2
+kicad-keyboard-parts
+CP_EIA-3216-18_Kemet-A_stealth
+Tantalum Capacitor SMD Kemet-A (3216-18 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+kicad-keyboard-parts
+C_0402_1005Metric_stealth
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+kicad-keyboard-parts
+C_0603_1608Metric_stealth
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+kicad-keyboard-parts
+ESP3020
+ECE ESP3020 SMD slide switch
+slide switch smd ece
+0
+3
+3
+kicad-keyboard-parts
+R_0402_1005Metric_stealth
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+kicad-keyboard-parts
+R_0603_1608Metric_stealth
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+kicad-keyboard-parts
+SOT-23_stealth
+SOT-23, Standard
+SOT-23
+0
+3
+3
 random-keyboard-parts
 D_SOD-123-Pretty
 SOD-123
