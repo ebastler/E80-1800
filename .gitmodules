@@ -4,6 +4,6 @@
 [submodule "E80-1800-pcb-universal/MX_Alps_Hybrid"]
 	path = E80-1800-pcb-universal/MX_Alps_Hybrid
 	url = https://github.com/ai03-2725/MX_Alps_Hybrid
-[submodule "E80-1800-pcb-universal/random-keyboard-parts.pretty"]
-	path = E80-1800-pcb-universal/random-keyboard-parts.pretty
-	url = https://github.com/ai03-2725/random-keyboard-parts.pretty
+[submodule "E80-1800-pcb-universal/kicad-keyboard-parts.pretty"]
+	path = E80-1800-pcb-universal/kicad-keyboard-parts.pretty
+	url = https://github.com/ebastler/kicad-keyboard-parts.pretty
