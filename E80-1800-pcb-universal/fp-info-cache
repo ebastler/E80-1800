@@ -1,4 +1,4 @@
-19281017148162410
+19152095617971592
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -6384,13 +6384,6 @@ jack stereo TRS
 5
 5
 Connector_Audio
-Jack_3.5mm_Neutrik_NMJ6HCD2_Horizontal
-NMJ6HCD2, TRS 1/4in (http://www.neutrik.com/en/audio/plugs-and-jacks/m-series/nmj6hcd2)
-NMJ6HCD2 TRS stereo jack connector
-0
-6
-6
-Connector_Audio
 Jack_3.5mm_PJ311_Horizontal
 PJ311 6pin SMD 3.5mm stereo headphones jack.
 headphones jack plug stereo 3.5mm PJ311
@@ -8085,23 +8078,9 @@ DIN 41612 IEC 60603 B/2
 16
 16
 Connector_DIN
-DIN41612_B2_2x8_Horizontal
-DIN 41612 connector, type B/2, horizontal, 16 pins wide, 2 rows, even columns
-DIN 41512 IEC 60603 B/2
-0
-16
-16
-Connector_DIN
 DIN41612_B2_2x8_Male_Horizontal_THT
 DIN41612 connector, type B/2, Horizontal, 2 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 B/2
-0
-16
-16
-Connector_DIN
-DIN41612_B2_2x8_Vertical
-DIN 41612 connector, type B/2, vertical, 16 pins wide, 2 rows, even columns
-DIN 41512 IEC 60603 B/2
 0
 16
 16
@@ -8113,23 +8092,9 @@ DIN 41612 IEC 60603 B/2
 32
 32
 Connector_DIN
-DIN41612_B2_2x16_Horizontal
-DIN 41612 connector, type B/2, horizontal, 16 pins wide, 2 rows, full configuration
-DIN 41512 IEC 60603 B/2
-0
-32
-32
-Connector_DIN
 DIN41612_B2_2x16_Male_Horizontal_THT
 DIN41612 connector, type B/2, Horizontal, 2 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 B/2
-0
-32
-32
-Connector_DIN
-DIN41612_B2_2x16_Vertical
-DIN 41612 connector, type B/2, vertical, 16 pins wide, 2 rows, full configuration
-DIN 41512 IEC 60603 B/2
 0
 32
 32
@@ -8141,23 +8106,9 @@ DIN 41612 IEC 60603 B/3
 10
 10
 Connector_DIN
-DIN41612_B3_2x5_Horizontal
-DIN 41612 connector, type B/3, horizontal, 10 pins wide, 2 rows, even columns
-DIN 41512 IEC 60603 B/3
-0
-10
-10
-Connector_DIN
 DIN41612_B3_2x5_Male_Horizontal_THT
 DIN41612 connector, type B/3, Horizontal, 2 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 B/3
-0
-10
-10
-Connector_DIN
-DIN41612_B3_2x5_Vertical
-DIN 41612 connector, type B/3, vertical, 10 pins wide, 2 rows, even columns
-DIN 41512 IEC 60603 B/3
 0
 10
 10
@@ -8169,23 +8120,9 @@ DIN 41612 IEC 60603 B/3
 20
 20
 Connector_DIN
-DIN41612_B3_2x10_Horizontal
-DIN 41612 connector, type B/3, horizontal, 10 pins wide, 2 rows, full configuration
-DIN 41512 IEC 60603 B/3
-0
-20
-20
-Connector_DIN
 DIN41612_B3_2x10_Male_Horizontal_THT
 DIN41612 connector, type B/3, Horizontal, 2 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 B/3
-0
-20
-20
-Connector_DIN
-DIN41612_B3_2x10_Vertical
-DIN 41612 connector, type B/3, vertical, 10 pins wide, 2 rows, full configuration
-DIN 41512 IEC 60603 B/3
 0
 20
 20
@@ -8211,23 +8148,9 @@ DIN 41612 IEC 60603 B
 32
 32
 Connector_DIN
-DIN41612_B_2x16_Horizontal
-DIN 41612 connector, type B, horizontal, 32 pins wide, 2 rows, even columns
-DIN 41512 IEC 60603 B
-0
-32
-32
-Connector_DIN
 DIN41612_B_2x16_Male_Horizontal_THT
 DIN41612 connector, type B, Horizontal, 2 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 B
-0
-32
-32
-Connector_DIN
-DIN41612_B_2x16_Vertical
-DIN 41612 connector, type B, vertical, 32 pins wide, 2 rows, even columns
-DIN 41512 IEC 60603 B
 0
 32
 32
@@ -8239,23 +8162,9 @@ DIN 41612 IEC 60603 B
 64
 64
 Connector_DIN
-DIN41612_B_2x32_Horizontal
-DIN 41612 connector, type B, horizontal, 32 pins wide, 2 rows, full configuration
-DIN 41512 IEC 60603 B
-0
-64
-64
-Connector_DIN
 DIN41612_B_2x32_Male_Horizontal_THT
 DIN41612 connector, type B, Horizontal, 2 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 B
-0
-64
-64
-Connector_DIN
-DIN41612_B_2x32_Vertical
-DIN 41612 connector, type B, vertical, 32 pins wide, 2 rows, full configuration
-DIN 41512 IEC 60603 B
 0
 64
 64
@@ -12313,13 +12222,6 @@ Through hole horizontal IDC box header THT 2x05 2.54mm double row
 10
 10
 Connector_IDC
-IDC-Header_2x05_P2.54mm_Horizontal_Lock
-Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
-connector idc locked
-0
-12
-10
-Connector_IDC
 IDC-Header_2x05_P2.54mm_Latch6.5mm_Vertical
 Through hole IDC header, 2x05, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, 6.5mm latches, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
 Through hole vertical IDC header THT 2x05 2.54mm double row
@@ -12360,13 +12262,6 @@ Through hole IDC box header, 2x05, 2.54mm pitch, DIN 41651 / IEC 60603-13, doubl
 Through hole vertical IDC box header THT 2x05 2.54mm double row
 0
 10
-10
-Connector_IDC
-IDC-Header_2x05_P2.54mm_Vertical_Lock
-Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
-connector idc locked
-0
-12
 10
 Connector_IDC
 IDC-Header_2x06-1MP_P2.54mm_Latch6.5mm_Vertical
@@ -12544,13 +12439,6 @@ Through hole vertical IDC box header THT 2x07 2.54mm double row
 14
 14
 Connector_IDC
-IDC-Header_2x07_P2.54mm_Vertical_Lock
-Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
-connector idc locked
-0
-16
-14
-Connector_IDC
 IDC-Header_2x08-1MP_P2.54mm_Latch6.5mm_Vertical
 Through hole IDC header, 2x08, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, 6.5mm latches, mounting holes, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
 Through hole vertical IDC header THT 2x08 2.54mm double row
@@ -12591,13 +12479,6 @@ Through hole IDC box header, 2x08, 2.54mm pitch, DIN 41651 / IEC 60603-13, doubl
 Through hole horizontal IDC box header THT 2x08 2.54mm double row
 0
 16
-16
-Connector_IDC
-IDC-Header_2x08_P2.54mm_Horizontal_Lock
-Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
-connector idc locked
-0
-18
 16
 Connector_IDC
 IDC-Header_2x08_P2.54mm_Latch6.5mm_Vertical
@@ -12642,13 +12523,6 @@ Through hole vertical IDC box header THT 2x08 2.54mm double row
 16
 16
 Connector_IDC
-IDC-Header_2x08_P2.54mm_Vertical_Lock
-Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
-connector idc locked
-0
-18
-16
-Connector_IDC
 IDC-Header_2x10-1MP_P2.54mm_Latch6.5mm_Vertical
 Through hole IDC header, 2x10, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, 6.5mm latches, mounting holes, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
 Through hole vertical IDC header THT 2x10 2.54mm double row
@@ -12691,13 +12565,6 @@ Through hole horizontal IDC box header THT 2x10 2.54mm double row
 20
 20
 Connector_IDC
-IDC-Header_2x10_P2.54mm_Horizontal_Lock
-Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
-connector idc locked
-0
-22
-20
-Connector_IDC
 IDC-Header_2x10_P2.54mm_Latch6.5mm_Vertical
 Through hole IDC header, 2x10, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, 6.5mm latches, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
 Through hole vertical IDC header THT 2x10 2.54mm double row
@@ -12738,13 +12605,6 @@ Through hole IDC box header, 2x10, 2.54mm pitch, DIN 41651 / IEC 60603-13, doubl
 Through hole vertical IDC box header THT 2x10 2.54mm double row
 0
 20
-20
-Connector_IDC
-IDC-Header_2x10_P2.54mm_Vertical_Lock
-Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
-connector idc locked
-0
-22
 20
 Connector_IDC
 IDC-Header_2x12-1MP_P2.54mm_Latch6.5mm_Vertical
@@ -12873,13 +12733,6 @@ Through hole horizontal IDC box header THT 2x13 2.54mm double row
 26
 26
 Connector_IDC
-IDC-Header_2x13_P2.54mm_Horizontal_Lock
-Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
-connector idc locked
-0
-28
-26
-Connector_IDC
 IDC-Header_2x13_P2.54mm_Latch6.5mm_Vertical
 Through hole IDC header, 2x13, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, 6.5mm latches, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
 Through hole vertical IDC header THT 2x13 2.54mm double row
@@ -12920,13 +12773,6 @@ Through hole IDC box header, 2x13, 2.54mm pitch, DIN 41651 / IEC 60603-13, doubl
 Through hole vertical IDC box header THT 2x13 2.54mm double row
 0
 26
-26
-Connector_IDC
-IDC-Header_2x13_P2.54mm_Vertical_Lock
-Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
-connector idc locked
-0
-28
 26
 Connector_IDC
 IDC-Header_2x15-1MP_P2.54mm_Latch6.5mm_Vertical
@@ -13055,13 +12901,6 @@ Through hole horizontal IDC box header THT 2x17 2.54mm double row
 34
 34
 Connector_IDC
-IDC-Header_2x17_P2.54mm_Horizontal_Lock
-Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
-connector idc locked
-0
-36
-34
-Connector_IDC
 IDC-Header_2x17_P2.54mm_Latch6.5mm_Vertical
 Through hole IDC header, 2x17, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, 6.5mm latches, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
 Through hole vertical IDC header THT 2x17 2.54mm double row
@@ -13102,13 +12941,6 @@ Through hole IDC box header, 2x17, 2.54mm pitch, DIN 41651 / IEC 60603-13, doubl
 Through hole vertical IDC box header THT 2x17 2.54mm double row
 0
 34
-34
-Connector_IDC
-IDC-Header_2x17_P2.54mm_Vertical_Lock
-Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
-connector idc locked
-0
-36
 34
 Connector_IDC
 IDC-Header_2x20-1MP_P2.54mm_Latch6.5mm_Vertical
@@ -13153,13 +12985,6 @@ Through hole horizontal IDC box header THT 2x20 2.54mm double row
 40
 40
 Connector_IDC
-IDC-Header_2x20_P2.54mm_Horizontal_Lock
-Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
-connector idc locked
-0
-42
-41
-Connector_IDC
 IDC-Header_2x20_P2.54mm_Latch6.5mm_Vertical
 Through hole IDC header, 2x20, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, 6.5mm latches, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
 Through hole vertical IDC header THT 2x20 2.54mm double row
@@ -13200,13 +13025,6 @@ Through hole IDC box header, 2x20, 2.54mm pitch, DIN 41651 / IEC 60603-13, doubl
 Through hole vertical IDC box header THT 2x20 2.54mm double row
 0
 40
-40
-Connector_IDC
-IDC-Header_2x20_P2.54mm_Vertical_Lock
-Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
-connector idc locked
-0
-42
 40
 Connector_IDC
 IDC-Header_2x25-1MP_P2.54mm_Latch6.5mm_Vertical
@@ -13293,13 +13111,6 @@ Through hole vertical IDC box header THT 2x25 2.54mm double row
 50
 50
 Connector_IDC
-IDC-Header_2x25_P2.54mm_Vertical_Lock
-Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
-connector idc locked
-0
-52
-50
-Connector_IDC
 IDC-Header_2x30-1MP_P2.54mm_Latch6.5mm_Vertical
 Through hole IDC header, 2x30, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, 6.5mm latches, mounting holes, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
 Through hole vertical IDC header THT 2x30 2.54mm double row
@@ -13384,13 +13195,6 @@ Through hole vertical IDC box header THT 2x30 2.54mm double row
 60
 60
 Connector_IDC
-IDC-Header_2x30_P2.54mm_Vertical_Lock
-Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
-connector idc locked
-0
-62
-60
-Connector_IDC
 IDC-Header_2x32-1MP_P2.54mm_Latch6.5mm_Vertical
 Through hole IDC header, 2x32, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, 6.5mm latches, mounting holes, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
 Through hole vertical IDC header THT 2x32 2.54mm double row
@@ -13473,13 +13277,6 @@ Through hole IDC box header, 2x32, 2.54mm pitch, DIN 41651 / IEC 60603-13, doubl
 Through hole vertical IDC box header THT 2x32 2.54mm double row
 0
 64
-64
-Connector_IDC
-IDC-Header_2x32_P2.54mm_Vertical_Lock
-Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
-connector idc locked
-0
-66
 64
 Connector_JAE
 JAE_LY20-4P-DLT1_2x02_P2.00mm_Horizontal
@@ -21888,139 +21685,6 @@ connector Molex SlimStack side entry
 0
 80
 80
-Connector_Multicomp
-Multicomp_MC9A12-1034_2x05_P2.54mm_Vertical
-http://www.farnell.com/datasheets/1520732.pdf
-connector multicomp MC9A MC9A12
-0
-10
-10
-Connector_Multicomp
-Multicomp_MC9A12-1434_2x07_P2.54mm_Vertical
-http://www.farnell.com/datasheets/1520732.pdf
-connector multicomp MC9A MC9A12
-0
-14
-14
-Connector_Multicomp
-Multicomp_MC9A12-1634_2x08_P2.54mm_Vertical
-http://www.farnell.com/datasheets/1520732.pdf
-connector multicomp MC9A MC9A12
-0
-16
-16
-Connector_Multicomp
-Multicomp_MC9A12-2034_2x10_P2.54mm_Vertical
-http://www.farnell.com/datasheets/1520732.pdf
-connector multicomp MC9A MC9A12
-0
-20
-20
-Connector_Multicomp
-Multicomp_MC9A12-2634_2x13_P2.54mm_Vertical
-http://www.farnell.com/datasheets/1520732.pdf
-connector multicomp MC9A MC9A12
-0
-26
-26
-Connector_Multicomp
-Multicomp_MC9A12-3434_2x17_P2.54mm_Vertical
-http://www.farnell.com/datasheets/1520732.pdf
-connector multicomp MC9A MC9A12
-0
-34
-34
-Connector_Multicomp
-Multicomp_MC9A12-4034_2x20_P2.54mm_Vertical
-http://www.farnell.com/datasheets/1520732.pdf
-connector multicomp MC9A MC9A12
-0
-40
-40
-Connector_Multicomp
-Multicomp_MC9A12-5034_2x25_P2.54mm_Vertical
-http://www.farnell.com/datasheets/1520732.pdf
-connector multicomp MC9A MC9A12
-0
-50
-50
-Connector_Multicomp
-Multicomp_MC9A12-6034_2x30_P2.54mm_Vertical
-http://www.farnell.com/datasheets/1520732.pdf
-connector multicomp MC9A MC9A12
-0
-60
-60
-Connector_Multicomp
-Multicomp_MC9A12-6434_2x32_P2.54mm_Vertical
-http://www.farnell.com/datasheets/1520732.pdf
-connector multicomp MC9A MC9A12
-0
-64
-64
-Connector_Multicomp
-Multicomp_MC9A22-1034_2x05_P2.54mm_Horizontal
-http://www.farnell.com/cad/360651.pdf
-connector multicomp MC9A MC9A22
-0
-10
-10
-Connector_Multicomp
-Multicomp_MC9A22-1434_2x07_P2.54mm_Horizontal
-http://www.farnell.com/cad/360651.pdf
-connector multicomp MC9A MC9A22
-0
-14
-14
-Connector_Multicomp
-Multicomp_MC9A22-1634_2x08_P2.54mm_Horizontal
-http://www.farnell.com/cad/360651.pdf
-connector multicomp MC9A MC9A22
-0
-16
-16
-Connector_Multicomp
-Multicomp_MC9A22-2034_2x10_P2.54mm_Horizontal
-http://www.farnell.com/cad/360651.pdf
-connector multicomp MC9A MC9A22
-0
-20
-20
-Connector_Multicomp
-Multicomp_MC9A22-2634_2x13_P2.54mm_Horizontal
-http://www.farnell.com/cad/360651.pdf
-connector multicomp MC9A MC9A22
-0
-26
-26
-Connector_Multicomp
-Multicomp_MC9A22-3434_2x17_P2.54mm_Horizontal
-http://www.farnell.com/cad/360651.pdf
-connector multicomp MC9A MC9A22
-0
-34
-34
-Connector_Multicomp
-Multicomp_MC9A22-4034_2x20_P2.54mm_Horizontal
-http://www.farnell.com/cad/360651.pdf
-connector multicomp MC9A MC9A22
-0
-40
-40
-Connector_Multicomp
-Multicomp_MC9A22-5034_2x25_P2.54mm_Horizontal
-http://www.farnell.com/cad/360651.pdf
-connector multicomp MC9A MC9A22
-0
-50
-50
-Connector_Multicomp
-Multicomp_MC9A22-6034_2x30_P2.54mm_Horizontal
-http://www.farnell.com/cad/360651.pdf
-connector multicomp MC9A MC9A22
-0
-60
-60
 Connector_PCBEdge
 4UCON_10156_2x40_P1.27mm_Socket_Horizontal
 4UCON 10156 Card edge socket with 80 contacts (40 each side), through-hole, http://www.4uconnector.com/online/object/4udrawing/10156.pdf
@@ -47187,48 +46851,6 @@ connector wire 2sqmm double-strain-relief
 6
 6
 Connector_Wire
-SolderWirePad_1x01_Drill0.8mm
-Wire solder connection
-connector
-0
-1
-1
-Connector_Wire
-SolderWirePad_1x01_Drill1.2mm
-Wire solder connection
-connector
-0
-1
-1
-Connector_Wire
-SolderWirePad_1x01_Drill1.5mm
-Wire solder connection
-connector
-0
-1
-1
-Connector_Wire
-SolderWirePad_1x01_Drill1mm
-Wire solder connection
-connector
-0
-1
-1
-Connector_Wire
-SolderWirePad_1x01_Drill2.5mm
-Wire solder connection
-connector
-0
-1
-1
-Connector_Wire
-SolderWirePad_1x01_Drill2mm
-Wire solder connection
-connector
-0
-1
-1
-Connector_Wire
 SolderWirePad_1x01_SMD_1x2mm
 Wire Pad, Square, SMD Pad,  5mm x 10mm,
 MesurementPoint Square SMDPad 5mmx10mm 
@@ -47242,174 +46864,6 @@ MesurementPoint Square SMDPad 5mmx10mm
 0
 1
 1
-Connector_Wire
-SolderWirePad_1x02_P3.81mm_Drill0.8mm
-Wire solder connection
-connector
-0
-2
-2
-Connector_Wire
-SolderWirePad_1x02_P3.81mm_Drill1.2mm
-Wire solder connection
-connector
-0
-2
-2
-Connector_Wire
-SolderWirePad_1x02_P3.81mm_Drill1mm
-Wire solder connection
-connector
-0
-2
-2
-Connector_Wire
-SolderWirePad_1x02_P5.08mm_Drill1.5mm
-Wire solder connection
-connector
-0
-2
-2
-Connector_Wire
-SolderWirePad_1x02_P7.62mm_Drill2.5mm
-Wire solder connection
-connector
-0
-2
-2
-Connector_Wire
-SolderWirePad_1x02_P7.62mm_Drill2mm
-Wire solder connection
-connector
-0
-2
-2
-Connector_Wire
-SolderWirePad_1x03_P3.81mm_Drill1.2mm
-Wire solder connection
-connector
-0
-3
-3
-Connector_Wire
-SolderWirePad_1x03_P3.175mm_Drill0.8mm
-Wire solder connection
-connector
-0
-3
-3
-Connector_Wire
-SolderWirePad_1x03_P3.175mm_Drill1mm
-Wire solder connection
-connector
-0
-3
-3
-Connector_Wire
-SolderWirePad_1x03_P4.445mm_Drill1.5mm
-Wire solder connection
-connector
-0
-3
-3
-Connector_Wire
-SolderWirePad_1x03_P5.715mm_Drill2mm
-Wire solder connection
-connector
-0
-3
-3
-Connector_Wire
-SolderWirePad_1x03_P7.62mm_Drill2.5mm
-Wire solder connection
-connector
-0
-3
-3
-Connector_Wire
-SolderWirePad_1x04_P3.81mm_Drill1.2mm
-Wire solder connection
-connector
-0
-4
-4
-Connector_Wire
-SolderWirePad_1x04_P3.81mm_Drill1mm
-Wire solder connection
-connector
-0
-4
-4
-Connector_Wire
-SolderWirePad_1x04_P3.175mm_Drill0.8mm
-Wire solder connection
-connector
-0
-4
-4
-Connector_Wire
-SolderWirePad_1x04_P5.08mm_Drill1.5mm
-Wire solder connection
-connector
-0
-4
-4
-Connector_Wire
-SolderWirePad_1x04_P6.35mm_Drill2mm
-Wire solder connection
-connector
-0
-4
-4
-Connector_Wire
-SolderWirePad_1x04_P7.62mm_Drill2.5mm
-Wire solder connection
-connector
-0
-4
-4
-Connector_Wire
-SolderWirePad_2x02_P2.54mm_Drill0.8mm
-Wire solder connection
-connector
-0
-4
-4
-Connector_Wire
-SolderWirePad_2x02_P3.81mm_Drill1.2mm
-Wire solder connection
-connector
-0
-4
-4
-Connector_Wire
-SolderWirePad_2x02_P3.81mm_Drill1mm
-Wire solder connection
-connector
-0
-4
-4
-Connector_Wire
-SolderWirePad_2x02_P5.08mm_Drill1.5mm
-Wire solder connection
-connector
-0
-4
-4
-Connector_Wire
-SolderWirePad_2x02_P6.35mm_Drill2mm
-Wire solder connection
-connector
-0
-4
-4
-Connector_Wire
-SolderWirePad_2x02_P7.62mm_Drill2.5mm
-Wire solder connection
-connector
-0
-4
-4
 Connector_Wuerth
 Wuerth_WR-WTB_64800211622_1x02_P1.50mm_Vertical
 Wuerth WR-WTB series connector, 64800211622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
@@ -50725,13 +50179,6 @@ Converter_DCDC
 Converter_DCDC_muRata_NMAxxxxSC_THT
 muRata NMAxxxxSC footprint based on SIP7, http://power.murata.com/data/power/ncl/kdc_nma.pdf
 muRata NMAxxxxSC DCDC-Converter
-0
-5
-5
-Converter_DCDC
-Converter_DCDC_muRata_NXE2SxxxxMC_THT
-Isolated 2W Single Output SM DC/DC Converters, http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
-Isolated 2W Single Output SM DC/DC Converters
 0
 5
 5
@@ -62041,13 +61488,6 @@ BGA 381 0.8
 381
 381
 Package_BGA
-Linear_BGA-133_15.0x15.0_Layout12x12_P1.27mm
-Analog Devices (Linear Tech), 133-pin BGA uModule, 15.0x15.0x4.92mm, https://www.analog.com/media/en/technical-documentation/data-sheets/4637fc.pdf
-133 pin bga
-0
-134
-134
-Package_BGA
 Linear_BGA-133_15.0x15.0mm_Layout12x12_P1.27mm
 Analog Devices (Linear Tech), 133-pin BGA uModule, 15.0x15.0x4.92mm, https://www.analog.com/media/en/technical-documentation/data-sheets/4637fc.pdf
 133 pin bga
@@ -64001,13 +63441,6 @@ QFN NoLead
 17
 13
 Package_DFN_QFN
-QFN-14-1EP_1.6x1.6mm_P0.4mm_EP0.74x0.74mm
-QFN, 14 Pin (http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-QFN NoLead
-0
-19
-15
-Package_DFN_QFN
 QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm
 QFN, 16 Pin (https://www.st.com/resource/en/datasheet/tsv521.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
@@ -65394,13 +64827,6 @@ UQFN DFN 0.5 ST
 6
 6
 Package_DFN_QFN
-SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm
-20-Lead Plastic Quad Flat, No Lead Package - 3x3 mm Body [QFN] with corner pads; see figure 8.2 of https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
-QFN 0.5
-0
-25
-21
-Package_DFN_QFN
 SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm
 20-Lead Plastic Quad Flat, No Lead Package - 3x3 mm Body [QFN] with corner pads; see figure 8.2 of https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
 QFN 0.5
@@ -65409,13 +64835,6 @@ QFN 0.5
 21
 Package_DFN_QFN
 SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm_ThermalVias
-20-Lead Plastic Quad Flat, No Lead Package - 3x3 mm Body [QFN] with corner pads and thermal vias; see figure 8.2 of https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
-QFN 0.5
-0
-31
-21
-Package_DFN_QFN
-SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_ThermalVias
 20-Lead Plastic Quad Flat, No Lead Package - 3x3 mm Body [QFN] with corner pads and thermal vias; see figure 8.2 of https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
 QFN 0.5
 0
@@ -68753,13 +68172,6 @@ LGA 28 5.2x3.8mm Pitch 0.5mm
 0
 28
 28
-Package_LGA
-Linear_LGA-133_15.0x15.0_Layout12x12_P1.27mm
-Analog Devices (Linear Tech), 133-pin LGA uModule, 15.0x15.0x4.32mm, https://www.analog.com/media/en/technical-documentation/data-sheets/4637fc.pdf
-133 pin lga
-0
-133
-133
 Package_LGA
 Linear_LGA-133_15.0x15.0mm_Layout12x12_P1.27mm
 Analog Devices (Linear Tech), 133-pin LGA uModule, 15.0x15.0x4.32mm, https://www.analog.com/media/en/technical-documentation/data-sheets/4637fc.pdf

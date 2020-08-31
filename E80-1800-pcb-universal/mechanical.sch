@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:E80-1800-pcb-universal-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -48,14 +47,25 @@ F 3 "~" H 3000 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3001
+L Mechanical:MountingHole H4
 U 1 1 5F3A9BF5
 P 1000 1500
-F 0 "H3001" H 1100 1546 50  0000 L CNN
+F 0 "H4" H 1100 1546 50  0000 L CNN
 F 1 "MountingHole" H 1100 1455 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4mm" H 1000 1500 50  0001 C CNN
 F 3 "~" H 1000 1500 50  0001 C CNN
 	1    1000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5F5E9471
+P 2000 1500
+F 0 "H5" H 2100 1546 50  0000 L CNN
+F 1 "MountingHole" H 2100 1455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 2000 1500 50  0001 C CNN
+F 3 "~" H 2000 1500 50  0001 C CNN
+	1    2000 1500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
