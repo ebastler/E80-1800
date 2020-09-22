@@ -43,10 +43,10 @@ F 3 "" H 8950 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C17
+L Device:C_Small C16
 U 1 1 5E7D4A32
 P 2000 6050
-F 0 "C17" H 1800 6100 50  0000 L CNN
+F 0 "C16" H 1800 6100 50  0000 L CNN
 F 1 "100nF" H 1800 6000 50  0000 L CNN
 F 2 "kicad-keyboard-parts:C_0603_1608Metric_stealth" H 2000 6050 50  0001 C CNN
 F 3 "~" H 2000 6050 50  0001 C CNN
@@ -147,8 +147,6 @@ F 3 "" H 5250 2400 50  0001 C CNN
 	1    5250 2400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6600 2700 6600 2650
 Connection ~ 5800 2700
 Connection ~ 6200 2400
 $Comp
@@ -199,10 +197,10 @@ F 3 "" H 3400 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C10
+L Device:C_Small C9
 U 1 1 5E62B05E
 P 8800 2550
-F 0 "C10" H 8892 2596 50  0000 L CNN
+F 0 "C9" H 8892 2596 50  0000 L CNN
 F 1 "4.7uF" H 8892 2505 50  0000 L CNN
 F 2 "kicad-keyboard-parts:C_0603_1608Metric_stealth" H 8800 2550 50  0001 C CNN
 F 3 "~" H 8800 2550 50  0001 C CNN
@@ -211,10 +209,10 @@ F 4 "C19666" H 8800 2550 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C12
+L Device:C_Small C11
 U 1 1 5E62A663
 P 9600 2550
-F 0 "C12" H 9692 2596 50  0000 L CNN
+F 0 "C11" H 9692 2596 50  0000 L CNN
 F 1 "100nF" H 9692 2505 50  0000 L CNN
 F 2 "kicad-keyboard-parts:C_0603_1608Metric_stealth" H 9600 2550 50  0001 C CNN
 F 3 "~" H 9600 2550 50  0001 C CNN
@@ -223,10 +221,10 @@ F 4 "C14663" H 9600 2550 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C13
+L Device:C_Small C12
 U 1 1 5E62A020
 P 10000 2550
-F 0 "C13" H 10092 2596 50  0000 L CNN
+F 0 "C12" H 10092 2596 50  0000 L CNN
 F 1 "100nF" H 10092 2505 50  0000 L CNN
 F 2 "kicad-keyboard-parts:C_0603_1608Metric_stealth" H 10000 2550 50  0001 C CNN
 F 3 "~" H 10000 2550 50  0001 C CNN
@@ -235,10 +233,10 @@ F 4 "C14663" H 10000 2550 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C9
+L Device:C_Small C8
 U 1 1 5E629144
 P 8200 2550
-F 0 "C9" H 8292 2596 50  0000 L CNN
+F 0 "C8" H 8292 2596 50  0000 L CNN
 F 1 "100nF" H 8292 2505 50  0000 L CNN
 F 2 "kicad-keyboard-parts:C_0603_1608Metric_stealth" H 8200 2550 50  0001 C CNN
 F 3 "~" H 8200 2550 50  0001 C CNN
@@ -247,10 +245,10 @@ F 4 "C14663" H 8200 2550 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C8
+L Device:C_Small C7
 U 1 1 5E627ED9
 P 7650 2550
-F 0 "C8" H 7742 2596 50  0000 L CNN
+F 0 "C7" H 7742 2596 50  0000 L CNN
 F 1 "100nF" H 7742 2505 50  0000 L CNN
 F 2 "kicad-keyboard-parts:C_0603_1608Metric_stealth" H 7650 2550 50  0001 C CNN
 F 3 "~" H 7650 2550 50  0001 C CNN
@@ -283,9 +281,6 @@ Wire Wire Line
 	6200 2450 6200 2400
 Wire Wire Line
 	6200 2650 6200 2700
-Connection ~ 6200 2700
-Wire Wire Line
-	6600 2450 6600 2400
 Wire Notes Line style solid
 	3700 2950 3700 2100
 Wire Notes Line style solid
@@ -330,22 +325,6 @@ Connection ~ 5250 2400
 Wire Wire Line
 	5250 2650 5250 2700
 Connection ~ 5250 2700
-$Comp
-L Device:C_Small C6
-U 1 1 5E758D9A
-P 6600 2550
-F 0 "C6" H 6692 2596 50  0000 L CNN
-F 1 "4.7uF" H 6692 2505 50  0000 L CNN
-F 2 "kicad-keyboard-parts:C_0603_1608Metric_stealth" H 6600 2550 50  0001 C CNN
-F 3 "~" H 6600 2550 50  0001 C CNN
-F 4 "C19666" H 6600 2550 50  0001 C CNN "LCSC"
-	1    6600 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6200 2400 6600 2400
-Wire Wire Line
-	6200 2700 6600 2700
 Wire Wire Line
 	5800 2700 6200 2700
 Wire Wire Line
@@ -368,10 +347,10 @@ F 3 "" H 1300 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C15
+L Device:C_Small C14
 U 1 1 5E73CE8B
 P 1300 4450
-F 0 "C15" H 1392 4496 50  0000 L CNN
+F 0 "C14" H 1392 4496 50  0000 L CNN
 F 1 "100nF" H 1392 4405 50  0000 L CNN
 F 2 "kicad-keyboard-parts:C_0603_1608Metric_stealth" H 1300 4450 50  0001 C CNN
 F 3 "~" H 1300 4450 50  0001 C CNN
@@ -477,10 +456,10 @@ F 4 "C25819" H 1000 5550 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C16
+L Device:C_Small C15
 U 1 1 5E8EC668
 P 1250 5550
-F 0 "C16" H 1342 5596 50  0000 L CNN
+F 0 "C15" H 1342 5596 50  0000 L CNN
 F 1 "100nF" H 1342 5505 50  0000 L CNN
 F 2 "kicad-keyboard-parts:C_0603_1608Metric_stealth" H 1250 5550 50  0001 C CNN
 F 3 "~" H 1250 5550 50  0001 C CNN
@@ -713,10 +692,10 @@ LED_PWM
 Wire Wire Line
 	4750 5050 4200 5050
 $Comp
-L Device:C_Small C11
+L Device:C_Small C10
 U 1 1 5F6736E1
 P 9200 2550
-F 0 "C11" H 9292 2596 50  0000 L CNN
+F 0 "C10" H 9292 2596 50  0000 L CNN
 F 1 "100nF" H 9292 2505 50  0000 L CNN
 F 2 "kicad-keyboard-parts:C_0603_1608Metric_stealth" H 9200 2550 50  0001 C CNN
 F 3 "~" H 9200 2550 50  0001 C CNN
@@ -1161,10 +1140,10 @@ RST
 Wire Wire Line
 	2700 3750 2700 4150
 $Comp
-L Device:C_Small C14
+L Device:C_Small C13
 U 1 1 5E638A0E
 P 1300 3850
-F 0 "C14" H 1392 3896 50  0000 L CNN
+F 0 "C13" H 1392 3896 50  0000 L CNN
 F 1 "100nF" H 1392 3805 50  0000 L CNN
 F 2 "kicad-keyboard-parts:C_0603_1608Metric_stealth" H 1300 3850 50  0001 C CNN
 F 3 "~" H 1300 3850 50  0001 C CNN
@@ -1390,10 +1369,10 @@ Wire Wire Line
 	4050 2700 4050 2650
 Connection ~ 4450 2700
 $Comp
-L Device:C_Small C7
+L Device:C_Small C6
 U 1 1 5F6AB442
 P 7250 2550
-F 0 "C7" H 7342 2596 50  0000 L CNN
+F 0 "C6" H 7342 2596 50  0000 L CNN
 F 1 "4.7uF" H 7342 2505 50  0000 L CNN
 F 2 "kicad-keyboard-parts:C_0603_1608Metric_stealth" H 7250 2550 50  0001 C CNN
 F 3 "~" H 7250 2550 50  0001 C CNN
