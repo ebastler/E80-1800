@@ -1,7 +1,7 @@
 # E80-1800
  QMK compatible USB-C PCB for a Cherry G80-1800
 
- # The first prototype has been built and fits and works. Tolerance issue with posts in the bottom part of the PCB - you might have to snap them off on some G80 models (they are not needed with this PCB anyway). I will upload a fixed revision these days.
+ The first prototype has been built and fits and works. A new revision has been uploaded which should fix all tolerance issues, and now fit all G80-1800 (and as far as I know alos G81-1800) enclosures. I can, however, not guarantee perfect operation of the PCB or compatibility with every enclosure variation - if you encounter any issues, please let me know.
 
 |![pcb_bottom](img/e80-1800-silk.jpg)|![pcb_top](img/E80-1800-controller.jpg)|
 |:----------------------------------------:|:----------------------------------------:|
@@ -25,6 +25,6 @@
  - Stepped and regular caps lock
 
 ## Thanks to
- - [Maartenwut](https://github.com/Maartenwut) for supplying me with his [GH80-1800 drop in replacement PCB](https://geekhack.org/index.php?topic=96692.0) layout, which I could use for dimensions and measurements - saved me a lot of time! Even if I ended up redrawing the dimensions from scratch and changing a few, being able to use his as a starting point was a lot of help.
+ - [Evy](https://github.com/evyd13) for supplying me with her [GH80-1800 drop in replacement PCB](https://geekhack.org/index.php?topic=96692.0) layout, which I could use for dimensions and measurements - saved me a lot of time! Even if I ended up redrawing the dimensions from scratch and changing a few, being able to use his as a starting point was a lot of help.
  - SMOKEY for motivating me once I lost the will to continue with the project
  - MarvFPV for helping me with the physical PCB dimensions and supplying me with valuable ideas
