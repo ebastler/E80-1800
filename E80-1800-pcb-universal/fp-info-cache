@@ -1,4 +1,4 @@
-19134576614619774
+19140979700709348
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -84167,6 +84167,20 @@ varistor SIOV
 0
 2
 2
+keygem_branding
+keygem_logo_mask_15
+
+
+0
+0
+0
+keygem_branding
+keygem_logo_silk_15
+
+
+0
+0
+0
 kicad-keyboard-parts
 CP_EIA-3216-18_Kemet-A_stealth
 Tantalum Capacitor SMD Kemet-A (3216-18 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
@@ -84217,6 +84231,13 @@ SOT-23
 3
 3
 logo-branding
+logo_mask_15
+
+
+0
+0
+0
+logo-branding
 logo_mask_20
 
 
@@ -84232,6 +84253,13 @@ logo_mask_25
 0
 logo-branding
 logo_mask_35
+
+
+0
+0
+0
+logo-branding
+logo_silk_15
 
 
 0
