@@ -400,8 +400,6 @@ F 4 "" H 900 4350 50  0001 C CNN "LCSC"
 	1    900  4350
 	1    0    0    -1  
 $EndComp
-Text Notes 7450 8000 0    50   ~ 0
-Isometria⁷⁵ - 75% blocked ISO layout keyboard
 $Comp
 L Connector_Generic:Conn_01x08 J1
 U 1 1 5E674686
@@ -531,12 +529,6 @@ Wire Wire Line
 	4450 2450 4450 2400
 Wire Wire Line
 	4450 2400 4850 2400
-$Sheet
-S 9550 650  1500 450 
-U 5ECF9838
-F0 "E80-1800-Matrix" 50
-F1 "E80-1800-Matrix.sch" 50
-$EndSheet
 $Comp
 L MCU_ST_STM32F0:STM32F072RBTx U3
 U 1 1 5ED09C87
@@ -1576,4 +1568,10 @@ Wire Wire Line
 	1050 2500 1750 2500
 Connection ~ 1050 2500
 Connection ~ 1750 2500
+$Sheet
+S 9550 650  1500 450 
+U 5ECF9838
+F0 "E80-1800-Matrix" 50
+F1 "E80-1800-Matrix.sch" 50
+$EndSheet
 $EndSCHEMATC
