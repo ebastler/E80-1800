@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 1096)
+    (drawings 1097)
     (tracks 2858)
     (zones 0)
     (modules 331)
@@ -667,7 +667,7 @@
   )
 
   (module keygem_branding:keygem_logo_mask_15 (layer B.Cu) (tedit 0) (tstamp 5F6A8D81)
-    (at 183.368 18.481992 180)
+    (at 183.410992 19.061043 180)
     (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
@@ -13574,8 +13574,9 @@
     )
   )
 
-  (gr_line (start 195.410992 23.065917) (end 203.410992 15.065917) (layer B.Mask) (width 0.5))
-  (gr_line (start 195.410992 15.065917) (end 203.410992 23.065917) (layer B.Mask) (width 0.5))
+  (gr_line (start 170.410992 12.549992) (end 170.410992 25.049992) (layer B.Mask) (width 0.6))
+  (gr_line (start 194.397962 23.065917) (end 202.397962 15.065917) (layer B.Mask) (width 0.6))
+  (gr_line (start 194.397962 15.065917) (end 202.397962 23.065917) (layer B.Mask) (width 0.6))
   (gr_text BOOT (at 84.34139 116.5015) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -13611,7 +13612,7 @@
   (gr_line (start 80 126.6) (end 79.985992 128.586992) (layer Edge.Cuts) (width 0.05) (tstamp 5F4DD116))
   (gr_line (start 307.561992 126.6) (end 307.561992 129) (layer Edge.Cuts) (width 0.05) (tstamp 5F4DC71C))
   (gr_line (start 311.561992 126.6) (end 311.561992 129) (layer Edge.Cuts) (width 0.05) (tstamp 5F4DC71B))
-  (gr_text "E80-1800 KEYGEM-Edition r1\ngithub.com/ebastler/E80-1800\nKEYGEM.store\nmpwr.xyz" (at 173.368 18.930917) (layer B.Mask) (tstamp 5F6A8D8C)
+  (gr_text "E80-1800 KEYGEM-Edition r1\ngithub.com/ebastler/E80-1800\nKEYGEM.store\nmpwr.xyz" (at 169.660992 18.930917) (layer B.Mask) (tstamp 5F6A8D8C)
     (effects (font (size 2 2) (thickness 0.3)) (justify left mirror))
   )
   (gr_line (start 69.6 117) (end 73.2 119) (layer F.SilkS) (width 0.15))
