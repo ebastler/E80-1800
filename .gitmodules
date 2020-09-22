@@ -7,3 +7,6 @@
 [submodule "E80-1800-pcb-universal/kicad-keyboard-parts.pretty"]
 	path = E80-1800-pcb-universal/kicad-keyboard-parts.pretty
 	url = https://github.com/ebastler/kicad-keyboard-parts.pretty
+[submodule "E80-1800-pcb-universal/logo-branding"]
+	path = E80-1800-pcb-universal/logo-branding
+	url = https://github.com/ebastler/logo-branding.git
