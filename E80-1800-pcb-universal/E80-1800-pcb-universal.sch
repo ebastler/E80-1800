@@ -787,7 +787,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 2600 3400 2500
 Wire Wire Line
-	2750 2500 3400 2500
+	2750 2500 2900 2500
 Wire Wire Line
 	1650 1750 1950 1750
 Wire Wire Line
@@ -870,10 +870,10 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1200 16
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Small D1
+L Device:LED_Small D2
 U 1 1 5F118BDD
 P 7250 3650
-F 0 "D1" V 7296 3580 50  0000 R CNN
+F 0 "D2" V 7296 3580 50  0000 R CNN
 F 1 "NUM" V 7205 3580 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" H 7250 3650 50  0001 C CNN
 F 3 "~" H 7250 3650 50  0001 C CNN
@@ -881,10 +881,10 @@ F 3 "~" H 7250 3650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small D2
+L Device:LED_Small D3
 U 1 1 5F11A25F
 P 7750 3650
-F 0 "D2" V 7796 3580 50  0000 R CNN
+F 0 "D3" V 7796 3580 50  0000 R CNN
 F 1 "CAPS" V 7705 3580 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" H 7750 3650 50  0001 C CNN
 F 3 "~" H 7750 3650 50  0001 C CNN
@@ -892,10 +892,10 @@ F 3 "~" H 7750 3650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small D3
+L Device:LED_Small D4
 U 1 1 5F11A8DA
 P 8250 3650
-F 0 "D3" V 8296 3580 50  0000 R CNN
+F 0 "D4" V 8296 3580 50  0000 R CNN
 F 1 "SCR" V 8205 3580 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" H 8250 3650 50  0001 C CNN
 F 3 "~" H 8250 3650 50  0001 C CNN
@@ -1574,4 +1574,27 @@ U 5ECF9838
 F0 "E80-1800-Matrix" 50
 F1 "E80-1800-Matrix.sch" 50
 $EndSheet
+$Comp
+L Device:D_TVS D1
+U 1 1 5F7B071F
+P 2650 2800
+F 0 "D1" H 2650 3017 50  0000 C CNN
+F 1 "BSD3C051V" H 2650 2926 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 2650 2800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Bourne-Semicon-Shenzhen-BSD3C051V_C151996.pdf" H 2650 2800 50  0001 C CNN
+F 4 "C151996" H 2650 2800 50  0001 C CNN "LCSC"
+	1    2650 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2500 2450 2800
+Wire Wire Line
+	2450 2800 2500 2800
+Wire Wire Line
+	2800 2800 2900 2800
+Wire Wire Line
+	2900 2800 2900 2500
+Connection ~ 2900 2500
+Wire Wire Line
+	2900 2500 3400 2500
 $EndSCHEMATC

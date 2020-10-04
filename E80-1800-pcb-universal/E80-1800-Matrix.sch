@@ -1776,10 +1776,10 @@ Wire Notes Line
 Wire Notes Line
 	8300 10150 7700 10150
 $Comp
-L Diode:BAV70 D4
+L Diode:BAV70 D5
 U 1 1 5EDE3FF0
 P 2650 2850
-F 0 "D4" H 2650 3067 50  0000 C CNN
+F 0 "D5" H 2650 3067 50  0000 C CNN
 F 1 "BAV70" H 2650 2976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 2650 2850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 2650 2850 50  0001 C CNN
@@ -1788,10 +1788,10 @@ F 4 "C68978" H 2650 2850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D5
+L Diode:BAV70 D6
 U 1 1 5EDE5B46
 P 4650 2850
-F 0 "D5" H 4650 3067 50  0000 C CNN
+F 0 "D6" H 4650 3067 50  0000 C CNN
 F 1 "BAV70" H 4650 2976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 4650 2850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 4650 2850 50  0001 C CNN
@@ -1800,10 +1800,10 @@ F 4 "C68978" H 4650 2850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D6
+L Diode:BAV70 D7
 U 1 1 5EDE72A9
 P 7650 2850
-F 0 "D6" H 7650 3067 50  0000 C CNN
+F 0 "D7" H 7650 3067 50  0000 C CNN
 F 1 "BAV70" H 7650 2976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 7650 2850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 7650 2850 50  0001 C CNN
@@ -1812,10 +1812,10 @@ F 4 "C68978" H 7650 2850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D8
+L Diode:BAV70 D9
 U 1 1 5EDEA4FB
 P 11650 2850
-F 0 "D8" H 11650 3067 50  0000 C CNN
+F 0 "D9" H 11650 3067 50  0000 C CNN
 F 1 "BAV70" H 11650 2976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 11650 2850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 11650 2850 50  0001 C CNN
@@ -1824,10 +1824,10 @@ F 4 "C68978" H 11650 2850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D9
+L Diode:BAV70 D10
 U 1 1 5EDEAE84
 P 13650 2850
-F 0 "D9" H 13650 3067 50  0000 C CNN
+F 0 "D10" H 13650 3067 50  0000 C CNN
 F 1 "BAV70" H 13650 2976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 13650 2850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 13650 2850 50  0001 C CNN
@@ -1836,10 +1836,10 @@ F 4 "C68978" H 13650 2850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D10
+L Diode:BAV70 D11
 U 1 1 5EDEBB73
 P 15250 2850
-F 0 "D10" H 15250 3067 50  0000 C CNN
+F 0 "D11" H 15250 3067 50  0000 C CNN
 F 1 "BAV70" H 15250 2976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 15250 2850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 15250 2850 50  0001 C CNN
@@ -1848,10 +1848,10 @@ F 4 "C68978" H 15250 2850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D11
+L Diode:BAV70 D12
 U 1 1 5EDED0B9
 P 17650 2850
-F 0 "D11" H 17650 3067 50  0000 C CNN
+F 0 "D12" H 17650 3067 50  0000 C CNN
 F 1 "BAV70" H 17650 2976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 17650 2850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 17650 2850 50  0001 C CNN
@@ -1860,10 +1860,10 @@ F 4 "C68978" H 17650 2850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D12
+L Diode:BAV70 D13
 U 1 1 5EDEE52A
 P 19650 2850
-F 0 "D12" H 19650 3067 50  0000 C CNN
+F 0 "D13" H 19650 3067 50  0000 C CNN
 F 1 "BAV70" H 19650 2976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 19650 2850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 19650 2850 50  0001 C CNN
@@ -1926,10 +1926,10 @@ Wire Wire Line
 Wire Wire Line
 	18950 2850 19350 2850
 $Comp
-L Diode:BAV70 D13
+L Diode:BAV70 D14
 U 1 1 5EF21C55
 P 17650 3850
-F 0 "D13" H 17650 4067 50  0000 C CNN
+F 0 "D14" H 17650 4067 50  0000 C CNN
 F 1 "BAV70" H 17650 3976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 17650 3850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 17650 3850 50  0001 C CNN
@@ -1938,10 +1938,10 @@ F 4 "C68978" H 17650 3850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D14
+L Diode:BAV70 D15
 U 1 1 5EF22F76
 P 19650 3850
-F 0 "D14" H 19650 4067 50  0000 C CNN
+F 0 "D15" H 19650 4067 50  0000 C CNN
 F 1 "BAV70" H 19650 3976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 19650 3850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 19650 3850 50  0001 C CNN
@@ -1990,10 +1990,10 @@ Connection ~ 17650 4050
 Wire Wire Line
 	17650 4050 19650 4050
 $Comp
-L Diode:BAV70 D23
+L Diode:BAV70 D24
 U 1 1 5F1B0768
 P 19650 4850
-F 0 "D23" H 19650 5067 50  0000 C CNN
+F 0 "D24" H 19650 5067 50  0000 C CNN
 F 1 "BAV70" H 19650 4976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 19650 4850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 19650 4850 50  0001 C CNN
@@ -2002,10 +2002,10 @@ F 4 "C68978" H 19650 4850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D22
+L Diode:BAV70 D23
 U 1 1 5F1B12C2
 P 17650 4850
-F 0 "D22" H 17650 5067 50  0000 C CNN
+F 0 "D23" H 17650 5067 50  0000 C CNN
 F 1 "BAV70" H 17650 4976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 17650 4850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 17650 4850 50  0001 C CNN
@@ -2014,10 +2014,10 @@ F 4 "C68978" H 17650 4850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D21
+L Diode:BAV70 D22
 U 1 1 5F1B27FC
 P 15650 4850
-F 0 "D21" H 15650 5067 50  0000 C CNN
+F 0 "D22" H 15650 5067 50  0000 C CNN
 F 1 "BAV70" H 15650 4976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 15650 4850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 15650 4850 50  0001 C CNN
@@ -2044,10 +2044,10 @@ Wire Wire Line
 Wire Wire Line
 	13950 4850 13950 4650
 $Comp
-L Diode:BAV70 D20
+L Diode:BAV70 D21
 U 1 1 5F21248F
 P 12650 4850
-F 0 "D20" H 12650 5067 50  0000 C CNN
+F 0 "D21" H 12650 5067 50  0000 C CNN
 F 1 "BAV70" H 12650 4976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 12650 4850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 12650 4850 50  0001 C CNN
@@ -2062,10 +2062,10 @@ Wire Wire Line
 Wire Wire Line
 	11950 4850 11950 4650
 $Comp
-L Diode:BAV70 D19
+L Diode:BAV70 D20
 U 1 1 5F234973
 P 10650 4850
-F 0 "D19" H 10650 5067 50  0000 C CNN
+F 0 "D20" H 10650 5067 50  0000 C CNN
 F 1 "BAV70" H 10650 4976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 10650 4850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10650 4850 50  0001 C CNN
@@ -2080,10 +2080,10 @@ Wire Wire Line
 Wire Wire Line
 	9950 4850 9950 4650
 $Comp
-L Diode:BAV70 D18
+L Diode:BAV70 D19
 U 1 1 5F25781A
 P 8650 4850
-F 0 "D18" H 8650 5067 50  0000 C CNN
+F 0 "D19" H 8650 5067 50  0000 C CNN
 F 1 "BAV70" H 8650 4976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 8650 4850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 8650 4850 50  0001 C CNN
@@ -2098,10 +2098,10 @@ Wire Wire Line
 Wire Wire Line
 	7950 4850 7950 4650
 $Comp
-L Diode:BAV70 D17
+L Diode:BAV70 D18
 U 1 1 5F27B278
 P 6650 4850
-F 0 "D17" H 6650 5067 50  0000 C CNN
+F 0 "D18" H 6650 5067 50  0000 C CNN
 F 1 "BAV70" H 6650 4976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 6650 4850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 6650 4850 50  0001 C CNN
@@ -2122,10 +2122,10 @@ Wire Wire Line
 Wire Wire Line
 	3950 4850 3950 4650
 $Comp
-L Diode:BAV70 D16
+L Diode:BAV70 D17
 U 1 1 5F2A0225
 P 4650 4850
-F 0 "D16" H 4650 5067 50  0000 C CNN
+F 0 "D17" H 4650 5067 50  0000 C CNN
 F 1 "BAV70" H 4650 4976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 4650 4850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 4650 4850 50  0001 C CNN
@@ -2134,10 +2134,10 @@ F 4 "C68978" H 4650 4850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D15
+L Diode:BAV70 D16
 U 1 1 5F2D8B20
 P 2650 4850
-F 0 "D15" H 2650 5067 50  0000 C CNN
+F 0 "D16" H 2650 5067 50  0000 C CNN
 F 1 "BAV70" H 2650 4976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 2650 4850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 2650 4850 50  0001 C CNN
@@ -2182,10 +2182,10 @@ Connection ~ 17650 5050
 Wire Wire Line
 	17650 5050 15650 5050
 $Comp
-L Diode:BAV70 D31
+L Diode:BAV70 D32
 U 1 1 5F33257E
 P 17650 5850
-F 0 "D31" H 17650 6067 50  0000 C CNN
+F 0 "D32" H 17650 6067 50  0000 C CNN
 F 1 "BAV70" H 17650 5976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 17650 5850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 17650 5850 50  0001 C CNN
@@ -2194,10 +2194,10 @@ F 4 "C68978" H 17650 5850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D30
+L Diode:BAV70 D31
 U 1 1 5F333236
 P 15650 5850
-F 0 "D30" H 15650 6067 50  0000 C CNN
+F 0 "D31" H 15650 6067 50  0000 C CNN
 F 1 "BAV70" H 15650 5976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 15650 5850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 15650 5850 50  0001 C CNN
@@ -2206,10 +2206,10 @@ F 4 "C68978" H 15650 5850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D28
+L Diode:BAV70 D29
 U 1 1 5F335583
 P 11650 5850
-F 0 "D28" H 11650 6067 50  0000 C CNN
+F 0 "D29" H 11650 6067 50  0000 C CNN
 F 1 "BAV70" H 11650 5976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 11650 5850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 11650 5850 50  0001 C CNN
@@ -2218,10 +2218,10 @@ F 4 "C68978" H 11650 5850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D27
+L Diode:BAV70 D28
 U 1 1 5F335E12
 P 9650 5850
-F 0 "D27" H 9650 6067 50  0000 C CNN
+F 0 "D28" H 9650 6067 50  0000 C CNN
 F 1 "BAV70" H 9650 5976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 9650 5850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 9650 5850 50  0001 C CNN
@@ -2230,10 +2230,10 @@ F 4 "C68978" H 9650 5850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D26
+L Diode:BAV70 D27
 U 1 1 5F336886
 P 7650 5850
-F 0 "D26" H 7650 6067 50  0000 C CNN
+F 0 "D27" H 7650 6067 50  0000 C CNN
 F 1 "BAV70" H 7650 5976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 7650 5850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 7650 5850 50  0001 C CNN
@@ -2242,10 +2242,10 @@ F 4 "C68978" H 7650 5850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D25
+L Diode:BAV70 D26
 U 1 1 5F33728C
 P 5650 5850
-F 0 "D25" H 5650 6067 50  0000 C CNN
+F 0 "D26" H 5650 6067 50  0000 C CNN
 F 1 "BAV70" H 5650 5976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 5650 5850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5650 5850 50  0001 C CNN
@@ -2254,10 +2254,10 @@ F 4 "C68978" H 5650 5850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D24
+L Diode:BAV70 D25
 U 1 1 5F337D55
 P 3650 5850
-F 0 "D24" H 3650 6067 50  0000 C CNN
+F 0 "D25" H 3650 6067 50  0000 C CNN
 F 1 "BAV70" H 3650 5976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 3650 5850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 3650 5850 50  0001 C CNN
@@ -2347,10 +2347,10 @@ Connection ~ 17650 6050
 Wire Wire Line
 	17650 6050 15650 6050
 $Comp
-L Diode:BAV70 D32
+L Diode:BAV70 D33
 U 1 1 5F331074
 P 19650 5850
-F 0 "D32" H 19650 6067 50  0000 C CNN
+F 0 "D33" H 19650 6067 50  0000 C CNN
 F 1 "BAV70" H 19650 5976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 19650 5850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 19650 5850 50  0001 C CNN
@@ -2359,10 +2359,10 @@ F 4 "C68978" H 19650 5850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D41
+L Diode:BAV70 D42
 U 1 1 5F52E932
 P 19650 6850
-F 0 "D41" H 19650 7067 50  0000 C CNN
+F 0 "D42" H 19650 7067 50  0000 C CNN
 F 1 "BAV70" H 19650 6976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 19650 6850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 19650 6850 50  0001 C CNN
@@ -2371,10 +2371,10 @@ F 4 "C68978" H 19650 6850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D40
+L Diode:BAV70 D41
 U 1 1 5F52F3E2
 P 17650 6850
-F 0 "D40" H 17650 7067 50  0000 C CNN
+F 0 "D41" H 17650 7067 50  0000 C CNN
 F 1 "BAV70" H 17650 6976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 17650 6850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 17650 6850 50  0001 C CNN
@@ -2383,10 +2383,10 @@ F 4 "C68978" H 17650 6850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D39
+L Diode:BAV70 D40
 U 1 1 5F5301BC
 P 15650 6850
-F 0 "D39" H 15650 7067 50  0000 C CNN
+F 0 "D40" H 15650 7067 50  0000 C CNN
 F 1 "BAV70" H 15650 6976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 15650 6850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 15650 6850 50  0001 C CNN
@@ -2419,10 +2419,10 @@ Wire Wire Line
 	13650 6050 11650 6050
 Connection ~ 13650 6050
 $Comp
-L Diode:BAV70 D29
+L Diode:BAV70 D30
 U 1 1 5F3349FC
 P 13650 5850
-F 0 "D29" H 13650 6067 50  0000 C CNN
+F 0 "D30" H 13650 6067 50  0000 C CNN
 F 1 "BAV70" H 13650 5976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 13650 5850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 13650 5850 50  0001 C CNN
@@ -2431,10 +2431,10 @@ F 4 "C68978" H 13650 5850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D38
+L Diode:BAV70 D39
 U 1 1 5F5ED7AC
 P 13650 6850
-F 0 "D38" H 13650 7067 50  0000 C CNN
+F 0 "D39" H 13650 7067 50  0000 C CNN
 F 1 "BAV70" H 13650 6976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 13650 6850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 13650 6850 50  0001 C CNN
@@ -2443,10 +2443,10 @@ F 4 "C68978" H 13650 6850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D37
+L Diode:BAV70 D38
 U 1 1 5F5EE727
 P 11650 6850
-F 0 "D37" H 11650 7067 50  0000 C CNN
+F 0 "D38" H 11650 7067 50  0000 C CNN
 F 1 "BAV70" H 11650 6976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 11650 6850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 11650 6850 50  0001 C CNN
@@ -2455,10 +2455,10 @@ F 4 "C68978" H 11650 6850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D36
+L Diode:BAV70 D37
 U 1 1 5F5EF8E9
 P 9650 6850
-F 0 "D36" H 9650 7067 50  0000 C CNN
+F 0 "D37" H 9650 7067 50  0000 C CNN
 F 1 "BAV70" H 9650 6976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 9650 6850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 9650 6850 50  0001 C CNN
@@ -2467,10 +2467,10 @@ F 4 "C68978" H 9650 6850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D35
+L Diode:BAV70 D36
 U 1 1 5F5F0330
 P 7650 6850
-F 0 "D35" H 7650 7067 50  0000 C CNN
+F 0 "D36" H 7650 7067 50  0000 C CNN
 F 1 "BAV70" H 7650 6976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 7650 6850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 7650 6850 50  0001 C CNN
@@ -2479,10 +2479,10 @@ F 4 "C68978" H 7650 6850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D34
+L Diode:BAV70 D35
 U 1 1 5F5F0CA5
 P 5650 6850
-F 0 "D34" H 5650 7067 50  0000 C CNN
+F 0 "D35" H 5650 7067 50  0000 C CNN
 F 1 "BAV70" H 5650 6976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 5650 6850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5650 6850 50  0001 C CNN
@@ -2491,10 +2491,10 @@ F 4 "C68978" H 5650 6850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D33
+L Diode:BAV70 D34
 U 1 1 5F5F14B7
 P 3650 6850
-F 0 "D33" H 3650 7067 50  0000 C CNN
+F 0 "D34" H 3650 7067 50  0000 C CNN
 F 1 "BAV70" H 3650 6976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 3650 6850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 3650 6850 50  0001 C CNN
@@ -2569,10 +2569,10 @@ Connection ~ 17650 7050
 Wire Wire Line
 	17650 7050 15650 7050
 $Comp
-L Diode:BAV70 D50
+L Diode:BAV70 D51
 U 1 1 5F78FAA5
 P 19650 7850
-F 0 "D50" H 19650 8067 50  0000 C CNN
+F 0 "D51" H 19650 8067 50  0000 C CNN
 F 1 "BAV70" H 19650 7976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 19650 7850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 19650 7850 50  0001 C CNN
@@ -2581,10 +2581,10 @@ F 4 "C68978" H 19650 7850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D49
+L Diode:BAV70 D50
 U 1 1 5F790505
 P 17650 7850
-F 0 "D49" H 17650 8067 50  0000 C CNN
+F 0 "D50" H 17650 8067 50  0000 C CNN
 F 1 "BAV70" H 17650 7976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 17650 7850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 17650 7850 50  0001 C CNN
@@ -2593,10 +2593,10 @@ F 4 "C68978" H 17650 7850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D48
+L Diode:BAV70 D49
 U 1 1 5F7911FE
 P 15650 7850
-F 0 "D48" H 15650 8067 50  0000 C CNN
+F 0 "D49" H 15650 8067 50  0000 C CNN
 F 1 "BAV70" H 15650 7976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 15650 7850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 15650 7850 50  0001 C CNN
@@ -2605,10 +2605,10 @@ F 4 "C68978" H 15650 7850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D47
+L Diode:BAV70 D48
 U 1 1 5F791F42
 P 12650 7850
-F 0 "D47" H 12650 8067 50  0000 C CNN
+F 0 "D48" H 12650 8067 50  0000 C CNN
 F 1 "BAV70" H 12650 7976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 12650 7850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 12650 7850 50  0001 C CNN
@@ -2617,10 +2617,10 @@ F 4 "C68978" H 12650 7850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D46
+L Diode:BAV70 D47
 U 1 1 5F792A15
 P 10650 7850
-F 0 "D46" H 10650 8067 50  0000 C CNN
+F 0 "D47" H 10650 8067 50  0000 C CNN
 F 1 "BAV70" H 10650 7976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 10650 7850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10650 7850 50  0001 C CNN
@@ -2629,10 +2629,10 @@ F 4 "C68978" H 10650 7850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D45
+L Diode:BAV70 D46
 U 1 1 5F793484
 P 8650 7850
-F 0 "D45" H 8650 8067 50  0000 C CNN
+F 0 "D46" H 8650 8067 50  0000 C CNN
 F 1 "BAV70" H 8650 7976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 8650 7850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 8650 7850 50  0001 C CNN
@@ -2641,10 +2641,10 @@ F 4 "C68978" H 8650 7850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D44
+L Diode:BAV70 D45
 U 1 1 5F793BD8
 P 6650 7850
-F 0 "D44" H 6650 8067 50  0000 C CNN
+F 0 "D45" H 6650 8067 50  0000 C CNN
 F 1 "BAV70" H 6650 7976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 6650 7850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 6650 7850 50  0001 C CNN
@@ -2653,10 +2653,10 @@ F 4 "C68978" H 6650 7850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D43
+L Diode:BAV70 D44
 U 1 1 5F794642
 P 4650 7850
-F 0 "D43" H 4650 8067 50  0000 C CNN
+F 0 "D44" H 4650 8067 50  0000 C CNN
 F 1 "BAV70" H 4650 7976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 4650 7850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 4650 7850 50  0001 C CNN
@@ -2665,10 +2665,10 @@ F 4 "C68978" H 4650 7850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D42
+L Diode:BAV70 D43
 U 1 1 5F79512E
 P 2650 7850
-F 0 "D42" H 2650 8067 50  0000 C CNN
+F 0 "D43" H 2650 8067 50  0000 C CNN
 F 1 "BAV70" H 2650 7976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 2650 7850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 2650 7850 50  0001 C CNN
@@ -2762,10 +2762,10 @@ Connection ~ 17650 8050
 Wire Wire Line
 	17650 8050 15650 8050
 $Comp
-L Diode:BAV70 D57
+L Diode:BAV70 D58
 U 1 1 5FA66ED4
 P 19650 8850
-F 0 "D57" H 19650 9067 50  0000 C CNN
+F 0 "D58" H 19650 9067 50  0000 C CNN
 F 1 "BAV70" H 19650 8976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 19650 8850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 19650 8850 50  0001 C CNN
@@ -2774,10 +2774,10 @@ F 4 "C68978" H 19650 8850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D56
+L Diode:BAV70 D57
 U 1 1 5FA68DD4
 P 17650 8850
-F 0 "D56" H 17650 9067 50  0000 C CNN
+F 0 "D57" H 17650 9067 50  0000 C CNN
 F 1 "BAV70" H 17650 8976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 17650 8850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 17650 8850 50  0001 C CNN
@@ -2786,10 +2786,10 @@ F 4 "C68978" H 17650 8850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D55
+L Diode:BAV70 D56
 U 1 1 5FA69BF4
 P 15650 8850
-F 0 "D55" H 15650 9067 50  0000 C CNN
+F 0 "D56" H 15650 9067 50  0000 C CNN
 F 1 "BAV70" H 15650 8976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 15650 8850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 15650 8850 50  0001 C CNN
@@ -2798,10 +2798,10 @@ F 4 "C68978" H 15650 8850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D54
+L Diode:BAV70 D55
 U 1 1 5FA93DDC
 P 13250 8850
-F 0 "D54" H 13250 9067 50  0000 C CNN
+F 0 "D55" H 13250 9067 50  0000 C CNN
 F 1 "BAV70" H 13250 8976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 13250 8850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 13250 8850 50  0001 C CNN
@@ -2810,10 +2810,10 @@ F 4 "C68978" H 13250 8850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D53
+L Diode:BAV70 D54
 U 1 1 5FA96236
 P 11650 8850
-F 0 "D53" H 11650 9067 50  0000 C CNN
+F 0 "D54" H 11650 9067 50  0000 C CNN
 F 1 "BAV70" H 11650 8976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 11650 8850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 11650 8850 50  0001 C CNN
@@ -2822,10 +2822,10 @@ F 4 "C68978" H 11650 8850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D52
+L Diode:BAV70 D53
 U 1 1 5FA96BEC
 P 7400 8850
-F 0 "D52" H 7400 9067 50  0000 C CNN
+F 0 "D53" H 7400 9067 50  0000 C CNN
 F 1 "BAV70" H 7400 8976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 7400 8850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 7400 8850 50  0001 C CNN
@@ -2834,10 +2834,10 @@ F 4 "C68978" H 7400 8850 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D51
+L Diode:BAV70 D52
 U 1 1 5FA98504
 P 2650 8850
-F 0 "D51" H 2650 9067 50  0000 C CNN
+F 0 "D52" H 2650 9067 50  0000 C CNN
 F 1 "BAV70" H 2650 8976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 2650 8850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 2650 8850 50  0001 C CNN
@@ -3204,10 +3204,10 @@ Wire Wire Line
 Wire Wire Line
 	7650 3050 9650 3050
 $Comp
-L Diode:BAV70 D7
+L Diode:BAV70 D8
 U 1 1 5EDE8F6F
 P 9650 2850
-F 0 "D7" H 9650 3067 50  0000 C CNN
+F 0 "D8" H 9650 3067 50  0000 C CNN
 F 1 "BAV70" H 9650 2976 50  0000 C CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 9650 2850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 9650 2850 50  0001 C CNN
