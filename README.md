@@ -3,7 +3,7 @@
 
  The first 9 prototypes have been built and work as intended, while fitting most G80-1800 housings. A new revision has been uploaded which should fix all tolerance issues, and fit all G80-1800 (and as far as I know also G81-1800) enclosures. I can, however, not guarantee perfect operation of the PCB or compatibility with every enclosure variation - if you encounter any issues, please let me know. The new revision is not yet tested, but changes were small - no issues are to be expected. Correct rotation of the MCU in the CPL file could NOT be tested due to it being out of stock at JLC. Please double-check before ordering!
 
-|![pcb_bottom](img/e80-1800-silk.jpg)|![pcb_top](img/E80-1800-controller.jpg)|
+|![pcb_bottom](img/bottom.png)|![pcb_top](img/top.png)|
 |:----------------------------------------:|:----------------------------------------:|
 
 ## Features
