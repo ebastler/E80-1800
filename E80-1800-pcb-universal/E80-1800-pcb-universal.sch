@@ -23,7 +23,7 @@ F 0 "Q1" H 9055 1296 50  0000 L CNN
 F 1 "AO3400A" H 9055 1205 50  0000 L CNN
 F 2 "kicad-keyboard-parts:SOT-23_stealth" H 9050 1350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3400A_C20917.pdf" H 8850 1250 50  0001 C CNN
-F 4 "C347475" H 8850 1250 50  0001 C CNN "LCSC"
+F 4 "C20917" H 8850 1250 50  0001 C CNN "LCSC"
 	1    8850 1250
 	1    0    0    -1  
 $EndComp
@@ -866,6 +866,7 @@ F 0 "J4" H 1157 2467 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 1157 2376 50  0000 C CNN
 F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1200 1600 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1200 1600 50  0001 C CNN
+F 4 " C165948" H 1050 1600 50  0001 C CNN "LCSC"
 	1    1050 1600
 	1    0    0    -1  
 $EndComp
