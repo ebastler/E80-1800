@@ -5159,7 +5159,7 @@
     (path "/00000000-0000-0000-0000-00005f4fb013"
       (reference "#PWR027") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-0000649944e0"
+    (path "/00000000-0000-0000-0000-00005ecf9838/b8e1725b-29c3-45cd-9fcf-2139f0193454"
       (reference "#PWR028") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005e74efe9"
@@ -5381,6 +5381,348 @@
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005fa66ed4"
       (reference "D58") (unit 1) (value "BAV70") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
+    (path "/00000000-0000-0000-0000-00005ecf9838/3ebd5a58-5e0a-4e96-9507-72d8bb79501a"
+      (reference "D59") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/af2be5d7-bb21-4829-a702-f93a7bf750f8"
+      (reference "D60") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/3b15a390-ea59-4b09-ad94-c04c937918fa"
+      (reference "D61") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/efc4c583-9e13-43b2-bb36-8e9e430cc9c5"
+      (reference "D62") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/f5f241ea-4982-48c0-922e-9b5b1718bb6a"
+      (reference "D63") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/45f27e01-e67d-4025-aa26-e205f92a4bd0"
+      (reference "D64") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/91717bb5-dfb3-49df-9e19-aa78f6acb2c5"
+      (reference "D65") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/3cb77084-3ae9-4df2-9434-952541c1642e"
+      (reference "D66") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/8452d33e-0647-4f86-b56c-fe80b6ab1e76"
+      (reference "D67") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/025fa01a-6228-4930-a6a0-bbe05f79a76d"
+      (reference "D68") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/85ebc8e0-04b6-4de7-bedd-cad8beeefc9a"
+      (reference "D69") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/cb2fb30b-5c45-4e41-a6e0-8173bd3e237e"
+      (reference "D70") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/c9e0558c-3e4b-4871-95cd-0f1ad7d2b6da"
+      (reference "D71") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/d86fd2b9-27ef-4f86-85e1-aa82f73b0e4a"
+      (reference "D72") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/4a0c0c56-a616-4ec5-bcba-8c736a792c0f"
+      (reference "D73") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/f28030fa-9fd9-424f-b31f-63da05b87b23"
+      (reference "D74") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/d898d2cf-1cfc-4d68-b277-f966ff0c2b8f"
+      (reference "D75") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/7a51e661-03dc-4d7f-905b-3adeef360a1c"
+      (reference "D76") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/cbd26ad8-8032-4776-9ec6-14fec1bcfbba"
+      (reference "D77") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/294300f8-7a5a-429d-ba94-1ebc29313a19"
+      (reference "D78") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/25e35ee7-40b5-45c0-8bd3-250f44f7b212"
+      (reference "D79") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/73c5014c-8415-46ac-b14e-4d35420a6033"
+      (reference "D80") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/e6163058-421f-4797-9336-8ef96f907af6"
+      (reference "D81") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/6b9d649d-8140-4e5a-9b0b-b17814f1a017"
+      (reference "D82") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/802c652b-3192-4f25-aea2-60c08bca1dfd"
+      (reference "D83") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/7a8ba370-9063-4e4d-b87a-476d3e31b6b0"
+      (reference "D84") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/b91764b9-bc7e-4249-bf91-da54bcab23c0"
+      (reference "D85") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/ef99792b-6590-4756-997c-1f9238eef706"
+      (reference "D86") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/cfd96278-5832-4560-afb8-5170743695a7"
+      (reference "D87") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/7e256930-af76-4814-883b-fe3f4ad16073"
+      (reference "D88") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/c3eb8fab-7f7f-46b0-bfcd-60b71aeb782c"
+      (reference "D89") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/5cf0e464-f5f1-47fa-849f-9c98f39a72ad"
+      (reference "D90") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/e5cf10cf-614f-4596-9014-d31896b1957d"
+      (reference "D91") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/ff10d99a-409d-4611-b4ec-57bfdf176543"
+      (reference "D92") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/67198972-da06-4881-9f02-2d419666aab8"
+      (reference "D93") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/c8f239c3-8cc7-4d68-a6a5-4b4ff86a44d6"
+      (reference "D94") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/8da74228-0725-47f2-b9e0-e5e110f75b51"
+      (reference "D95") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/24f2cedb-8af1-4024-a4fe-596bdb1c2433"
+      (reference "D96") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/1d84442d-9b33-4417-835f-a190ff28e136"
+      (reference "D97") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/102e2ce2-4b53-4370-8794-cb8fc78da437"
+      (reference "D98") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/15ae5998-ec54-48d0-a27d-c374c24816f0"
+      (reference "D99") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/5fd63676-8e43-4d03-a042-0ba78a806403"
+      (reference "D100") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/04f382b5-1f65-404e-9055-2b131ac450d3"
+      (reference "D101") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/14d983d1-2e60-4913-8090-926843b64679"
+      (reference "D102") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/18c98955-de1a-4ad6-9e5a-9939fd7300d2"
+      (reference "D103") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/3a30aa93-1dca-4632-a693-bce58fa9ec0f"
+      (reference "D104") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/4f171b33-c494-4a27-aac9-1e5591974b42"
+      (reference "D105") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/e502189c-e99b-48a6-b724-8c2289a69125"
+      (reference "D106") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/4fde7654-6e12-4835-b5a8-c1d9e2ad789f"
+      (reference "D107") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/fb77da95-af5f-4296-a041-4cf9545d096e"
+      (reference "D108") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/648ab88d-099d-4e6f-b0e0-8bdb481285e4"
+      (reference "D109") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/19bdd988-1558-4bb5-9cf0-11057c2457ae"
+      (reference "D110") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/aa1dbc71-97f4-43ff-bec7-3eb7b997d1ab"
+      (reference "D111") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/3868d4bc-5eb3-40ba-a502-c0425025729b"
+      (reference "D112") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/9d5cf16a-e43c-4d33-96fa-1ffdc5d83858"
+      (reference "D113") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/79d23518-7202-4cef-90b6-81620e21f619"
+      (reference "D114") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/2eede4c1-13d4-4049-9834-9ba589a169d0"
+      (reference "D115") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/893859d5-6dc8-4a9f-be54-a8a8ebf8c4f4"
+      (reference "D116") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/700620c6-9b9a-4288-9d06-a65e7903ee92"
+      (reference "D117") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm-FLIPPED")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/b2091a68-7a15-4842-a970-d9b9ac5c49cc"
+      (reference "D118") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/56f2669c-fa89-4ddd-8911-370a949e5e48"
+      (reference "D119") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/c504013d-4892-4d45-a835-722017b6e372"
+      (reference "D120") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/ef6976dd-4acf-4138-a99f-50cb09c83ea6"
+      (reference "D121") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/b47d7c60-2a45-41e0-81b7-4102e9ab8637"
+      (reference "D122") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/7d74afeb-aae1-4f41-965e-97a61a171d1f"
+      (reference "D123") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/31312da3-9772-4f28-8d08-416b3e850084"
+      (reference "D124") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/d9c18812-1d85-422a-a5e4-abb0c5c319ed"
+      (reference "D125") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/4fe9f71c-d936-4f13-80fb-8fad005d7c51"
+      (reference "D126") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/6148d943-c378-4140-ac19-7eb6e326a0a6"
+      (reference "D127") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/bb43c777-bfa0-426e-b2ef-cdc6664d9f50"
+      (reference "D128") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/29389c0e-58b5-4143-b6f0-07f5d4d8d560"
+      (reference "D129") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/0f51ecec-3b69-4261-91ea-a1d965f0cb8f"
+      (reference "D130") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/a2be93dc-1edc-4706-96e7-3890a9a8e2a9"
+      (reference "D131") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/379a3807-1b43-4c36-83bc-80ba7aec28ae"
+      (reference "D132") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/2979bb64-8ec5-45b5-9cf1-3a6cdccf274e"
+      (reference "D133") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/a9b25cea-cdf2-47c7-b854-ea39768efa04"
+      (reference "D134") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/2d1e2ab8-7fab-4846-a465-5917e0677c44"
+      (reference "D135") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/c25793cd-66c7-4019-96da-cbbf5d6da603"
+      (reference "D136") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/3e8a28ef-c180-463b-8ab0-3041785f31a3"
+      (reference "D137") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/9f3372f6-7a0f-46d3-8bc7-1f2fc0852c47"
+      (reference "D138") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/f898536c-c46c-4541-a4fd-992aaf0675f8"
+      (reference "D139") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/48ac333f-c7e8-4c0a-b9e5-465e9feed5e4"
+      (reference "D140") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/b6b61343-d7a8-48f9-9fa5-7e4fc674a54e"
+      (reference "D141") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/ece7dc68-c2fe-4bf1-a5f7-3d265ac75dd3"
+      (reference "D142") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/310a4ff0-acd6-4bb3-afea-10bb34410583"
+      (reference "D143") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/d2330156-9f54-4923-b017-1afbfb2cca97"
+      (reference "D144") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/f8563a53-38a4-453d-8529-13ef6179db16"
+      (reference "D145") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/e742b441-75e0-47fb-ad09-092ec9ea222e"
+      (reference "D146") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/d3966893-cdd5-4c98-86e1-b5ce6d53517b"
+      (reference "D147") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/62667678-9ecc-4e13-baef-9fa2cd49d85a"
+      (reference "D148") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/742ae669-ccaa-4d8f-8f8b-e9ab56305557"
+      (reference "D149") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/2e7fdf0d-0360-4c93-8b91-79fc0abd2035"
+      (reference "D150") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/7bbec94e-5876-4ebd-a832-13d8c42ebbf5"
+      (reference "D151") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/1ad1cab5-2267-450e-8347-05864f707b12"
+      (reference "D152") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/582627f5-a6a2-45a4-8868-ac79a5d6fb93"
+      (reference "D153") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/26361ec5-34bc-44af-b707-a1111895dd19"
+      (reference "D154") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/23390960-2d3e-42df-b0ca-b91753ee9aa9"
+      (reference "D155") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/9d54461c-4fea-4fa1-a9a3-741389ead7bb"
+      (reference "D156") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm-FLIPPED")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/3ceabb03-2b89-4ca2-b299-0578e8067128"
+      (reference "D157") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/eeb3697a-7c84-4de6-9185-142f64a84ed0"
+      (reference "D158") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/f76486e7-8182-44b6-8639-0908f06db6c4"
+      (reference "D159") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm-FLIPPED")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/aacbbfe7-e4ed-440d-8022-03c268ae054d"
+      (reference "D160") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/172eae42-f91a-4968-98f0-dc483cf48899"
+      (reference "D161") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/4ac5fc62-c47a-4a6d-9816-2047052af954"
+      (reference "D162") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/d0d46ffc-e3e8-4ba1-be19-49cfb999f9fa"
+      (reference "D163") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/f4d838f1-6081-47a6-b06e-8a82ed41e043"
+      (reference "D164") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm-FLIPPED")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/675704ce-c716-4dc5-965a-6fe739b130a6"
+      (reference "D165") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/aac57042-c9b1-46e4-adc7-9fccb20a902d"
+      (reference "D166") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/505b63af-27c7-4feb-9346-91066cad0185"
+      (reference "D167") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm-FLIPPED")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/60c1924c-8dca-4149-92fb-d009557115d2"
+      (reference "D168") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/7f8f6fa1-36b1-480f-99be-a5fda9370167"
+      (reference "D169") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/9fff0e8a-aab6-4385-9b8b-65bc86f54d55"
+      (reference "D170") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/aa48da0d-03e4-4205-a383-c4a6b9c77faa"
+      (reference "D171") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/36614940-371f-433e-a135-5668795c783f"
+      (reference "D172") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
     (path "/00000000-0000-0000-0000-00005ef2a974"
       (reference "F1") (unit 1) (value "1206L050") (footprint "Fuse:Fuse_1206_3216Metric")
     )
@@ -5424,349 +5766,349 @@
       (reference "L1") (unit 1) (value "PBY160808T-181Y-N") (footprint "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed10a7f"
-      (reference "MX1") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX1") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed12e7d"
-      (reference "MX2") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX2") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed139cd"
-      (reference "MX3") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX3") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed14162"
-      (reference "MX4") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX4") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed1460e"
-      (reference "MX5") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX5") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed151fe"
-      (reference "MX6") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX6") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed15ed4"
-      (reference "MX7") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX7") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed16489"
-      (reference "MX8") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX8") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed16ac0"
-      (reference "MX9") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX9") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed16f8a"
-      (reference "MX10") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX10") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed177b0"
-      (reference "MX11") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX11") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed17d42"
-      (reference "MX12") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX12") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed18b15"
-      (reference "MX13") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX13") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed193c1"
-      (reference "MX14") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX14") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed1ad44"
-      (reference "MX15") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX15") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed1b44d"
-      (reference "MX16") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX16") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed1bb6f"
-      (reference "MX17") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX17") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005f128c66"
-      (reference "MX18") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX18") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005f128c6c"
-      (reference "MX19") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX19") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005f128c72"
-      (reference "MX20") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX20") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005f128c78"
-      (reference "MX21") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX21") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed1c06b"
-      (reference "MX22") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX22") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed1cb8e"
-      (reference "MX23") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX23") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed1d152"
-      (reference "MX24") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX24") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed1d6e9"
-      (reference "MX25") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX25") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed1daff"
-      (reference "MX26") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX26") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed1e041"
-      (reference "MX27") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX27") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed1e53d"
-      (reference "MX28") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX28") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed1eb01"
-      (reference "MX29") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX29") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed1f0bb"
-      (reference "MX30") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX30") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed1f5f3"
-      (reference "MX31") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX31") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed1fd06"
-      (reference "MX32") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX32") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed203a6"
-      (reference "MX33") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX33") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed2097e"
-      (reference "MX34") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX34") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed21632"
-      (reference "MX35") (unit 1) (value "Backspace_2u") (footprint "MX_Only:MXOnly-2U")
+      (reference "MX35") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed21a52"
-      (reference "MX36") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX36") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed2211f"
-      (reference "MX37") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX37") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed22693"
-      (reference "MX38") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX38") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed22d38"
-      (reference "MX39") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX39") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed90593"
-      (reference "MX40") (unit 1) (value "tab") (footprint "MX_Only:MXOnly-1.5U")
+      (reference "MX40") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed90587"
-      (reference "MX41") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX41") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed90581"
-      (reference "MX42") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX42") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed9057b"
-      (reference "MX43") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX43") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed90575"
-      (reference "MX44") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX44") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed9056f"
-      (reference "MX45") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX45") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed90569"
-      (reference "MX46") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX46") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed90563"
-      (reference "MX47") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX47") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed9055d"
-      (reference "MX48") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX48") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed90557"
-      (reference "MX49") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX49") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed90551"
-      (reference "MX50") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX50") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed9054b"
-      (reference "MX51") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX51") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed90545"
-      (reference "MX52") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX52") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005f0250a1"
-      (reference "MX53") (unit 1) (value "\\_ansi") (footprint "MX_Only:MXOnly-1.5U")
+      (reference "MX53") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed90539"
-      (reference "MX54") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX54") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed90533"
-      (reference "MX55") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX55") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed9052d"
-      (reference "MX56") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX56") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed90527"
-      (reference "MX57") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX57") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edaa933"
-      (reference "MX58") (unit 1) (value "caps") (footprint "MX_Only:MXOnly-1.75U-FLIPPED")
+      (reference "MX58") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ef94661"
-      (reference "MX59") (unit 1) (value "caps_stepped") (footprint "MX_Only:MXOnly-1.25U")
+      (reference "MX59") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edaa927"
-      (reference "MX60") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX60") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edaa921"
-      (reference "MX61") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX61") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edaa91b"
-      (reference "MX62") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX62") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edaa915"
-      (reference "MX63") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX63") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edaa90f"
-      (reference "MX64") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX64") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edaa909"
-      (reference "MX65") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX65") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edaa903"
-      (reference "MX66") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX66") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edaa8fd"
-      (reference "MX67") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX67") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edaa8f7"
-      (reference "MX68") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX68") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edaa8f1"
-      (reference "MX69") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX69") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edaa8eb"
-      (reference "MX70") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX70") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edaa8e5"
-      (reference "MX71") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX71") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edaa8df"
-      (reference "MX72") (unit 1) (value "enter_iso") (footprint "MX_Only:MXOnly-ISO-ROTATED-ReversedStabilizers")
+      (reference "MX72") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005f020523"
-      (reference "MX73") (unit 1) (value "enter_ansi") (footprint "MX_Only:MXOnly-2.25U")
+      (reference "MX73") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edaa8d9"
-      (reference "MX74") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX74") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edaa8d3"
-      (reference "MX75") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX75") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edaa8cd"
-      (reference "MX76") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX76") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edaa8c7"
-      (reference "MX77") (unit 1) (value "+") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX77") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edbc564"
-      (reference "MX78") (unit 1) (value "lshift_iso") (footprint "MX_Only:MXOnly-1.25U")
+      (reference "MX78") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005f00dc5d"
-      (reference "MX79") (unit 1) (value "lshift_ansi") (footprint "MX_Only:MXOnly-2.25U")
+      (reference "MX79") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edbc55e"
-      (reference "MX80") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX80") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edbc558"
-      (reference "MX81") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX81") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edbc552"
-      (reference "MX82") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX82") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edbc54c"
-      (reference "MX83") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX83") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edbc546"
-      (reference "MX84") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX84") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edbc540"
-      (reference "MX85") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX85") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edbc53a"
-      (reference "MX86") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX86") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edbc534"
-      (reference "MX87") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX87") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edbc52e"
-      (reference "MX88") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX88") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edbc528"
-      (reference "MX89") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX89") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edbc522"
-      (reference "MX90") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX90") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edbc516"
-      (reference "MX91") (unit 1) (value "rshift") (footprint "MX_Only:MXOnly-1.75U")
+      (reference "MX91") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edbc510"
-      (reference "MX92") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX92") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edbc50a"
-      (reference "MX93") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX93") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edbc504"
-      (reference "MX94") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX94") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edbc4fe"
-      (reference "MX95") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX95") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005edbc4f8"
-      (reference "MX96") (unit 1) (value "enter_numpad") (footprint "MX_Only:MXOnly-ISO")
+      (reference "MX96") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb44a"
-      (reference "MX97") (unit 1) (value "ctrl_1u") (footprint "MX_Only:MXOnly-1U")
-    )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb444"
-      (reference "MX98") (unit 1) (value "super_1u") (footprint "MX_Only:MXOnly-1U")
-    )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb43e"
-      (reference "MX99") (unit 1) (value "alt_1u") (footprint "MX_Only:MXOnly-1U-FLIPPED")
-    )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb426"
-      (reference "MX100") (unit 1) (value "space_6u") (footprint "MX_Only:MXOnly-6U")
-    )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb414"
-      (reference "MX101") (unit 1) (value "ralt_1u") (footprint "MX_Only:MXOnly-1U")
-    )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb40e"
-      (reference "MX102") (unit 1) (value "rsuper_1u") (footprint "MX_Only:MXOnly-1U")
-    )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb408"
-      (reference "MX103") (unit 1) (value "menu_1u") (footprint "MX_Only:MXOnly-1U")
-    )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb402"
-      (reference "MX104") (unit 1) (value "rctrl_1u") (footprint "MX_Only:MXOnly-1U-FLIPPED")
-    )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb3fc"
-      (reference "MX105") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
-    )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb3f6"
-      (reference "MX106") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
-    )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb3f0"
-      (reference "MX107") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
-    )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb3ea"
-      (reference "MX108") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
-    )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb3e4"
-      (reference "MX109") (unit 1) (value "MX-LED") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX97") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ee8220f"
-      (reference "MX110") (unit 1) (value "ctrl_1.5u") (footprint "MX_Only:MXOnly-1.5U-FLIPPED")
+      (reference "MX98") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb444"
+      (reference "MX99") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb43e"
+      (reference "MX100") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ee82203"
-      (reference "MX111") (unit 1) (value "alt_1.5u") (footprint "MX_Only:MXOnly-1.5U")
+      (reference "MX101") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb426"
+      (reference "MX102") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ee821fd"
-      (reference "MX112") (unit 1) (value "space_7u") (footprint "MX_Only:MXOnly-7U")
-    )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ee821f7"
-      (reference "MX113") (unit 1) (value "ralt_1.5u") (footprint "MX_Only:MXOnly-1.5U-FLIPPED")
-    )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ee821e5"
-      (reference "MX114") (unit 1) (value "rctrl_1.5u") (footprint "MX_Only:MXOnly-1.5U")
+      (reference "MX103") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ed7721a"
-      (reference "MX115") (unit 1) (value "space_6u_flipped") (footprint "MX_Only:MXOnly-1U")
+      (reference "MX104") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb414"
+      (reference "MX105") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ee821f7"
+      (reference "MX106") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb40e"
+      (reference "MX107") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb408"
+      (reference "MX108") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb402"
+      (reference "MX109") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ee821e5"
+      (reference "MX110") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb3fc"
+      (reference "MX111") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb3f6"
+      (reference "MX112") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb3f0"
+      (reference "MX113") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb3ea"
+      (reference "MX114") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb3e4"
+      (reference "MX115") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005e71adb0"
       (reference "Q1") (unit 1) (value "Q_NMOS_GSD") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -6101,38 +6443,59 @@
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-0000623b2740"
       (reference "R110") (unit 1) (value "560") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-0000623b16a8"
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005faf066a"
       (reference "R111") (unit 1) (value "560") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-0000623b1166"
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005faf3299"
       (reference "R112") (unit 1) (value "560") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-0000623af3fa"
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-0000623b16a8"
       (reference "R113") (unit 1) (value "560") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-0000623b1ec1"
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-0000623b1166"
       (reference "R114") (unit 1) (value "560") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-0000623aeed1"
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-0000623af3fa"
       (reference "R115") (unit 1) (value "560") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-0000623ae782"
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-0000623b1ec1"
       (reference "R116") (unit 1) (value "560") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ff90fea"
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-0000623aeed1"
       (reference "R117") (unit 1) (value "560") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ff909e0"
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-0000623ae782"
       (reference "R118") (unit 1) (value "560") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ff8ffa1"
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ff90fea"
       (reference "R119") (unit 1) (value "560") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005faf066a"
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ff909e0"
       (reference "R120") (unit 1) (value "560") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005faf3299"
+    (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ff8ffa1"
       (reference "R121") (unit 1) (value "560") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/10c4349b-39b0-4e9d-9437-b889652c033f"
+      (reference "S1") (unit 1) (value "lshift") (footprint "marbastlib-mx:STAB_MX_2.25u")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/33fab5d2-58bd-4a10-9512-59d5ae749c89"
+      (reference "S2") (unit 1) (value "6u") (footprint "marbastlib-mx:STAB_MX_6u")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/3cac1057-7563-4760-98c9-7a8bb0ae0b3b"
+      (reference "S3") (unit 1) (value "7u") (footprint "marbastlib-mx:STAB_MX_7u")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/4f85b5a8-e1ee-4cf6-a5ef-e744373b6870"
+      (reference "S4") (unit 1) (value "ansi_ent") (footprint "marbastlib-mx:STAB_MX_2.25u")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/44f64a13-913f-411b-9c1f-a3fbb153c81a"
+      (reference "S5") (unit 1) (value "iso_ent") (footprint "marbastlib-mx:STAB_MX_ISO_FLIPPED")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/e3eb14c7-f502-4a5b-9d62-4c48a16a414d"
+      (reference "S6") (unit 1) (value "backspace") (footprint "marbastlib-mx:STAB_MX_2u")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/ce03299f-1b2f-4a2f-b247-2a1ac42afa19"
+      (reference "S7") (unit 1) (value "np_ent") (footprint "marbastlib-mx:STAB_MX_2u")
     )
     (path "/00000000-0000-0000-0000-00005e6313b3"
       (reference "SW1") (unit 1) (value "RST") (footprint "Button_Switch_SMD:SW_SPST_SKQG_WithoutStem")

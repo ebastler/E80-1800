@@ -1,22 +1,32 @@
 # E80-1800
- QMK compatible USB-C PCB for a Cherry G80-1800
+QMK compatible USB-C PCB for a Cherry G80-1800
 
- The first 9 prototypes have been built and work as intended, while fitting most G80-1800 housings. A new revision has been uploaded which should fix all tolerance issues, and fit all G80-1800 (and as far as I know also G81-1800) enclosures. I can, however, not guarantee perfect operation of the PCB or compatibility with every enclosure variation - if you encounter any issues, please let me know. The new revision is not yet tested, but changes were small - no issues are to be expected. Correct rotation of the MCU in the CPL file could NOT be tested due to it being out of stock at JLC. Please double-check before ordering!
+The board has been prototyped and works as intended, while fitting most G80-1800 housings. Rev 1.1 and later should fix all tolerance issues, and fit all G80-1800 (and as far as I know also G81-1800) enclosures. I can, however, not guarantee perfect operation of the PCB or compatibility with every enclosure variation - if you encounter any issues, please let me know. Rev 1.2 has not yet been tested, but changes were minimal - no issues are to be expected. Stock situations as well as component rotations at JLC may change over time and hence I can not guarantee for the BOM/CPL files to work perfectly. Please double-check before ordering!
 
 |![pcb_bottom](img/bottom.png)|![pcb_top](img/top.png)|
 |:----------------------------------------:|:----------------------------------------:|
+
+## Order information at JLCPCB
+All relevant files can be found in `E80-1800-pcb-universal\jlcpcb`. The `gerber` subfolder contains a .zip file, the `assembly` subfolder contains the BOM and POS/CPL files needed for assembly. Please double-check all component values and rotations before ordering!
+
+* [gerber](E80-1800-pcb-universal/jlcpcb/gerber/E80-1800-pcb-universal.zip)
+* [BOM](E80-1800-pcb-universal/jlcpcb/assembly/BOM-E80-1800-pcb-universal.csv)
+* [POS](E80-1800-pcb-universal/jlcpcb/assembly/POS-E80-1800-pcb-universal.csv)
+
+Since jlcpcb usually fails to auto-determine the PCB dimensions: `382 x 160 mm` is the correct size.
 
 ## Features
  - USB-C (you have to widen the cable hole in the case with a file or similar)
  - Full ESD protection
  - Future-proof STM32F072 with QMK
  - Optional I²C OLED screen in the card-reader-hole on card-reader G80-1800 models
- - SPI header for Bluetooth LE - software support may or may not follow (currently not supported by QMK)
+ - SPI header for Bluetooth LE - software support may or may not follow (currently not supported by QMK). The SPI pads can also be used for other expansions such as adding a Solenoid or RGB stripe.
  - Header to connect an optional battery management daughterboard
- - Single color dimmable backlight (3 mm LEDs)
- - White silk background below caps, in order to hide the green soldermask on plateless builds (jlcpcb only assembles green PCBs)
+ - Single color dimmable backlight (3mm LEDs)
+ - Silkscreen labels for LED polarity and multi-layout options for easier assembly
 
- The temporary firmware repo can be found here, pull request to QMK will be done once the project is complete: https://github.com/ebastler/qmk_firmware/tree/E80_1800/keyboards/ebastler/E80_1800
+The board is fully supported by the QMK master branch: https://github.com/qmk/qmk_firmware/tree/master/keyboards/ebastler/e80_1800
+A VIA compatible JSON file can be found in the "VIA" folder of this repo, and the PCB is also fully supported by https://remap-keys.app
 
 ## Supported layouts
  - Full ISO and ANSI support

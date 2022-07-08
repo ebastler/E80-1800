@@ -10,3 +10,6 @@
 [submodule "E80-1800-pcb-universal/logo-branding.pretty"]
 	path = E80-1800-pcb-universal/logo-branding.pretty
 	url = https://github.com/ebastler/logo-branding.pretty.git
+[submodule "E80-1800-pcb-universal/marbastlib"]
+	path = E80-1800-pcb-universal/marbastlib
+	url = https://github.com/ebastler/marbastlib
