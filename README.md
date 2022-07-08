@@ -15,6 +15,8 @@ All relevant files can be found in `E80-1800-pcb-universal\jlcpcb`. The `gerber`
 
 Since jlcpcb usually fails to auto-determine the PCB dimensions: `382 x 160 mm` is the correct size.
 
+Consider donating me a few bucks if you order boards :)
+
 ## Features
  - USB-C (you have to widen the cable hole in the case with a file or similar)
  - Full ESD protection
