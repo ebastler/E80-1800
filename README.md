@@ -31,8 +31,9 @@ The board is fully supported by the QMK master branch: https://github.com/qmk/qm
 A VIA compatible JSON file can be found in the "VIA" folder of this repo, and the PCB is also fully supported by https://remap-keys.app
 
 ## Supported layouts
+The PCB was designed to support all layout options G80-1800 and G81-1800 were originally available in. I did not include layout options that go beyond those on purpose, since overlapping switch holes lead to wobbly switches (remember, the G80 boards are plateless!) which diminishes the typing experience. 
  - Full ISO and ANSI support
- - 1 - 1 - 1 - 6 - 1 - 1 - 1 bottom row (with flipped or regular spacebar)
+ - 1 - 1 - 1 - 6 - 1 - 1 - 1 - 1 bottom row (with flipped or regular spacebar)
  - 1.5 - 1.5 - 7 - 1.5 - 1.5 bottom row
  - Stepped and regular caps lock
 
@@ -40,3 +41,4 @@ A VIA compatible JSON file can be found in the "VIA" folder of this repo, and th
  - [Evy](https://github.com/evyd13) for supplying me with her [GH80-1800 drop in replacement PCB](https://geekhack.org/index.php?topic=96692.0) layout, which I could use for dimensions and measurements - saved me a lot of time! Even if I ended up redrawing the dimensions from scratch and changing a few, being able to use his as a starting point was a lot of help.
  - SMOKEY for motivating me once I lost the will to continue with the project
  - MarvFPV for helping me with the physical PCB dimensions and supplying me with valuable ideas
+ - Zitres for organizing and shipping a small-batch closed GB together with me that led to a lot of satisfied users
