@@ -9,7 +9,7 @@ The board has been prototyped and works as intended, while fitting most G80-1800
 ## Order information at JLCPCB
 All relevant files can be found in `E80-1800-pcb-universal\jlcpcb`. The `gerber` subfolder contains a .zip file, the `assembly` subfolder contains the BOM and POS/CPL files needed for assembly. Please double-check all component values and rotations before ordering!
 
-* [gerber](E80-1800-pcb-universal/jlcpcb/gerber/E80-1800-pcb-universal.zip)
+* [gerber](E80-1800-pcb-universal/jlcpcb/gerber/GERBER-E80-1800-pcb-universal.zip)
 * [BOM](E80-1800-pcb-universal/jlcpcb/assembly/BOM-E80-1800-pcb-universal.csv)
 * [POS](E80-1800-pcb-universal/jlcpcb/assembly/POS-E80-1800-pcb-universal.csv)
 
