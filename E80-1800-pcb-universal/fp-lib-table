@@ -1,5 +1,4 @@
 (fp_lib_table
+  (version 7)
   (lib (name "logo-branding")(type "KiCad")(uri "${KIPRJMOD}/logo-branding.pretty")(options "")(descr ""))
-  (lib (name "marbastlib-mx")(type "KiCad")(uri "${KIPRJMOD}/marbastlib/marbastlib-mx.pretty")(options "")(descr ""))
-  (lib (name "marbastlib-various")(type "KiCad")(uri "${KIPRJMOD}/marbastlib/marbastlib-various.pretty")(options "")(descr ""))
 )
