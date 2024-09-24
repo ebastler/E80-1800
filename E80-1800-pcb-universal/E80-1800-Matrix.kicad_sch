@@ -506,14 +506,14 @@
 				)
 			)
 		)
-		(symbol "marbastlib-mx:MX_SW_solder"
+		(symbol "PCM_marbastlib-mx:MX_SW_solder"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
+			(property "Reference" "MX"
 				(at 3.048 1.016 0)
 				(effects
 					(font
@@ -530,7 +530,7 @@
 					)
 				)
 			)
-			(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 				(at 0 0 0)
 				(effects
 					(font
@@ -675,7 +675,7 @@
 				)
 			)
 		)
-		(symbol "marbastlib-mx:MX_stab"
+		(symbol "PCM_marbastlib-mx:MX_stab"
 			(pin_names
 				(offset 1.016)
 			)
@@ -700,7 +700,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "marbastlib-mx:STAB_MX_P_6.25u"
+			(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6.25u"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9578,7 +9578,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 53.34 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9620,7 +9620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 53.34 59.69 0)
 			(effects
 				(font
@@ -9645,7 +9645,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 72.39 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9687,7 +9687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 72.39 59.69 0)
 			(effects
 				(font
@@ -9712,7 +9712,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 91.44 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9754,7 +9754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 91.44 59.69 0)
 			(effects
 				(font
@@ -9779,7 +9779,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 110.49 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9821,7 +9821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 110.49 59.69 0)
 			(effects
 				(font
@@ -9846,7 +9846,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 129.54 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9888,7 +9888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 129.54 59.69 0)
 			(effects
 				(font
@@ -9913,7 +9913,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 167.64 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9955,7 +9955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 167.64 59.69 0)
 			(effects
 				(font
@@ -9980,7 +9980,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 186.69 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10022,7 +10022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 186.69 59.69 0)
 			(effects
 				(font
@@ -10047,7 +10047,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 205.74 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10089,7 +10089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 205.74 59.69 0)
 			(effects
 				(font
@@ -10114,7 +10114,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 224.79 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10156,7 +10156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 224.79 59.69 0)
 			(effects
 				(font
@@ -10181,7 +10181,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 243.84 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10223,7 +10223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 243.84 59.69 0)
 			(effects
 				(font
@@ -10248,7 +10248,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 262.89 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10290,7 +10290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 262.89 59.69 0)
 			(effects
 				(font
@@ -10315,7 +10315,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 281.94 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10357,7 +10357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 281.94 59.69 0)
 			(effects
 				(font
@@ -10382,7 +10382,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 300.99 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10424,7 +10424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 300.99 59.69 0)
 			(effects
 				(font
@@ -10449,7 +10449,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 339.09 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10491,7 +10491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 339.09 59.69 0)
 			(effects
 				(font
@@ -10516,7 +10516,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 358.14 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10558,7 +10558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 358.14 59.69 0)
 			(effects
 				(font
@@ -10583,7 +10583,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 377.19 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10625,7 +10625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 377.19 59.69 0)
 			(effects
 				(font
@@ -10650,7 +10650,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 396.24 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10692,7 +10692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 396.24 59.69 0)
 			(effects
 				(font
@@ -10717,7 +10717,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 53.34 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10759,7 +10759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 53.34 110.49 0)
 			(effects
 				(font
@@ -10784,7 +10784,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 72.39 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10826,7 +10826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 72.39 110.49 0)
 			(effects
 				(font
@@ -10851,7 +10851,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 91.44 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10893,7 +10893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 91.44 110.49 0)
 			(effects
 				(font
@@ -10918,7 +10918,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 110.49 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10960,7 +10960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 110.49 110.49 0)
 			(effects
 				(font
@@ -10985,7 +10985,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 129.54 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11027,7 +11027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 129.54 110.49 0)
 			(effects
 				(font
@@ -11052,7 +11052,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 148.59 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11094,7 +11094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 148.59 110.49 0)
 			(effects
 				(font
@@ -11119,7 +11119,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 167.64 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11161,7 +11161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 167.64 110.49 0)
 			(effects
 				(font
@@ -11186,7 +11186,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 186.69 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11228,7 +11228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 186.69 110.49 0)
 			(effects
 				(font
@@ -11253,7 +11253,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 205.74 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11295,7 +11295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 205.74 110.49 0)
 			(effects
 				(font
@@ -11320,7 +11320,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 224.79 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11362,7 +11362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 224.79 110.49 0)
 			(effects
 				(font
@@ -11387,7 +11387,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 243.84 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11429,7 +11429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 243.84 110.49 0)
 			(effects
 				(font
@@ -11454,7 +11454,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 262.89 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11496,7 +11496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 262.89 110.49 0)
 			(effects
 				(font
@@ -11521,7 +11521,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 281.94 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11563,7 +11563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 281.94 110.49 0)
 			(effects
 				(font
@@ -11588,7 +11588,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 320.04 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11630,7 +11630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 320.04 110.49 0)
 			(effects
 				(font
@@ -11655,7 +11655,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 339.09 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11697,7 +11697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 339.09 110.49 0)
 			(effects
 				(font
@@ -11722,7 +11722,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 358.14 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11764,7 +11764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 358.14 110.49 0)
 			(effects
 				(font
@@ -11789,7 +11789,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 377.19 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11831,7 +11831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 377.19 110.49 0)
 			(effects
 				(font
@@ -11856,7 +11856,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 396.24 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11898,7 +11898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 396.24 110.49 0)
 			(effects
 				(font
@@ -11923,7 +11923,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 180.34 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11965,7 +11965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 180.34 212.09 0)
 			(effects
 				(font
@@ -11990,7 +11990,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 396.24 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12032,7 +12032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 396.24 135.89 0)
 			(effects
 				(font
@@ -12057,7 +12057,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 377.19 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12099,7 +12099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 377.19 135.89 0)
 			(effects
 				(font
@@ -12124,7 +12124,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 358.14 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12166,7 +12166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 358.14 135.89 0)
 			(effects
 				(font
@@ -12191,7 +12191,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 339.09 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12233,7 +12233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 339.09 135.89 0)
 			(effects
 				(font
@@ -12258,7 +12258,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 300.99 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12300,7 +12300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 300.99 135.89 0)
 			(effects
 				(font
@@ -12325,7 +12325,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 281.94 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12367,7 +12367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 281.94 135.89 0)
 			(effects
 				(font
@@ -12392,7 +12392,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 262.89 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12434,7 +12434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 262.89 135.89 0)
 			(effects
 				(font
@@ -12459,7 +12459,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 243.84 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12501,7 +12501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 243.84 135.89 0)
 			(effects
 				(font
@@ -12526,7 +12526,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 224.79 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12568,7 +12568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 224.79 135.89 0)
 			(effects
 				(font
@@ -12593,7 +12593,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 205.74 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12635,7 +12635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 205.74 135.89 0)
 			(effects
 				(font
@@ -12660,7 +12660,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 186.69 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12702,7 +12702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 186.69 135.89 0)
 			(effects
 				(font
@@ -12727,7 +12727,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 167.64 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12769,7 +12769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 167.64 135.89 0)
 			(effects
 				(font
@@ -12794,7 +12794,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 148.59 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12836,7 +12836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 148.59 135.89 0)
 			(effects
 				(font
@@ -12861,7 +12861,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 129.54 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12903,7 +12903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 129.54 135.89 0)
 			(effects
 				(font
@@ -12928,7 +12928,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 110.49 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12970,7 +12970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 110.49 135.89 0)
 			(effects
 				(font
@@ -12995,7 +12995,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 91.44 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13037,7 +13037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 91.44 135.89 0)
 			(effects
 				(font
@@ -13062,7 +13062,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 53.34 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13104,7 +13104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 53.34 135.89 0)
 			(effects
 				(font
@@ -13129,7 +13129,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 396.24 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13171,7 +13171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 396.24 161.29 0)
 			(effects
 				(font
@@ -13196,7 +13196,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 377.19 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13238,7 +13238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 377.19 161.29 0)
 			(effects
 				(font
@@ -13263,7 +13263,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 358.14 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13305,7 +13305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 358.14 161.29 0)
 			(effects
 				(font
@@ -13330,7 +13330,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 339.09 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13372,7 +13372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 339.09 161.29 0)
 			(effects
 				(font
@@ -13397,7 +13397,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 320.04 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13439,7 +13439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 320.04 161.29 0)
 			(effects
 				(font
@@ -13464,7 +13464,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 300.99 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13506,7 +13506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 300.99 161.29 0)
 			(effects
 				(font
@@ -13531,7 +13531,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 281.94 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13573,7 +13573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 281.94 161.29 0)
 			(effects
 				(font
@@ -13598,7 +13598,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 262.89 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13640,7 +13640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 262.89 161.29 0)
 			(effects
 				(font
@@ -13665,7 +13665,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 243.84 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13707,7 +13707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 243.84 161.29 0)
 			(effects
 				(font
@@ -13732,7 +13732,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 224.79 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13774,7 +13774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 224.79 161.29 0)
 			(effects
 				(font
@@ -13799,7 +13799,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 205.74 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13841,7 +13841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 205.74 161.29 0)
 			(effects
 				(font
@@ -13866,7 +13866,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 186.69 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13908,7 +13908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 186.69 161.29 0)
 			(effects
 				(font
@@ -13933,7 +13933,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 167.64 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13975,7 +13975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 167.64 161.29 0)
 			(effects
 				(font
@@ -14000,7 +14000,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 148.59 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14042,7 +14042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 148.59 161.29 0)
 			(effects
 				(font
@@ -14067,7 +14067,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 129.54 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14109,7 +14109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 129.54 161.29 0)
 			(effects
 				(font
@@ -14134,7 +14134,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 110.49 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14176,7 +14176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 110.49 161.29 0)
 			(effects
 				(font
@@ -14201,7 +14201,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 91.44 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14243,7 +14243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 91.44 161.29 0)
 			(effects
 				(font
@@ -14268,7 +14268,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 53.34 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14310,7 +14310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 53.34 161.29 0)
 			(effects
 				(font
@@ -14335,7 +14335,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 396.24 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14377,7 +14377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 396.24 186.69 0)
 			(effects
 				(font
@@ -14402,7 +14402,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 377.19 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14444,7 +14444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 377.19 186.69 0)
 			(effects
 				(font
@@ -14469,7 +14469,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 358.14 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14511,7 +14511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 358.14 186.69 0)
 			(effects
 				(font
@@ -14536,7 +14536,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 339.09 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14578,7 +14578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 339.09 186.69 0)
 			(effects
 				(font
@@ -14603,7 +14603,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 320.04 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14645,7 +14645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 320.04 186.69 0)
 			(effects
 				(font
@@ -14670,7 +14670,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 300.99 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14712,7 +14712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 300.99 186.69 0)
 			(effects
 				(font
@@ -14737,7 +14737,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 262.89 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14779,7 +14779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 262.89 186.69 0)
 			(effects
 				(font
@@ -14804,7 +14804,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 243.84 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14846,7 +14846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 243.84 186.69 0)
 			(effects
 				(font
@@ -14871,7 +14871,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 224.79 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14913,7 +14913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 224.79 186.69 0)
 			(effects
 				(font
@@ -14938,7 +14938,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 205.74 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14980,7 +14980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 205.74 186.69 0)
 			(effects
 				(font
@@ -15005,7 +15005,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 186.69 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15047,7 +15047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 186.69 186.69 0)
 			(effects
 				(font
@@ -15072,7 +15072,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 167.64 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15114,7 +15114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 167.64 186.69 0)
 			(effects
 				(font
@@ -15139,7 +15139,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 148.59 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15181,7 +15181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 148.59 186.69 0)
 			(effects
 				(font
@@ -15206,7 +15206,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 129.54 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15248,7 +15248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 129.54 186.69 0)
 			(effects
 				(font
@@ -15273,7 +15273,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 110.49 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15315,7 +15315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 110.49 186.69 0)
 			(effects
 				(font
@@ -15340,7 +15340,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 91.44 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15382,7 +15382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 91.44 186.69 0)
 			(effects
 				(font
@@ -15407,7 +15407,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 72.39 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15449,7 +15449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 72.39 186.69 0)
 			(effects
 				(font
@@ -15474,7 +15474,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 53.34 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15516,7 +15516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 53.34 186.69 0)
 			(effects
 				(font
@@ -16981,7 +16981,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 377.19 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17023,7 +17023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 377.19 212.09 0)
 			(effects
 				(font
@@ -17048,7 +17048,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 358.14 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17090,7 +17090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 358.14 212.09 0)
 			(effects
 				(font
@@ -17115,7 +17115,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 339.09 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17157,7 +17157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 339.09 212.09 0)
 			(effects
 				(font
@@ -17182,7 +17182,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 320.04 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17224,7 +17224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 320.04 212.09 0)
 			(effects
 				(font
@@ -17249,7 +17249,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 300.99 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17291,7 +17291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 300.99 212.09 0)
 			(effects
 				(font
@@ -17316,7 +17316,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 281.94 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17358,7 +17358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 281.94 212.09 0)
 			(effects
 				(font
@@ -17383,7 +17383,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 262.89 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17425,7 +17425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 262.89 212.09 0)
 			(effects
 				(font
@@ -17450,7 +17450,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 243.84 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17492,7 +17492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 243.84 212.09 0)
 			(effects
 				(font
@@ -17517,7 +17517,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 224.79 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17559,7 +17559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 224.79 212.09 0)
 			(effects
 				(font
@@ -17584,7 +17584,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 167.64 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17626,7 +17626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 167.64 212.09 0)
 			(effects
 				(font
@@ -17651,7 +17651,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 91.44 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17693,7 +17693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 91.44 212.09 0)
 			(effects
 				(font
@@ -17718,7 +17718,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 72.39 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17760,7 +17760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 72.39 212.09 0)
 			(effects
 				(font
@@ -17785,7 +17785,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 53.34 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17827,7 +17827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 53.34 212.09 0)
 			(effects
 				(font
@@ -20008,7 +20008,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 288.29 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20050,7 +20050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 288.29 212.09 0)
 			(effects
 				(font
@@ -20075,7 +20075,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 231.14 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20117,7 +20117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 231.14 212.09 0)
 			(effects
 				(font
@@ -20142,7 +20142,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 173.99 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20184,7 +20184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 173.99 212.09 0)
 			(effects
 				(font
@@ -20209,7 +20209,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 97.79 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20251,7 +20251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 97.79 212.09 0)
 			(effects
 				(font
@@ -20276,7 +20276,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 59.69 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20318,7 +20318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 59.69 212.09 0)
 			(effects
 				(font
@@ -20503,7 +20503,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 59.69 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20545,7 +20545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 59.69 161.29 0)
 			(effects
 				(font
@@ -20570,7 +20570,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 59.69 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20612,7 +20612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 59.69 186.69 0)
 			(effects
 				(font
@@ -20637,7 +20637,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 326.39 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20679,7 +20679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 326.39 161.29 0)
 			(effects
 				(font
@@ -20704,7 +20704,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 320.04 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20746,7 +20746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 320.04 135.89 0)
 			(effects
 				(font
@@ -20771,7 +20771,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 339.09 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20813,7 +20813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 339.09 85.09 0)
 			(effects
 				(font
@@ -20838,7 +20838,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 358.14 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20880,7 +20880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 358.14 85.09 0)
 			(effects
 				(font
@@ -20905,7 +20905,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 377.19 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20947,7 +20947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 377.19 85.09 0)
 			(effects
 				(font
@@ -20972,7 +20972,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 396.24 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21014,7 +21014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 396.24 85.09 0)
 			(effects
 				(font
@@ -30391,7 +30391,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_stab")
+		(lib_id "PCM_marbastlib-mx:MX_stab")
 		(at 57.15 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30436,7 +30436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Cherry MX-style stabilizer"
 			(at 57.15 247.65 0)
 			(effects
 				(font
@@ -31785,7 +31785,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_stab")
+		(lib_id "PCM_marbastlib-mx:MX_stab")
 		(at 158.75 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31830,7 +31830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Cherry MX-style stabilizer"
 			(at 158.75 247.65 0)
 			(effects
 				(font
@@ -32199,7 +32199,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_stab")
+		(lib_id "PCM_marbastlib-mx:MX_stab")
 		(at 177.8 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32244,7 +32244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Cherry MX-style stabilizer"
 			(at 177.8 247.65 0)
 			(effects
 				(font
@@ -32543,7 +32543,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_stab")
+		(lib_id "PCM_marbastlib-mx:MX_stab")
 		(at 311.15 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32588,7 +32588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Cherry MX-style stabilizer"
 			(at 311.15 247.65 0)
 			(effects
 				(font
@@ -32957,7 +32957,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_stab")
+		(lib_id "PCM_marbastlib-mx:MX_stab")
 		(at 292.1 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33002,7 +33002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Cherry MX-style stabilizer"
 			(at 292.1 247.65 0)
 			(effects
 				(font
@@ -36797,7 +36797,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_stab")
+		(lib_id "PCM_marbastlib-mx:MX_stab")
 		(at 393.7 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -36842,7 +36842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Cherry MX-style stabilizer"
 			(at 393.7 247.65 0)
 			(effects
 				(font
@@ -37351,7 +37351,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_stab")
+		(lib_id "PCM_marbastlib-mx:MX_stab")
 		(at 330.2 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -37396,7 +37396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Cherry MX-style stabilizer"
 			(at 330.2 247.65 0)
 			(effects
 				(font

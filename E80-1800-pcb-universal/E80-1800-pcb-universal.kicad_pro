@@ -59,11 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "copper_edge_clearance|311885890|-28250000|00000000-0000-0000-0000-00005efdb5be|5e62aa83-ddf6-4c4e-b649-d3c726423fc6",
-        "copper_edge_clearance|320525890|-28250000|00000000-0000-0000-0000-00005efdb5be|9f9327cb-8374-464a-a8d0-87f4d58c0d69",
-        "footprint_type_mismatch|316205890|-26900000|00000000-0000-0000-0000-00005ef8ddb3|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -561,7 +557,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./gerber",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
